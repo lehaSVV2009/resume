@@ -1,0 +1,23 @@
+ul {
+  list-style: none;
+  color: #EFEBE9;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.no-top-padding {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+.html-1 {
+  color: #EF5350;
+}
+
+.html-2 {
+  color: #FFCC80;
+}

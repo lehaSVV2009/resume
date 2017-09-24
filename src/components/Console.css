@@ -1,0 +1,29 @@
+.console-header {
+  background: #CFD8DC;
+  height: 20px;
+}
+.console-button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 5px;
+}
+
+.console-buttons {
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.btn-1 {
+  background: #8BC34A;
+}
+
+.btn-2 {
+  background: #FFB74D;
+}
+
+.btn-3 {
+  background: #D32F2F;
+}

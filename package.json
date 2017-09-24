@@ -1,0 +1,21 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "material-ui": "0.19.2",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-material-ui-form-validator": "1.0.0",
+    "react-scripts": "1.0.13",
+    "react-tap-event": "2.0.1",
+    "react-tap-event-plugin": "2.0.1",
+    "scroll-to": "0.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

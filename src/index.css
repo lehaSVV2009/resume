@@ -1,0 +1,19 @@
+h3 {
+  font-weight: 300;
+}
+
+h6 {
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #212121 !important;
+  overflow-x: hidden;
+}
+
+p, span {
+  font-weight: 300;
+}
