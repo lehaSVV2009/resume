@@ -17,6 +17,7 @@
         "name": "Instagram"            
     }],
     "projects": [{
+        "name": "Interaxo",
         "role": "Full Stack Web Developer",
         "company": "Issoft Solutions",
         "description": "Enterprise document management system for engineering and oil industry in Norway",
@@ -36,6 +37,7 @@
             "WireMock",
             "Slf4j",
             "Retrofit",
+            "Swagger",
             "Freemarker",
             "Gradle",
             "ExtJS",
@@ -66,12 +68,60 @@
             "Jenkins"
         ]
     }, {
+        "name": "MedScale+",
+        "role": "Java Developer",
+        "company": "Issoft Solutions",
+        "description": "Web and mobile applications for medical items monitoring on ships",
+        "technologies": [
+            "Java 8",
+            "Groovy",
+            "Spring Boot",
+            "Spring Data",
+            "Spring Security",
+            "Spock",
+            "Swagger",
+            "OAuth2",            
+            "Gradle",
+            "MySQL",
+            "Docker",
+            "AWS Elastic Beanstalk",
+            "Bamboo"
+        ]
+    }, {
         "role": "Java Developer",
         "company": "IBA",
         "description": "Support of bank content management system",
         "technologies": [
             "IBM Tivoli Storage Manager"
         ]
+    }, {
+        "name": "Belveb Bank System",
+        "role": "Fullstack Web Developer",
+        "company": "IBA",
+        "description": "Web based bank document management system",
+        "technologies": [
+            "Apache Struts", 
+            "Dojo", 
+            "Ant", 
+            "IBM FileNet", 
+            "IBM WebSphere", 
+            "Apache POI", 
+            "SVN"
+        ]
+    }, {
+        "role": "Java Web Developer",
+        "company": "IBA",
+        "description": "Web based document management system",
+        "technologies": [
+            "JSP", 
+            "Servlets", 
+            "XSLT", 
+            "Maven", 
+            "IBM FileNet", 
+            "IBM WebSphere", 
+            "Apache POI", 
+            "SVN"
+        ]
     }],
-    "skills": ["Java", "Javascript", "Spring", "React", "MySQL"]
+    "skills": ["Java", "JavaScript", "Spring", "ReactJS", "MySQL"]
 }

@@ -11,7 +11,7 @@ export default class ProjectItem extends Component {
       <div className='project'>
         <Card>
           <CardHeader
-            title={project.role}
+            title={(project.name ? project.name + '. ' : '') + project.role}
             subtitle={project.company}
             actAsExpander={true}
             showExpandableButton={true}
