@@ -9,7 +9,7 @@ import HomePage from './components/HomePage'
 import ProjectsPage from './components/ProjectsPage'
 import SkillsPage from './components/SkillsPage'
 
-import resume from './resume.json'
+import resume from './cv.json'
 
 export default class App extends Component {
   render() {
@@ -18,24 +18,24 @@ export default class App extends Component {
         <div>
           <Fragment color='black' header>
             <HomePage
-              fullName={resume.fullName}
-              description={resume.description}
+              fullName={resume.basics.name}
+              description={resume.basics.label}
             />
           </Fragment>
           <Fragment color='aquamarine'>
-            <AboutPage about={resume.about}/>
+            <AboutPage about={resume.basics.summary}/>
           </Fragment>
           <Fragment>
-            <ProjectsPage projects={resume.projects}/>
+            <ProjectsPage work={resume.work}/>
           </Fragment>
           <Fragment color='lightskyblue'>
             <SkillsPage skills={resume.skills}/>
           </Fragment>
           <Fragment>
-            <ContactPage email={resume.email}/>
+            <ContactPage email={resume.basics.email}/>
           </Fragment>
          <Fragment color='black' footer>
-            <FooterPage links={resume.links}/>
+            <FooterPage links={resume.basics.profiles}/>
           </Fragment>
         </div>
       </MuiThemeProvider>

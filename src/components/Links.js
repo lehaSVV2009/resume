@@ -12,8 +12,8 @@ export default class Links extends Component {
       <div className='link-list'>
         {this.props.links.map((link, index) => (
           <span key={index}>
-            <a target='_blank' href={link.src}>
-              {link.name}
+            <a target='_blank' href={link.url}>
+              {link.network}
             </a>
             { index !== this.props.links.length - 1 && '/ ' }
           </span>
