@@ -6,10 +6,11 @@ import ContactPage from './components/ContactPage'
 import FooterPage from './components/FooterPage'
 import Fragment from './components/Fragment'
 import HomePage from './components/HomePage'
+import InterestsPage from './components/InterestsPage'
 import ProjectsPage from './components/ProjectsPage'
 import SkillsPage from './components/SkillsPage'
 
-import resume from './cv.json'
+import resume from './resume.json'
 
 export default class App extends Component {
   render() {
@@ -30,6 +31,9 @@ export default class App extends Component {
           </Fragment>
           <Fragment color='lightskyblue'>
             <SkillsPage skills={resume.skills}/>
+          </Fragment>
+          <Fragment color='aquamarine'>
+            <InterestsPage interests={resume.interests}/>
           </Fragment>
           <Fragment>
             <ContactPage email={resume.basics.email}/>
