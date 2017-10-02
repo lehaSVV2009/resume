@@ -1,9 +1,14 @@
 {
   "main.css": "static/css/main.83f5aa02.css",
   "main.css.map": "static/css/main.83f5aa02.css.map",
-  "main.js": "static/js/main.0f696406.js",
-  "main.js.map": "static/js/main.0f696406.js.map",
+  "main.js": "static/js/main.b0f7a0f7.js",
+  "main.js.map": "static/js/main.b0f7a0f7.js.map",
   "static/media/avatar.jpeg": "static/media/avatar.07f7a42f.jpeg",
+  "static/media/camping.gif": "static/media/camping.0b81490d.gif",
+  "static/media/programming.jpg": "static/media/programming.ca9ed1a4.jpg",
   "static/media/react-logo.png": "static/media/react-logo.ea42bd8f.png",
-  "static/media/spring-logo.png": "static/media/spring-logo.3f48d555.png"
+  "static/media/sleeping.jpg": "static/media/sleeping.f066ccf6.jpg",
+  "static/media/snowboarding.gif": "static/media/snowboarding.30404734.gif",
+  "static/media/spring-logo.png": "static/media/spring-logo.3f48d555.png",
+  "static/media/unknown.jpg": "static/media/unknown.d8edc6d6.jpg"
 }
