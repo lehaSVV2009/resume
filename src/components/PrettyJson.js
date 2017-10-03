@@ -9,7 +9,7 @@ import './PrettyJson.css'
 export default class PrettyJson extends Component {
   render() {
     return (
-      <ul>
+      <ul className='pretty-json'>
         <li>[</li>
         <li>
           <ul className='row'>
