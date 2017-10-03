@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import injectTapEventPlugin from 'react-tap-event-plugin'
 
 import App from './App'
-import registerServiceWorker from './registerServiceWorker'
 import './index.css'
 
 // Needed for onTouchTap
@@ -11,6 +10,3 @@ import './index.css'
 injectTapEventPlugin()
 
 ReactDOM.render(<App />, document.getElementById('root'))
-
-// In production it serves assets from local cache
-registerServiceWorker()

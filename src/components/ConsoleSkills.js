@@ -13,33 +13,18 @@ export default class ConsoleSkills extends Component {
 
     return (
       <ul>
-        <li>&lt;<span className='html-1'>html</span>&gt;</li>
+        <li>[</li>
         <li>
           <ul className='no-top-padding'>
-            <li>
-              &lt;<span className='html-1'>head</span>&gt; &lt;/<span className='html-1'>head</span>&gt;
-            </li>
-            <li>
-              &lt;<span className='html-1'>body</span>&gt;
-            </li>
-            <li>
-              <ul className='no-top-padding'>
-                <li>&lt;<span className='html-1'>ul</span>&gt;</li>
-                <ul className='no-top-padding'>
-                  {
-                    Array.isArray(this.props.skills) && 
-                    this.props.skills.map((skill, index) => (
-                      <ConsoleItem key={index} skill={skill}/>
-                    ))
-                  }
-                </ul>
-                <li>&lt;/<span className='html-1'>ul</span>&gt;</li>
-              </ul>
-            </li>
-            <li>&lt;/<span className='html-1'>body</span>&gt;</li>
+            {
+              Array.isArray(this.props.skills) && 
+              this.props.skills.map((skill, index) => (
+                <ConsoleItem key={index} skill={skill}/>
+              ))
+            }
           </ul>
         </li>
-        <li>&lt;/<span className='html-1'>html</span>&gt;</li>
+        <li>]</li>
       </ul>
     );
   }

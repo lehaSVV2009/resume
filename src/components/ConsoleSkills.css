@@ -10,14 +10,8 @@ ul {
 .no-top-padding {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 10px;
-  padding-right: 0px;
 }
 
-.html-1 {
-  color: #EF5350;
-}
-
-.html-2 {
+.code-string {
   color: #FFCC80;
 }
