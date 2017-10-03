@@ -1,17 +1,21 @@
 ul {
   list-style: none;
   color: #EFEBE9;
+}
+
+.row {
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.no-top-padding {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.code-string {
+.json-code-key {
   color: #FFCC80;
+}
+
+.json-code-value {
+  color: #FF8080;
 }

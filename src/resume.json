@@ -186,20 +186,28 @@
   ],
   "skills": [
     {
-      "name": "Frontent web development",
-      "keywords": [
-        "JavaScript",
-        "ReactJS"
-      ]
+      "name": "Java",
+      "level": "4 years"
     },
     {
-      "name": "Backend web development",
-      "keywords": [
-        "Java",
-        "Groovy",
-        "Spring",
-        "MySQL"
-      ]
+      "name": "JavaScript",
+      "level": "4 years"
+    },
+    {
+      "name": "Spring",
+      "level": "3 years"
+    },
+    {
+      "name": "Groovy",
+      "level": "2 years"
+    },
+    {
+      "name": "React JS",
+      "level": "2 years"
+    },
+    {
+      "name": "MySQL",
+      "level": "1 year"
     }
   ],
   "languages": [
