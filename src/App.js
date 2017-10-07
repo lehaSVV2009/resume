@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
-import AboutPage from './components/AboutPage'
-import ContactPage from './components/ContactPage'
-import FooterPage from './components/FooterPage'
+import AboutPage from './containers/AboutPage'
+import ContactPage from './containers/ContactPage'
+import FooterPage from './containers/FooterPage'
 import Fragment from './components/Fragment'
-import HomePage from './components/HomePage'
-import InterestsPage from './components/InterestsPage'
-import ProjectsPage from './components/ProjectsPage'
-import SkillsPage from './components/SkillsPage'
+import HomePage from './containers/HomePage'
+import InterestsPage from './containers/InterestsPage'
+import ProjectsPage from './containers/ProjectsPage'
+import SkillsPage from './containers/SkillsPage'
 
 import resume from './resume.json'
 

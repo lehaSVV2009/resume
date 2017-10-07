@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
-import Console from './Console'
-import PrettyJson from './PrettyJson'
+import Console from '../components/Console'
+import PrettyJson from '../components/PrettyJson'
 import './SkillsPage.css'
 
 export default class SkillsPage extends Component {

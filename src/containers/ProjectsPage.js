@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-import ProjectItem from './ProjectItem'
+import ProjectItem from '../components/ProjectItem'
 
 export default class ProjectsPage extends Component {
   render() {

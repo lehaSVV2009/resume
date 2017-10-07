@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
-import SimpleInfo from './SimpleInfo'
-import ScrollDownButton from './ScrollDownButton'
+import SimpleInfo from '../components/SimpleInfo'
+import ScrollDownButton from '../components/ScrollDownButton'
 import './HomePage.css'
 
 /**
@@ -40,12 +40,12 @@ export default class HomePage extends Component {
       <div className='home' style={{ 'height': this.state.height }}>
         <SimpleInfo 
           fullName={this.props.fullName}
-          fullNameDelay={2000}
+          fullNameDelay={2500}
           description={this.props.description}
-          descriptionDelay={2500}
+          descriptionDelay={3000}
         />
         <ScrollDownButton
-          delay={3000} 
+          delay={4000} 
         />
       </div>
     )

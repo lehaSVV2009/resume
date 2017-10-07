@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-import Interests from './Interests'
+import Interests from '../components/Interests'
 
 export default class InterestsPage extends Component {
   render() {

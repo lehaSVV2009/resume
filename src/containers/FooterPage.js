@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
-import Links from './Links'
-import ScrollUpButton from './ScrollUpButton'
+import Links from '../components/Links'
+import ScrollUpButton from '../components/ScrollUpButton'
 import './FooterPage.css'
 
 export default class FooterPage extends Component {
