@@ -6,7 +6,6 @@
 
 .fragment-container {
   width: 100%;
-  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 160px;
@@ -23,9 +22,13 @@ p.headline {
 }
 
 .fragment-container.header-component {
-  padding: 0;
+  padding: 0;    
 }
 
 .fragment-container.footer-component {
   padding: 0;
+}
+
+.fragment-container.centered {
+  max-width: 400px;
 }

@@ -1,6 +1,36 @@
-.scroll-down-btn {
+$colorBg: #222a30;
+$colorOutline: #ffffff;
+$colorOutlineFade: #4e5559;
+$posText: 2px;
+$animDuration: 5s;
+
+.scroll-down {
   text-align: center;
   position: absolute;
   bottom: 20px;
   width: 100%;
+  letter-spacing: 12px;
+  color: $colorOutline;
+  animation:
+    colorText $animDuration ease-out infinite,
+    nudgeText $animDuration ease-out infinite;
+}
+
+@keyframes nudgeText {
+  0% { transform: translateY(0); }
+  20% { transform: translateY($posText); }
+  30% { transform: translateY(0); }
+  50% { transform: translateY($posText); }
+  60% { transform: translateY(0); }
+  80% { transform: translateY($posText); }
+  90% { transform: translateY(0); }
+}
+
+@keyframes colorText { 
+  21% { color: $colorOutlineFade; }
+  30% { color: $colorOutline; }
+  51% { color: $colorOutlineFade; }
+  60% { color: $colorOutline; }
+  81% { color: $colorOutlineFade; }
+  90% { color: $colorOutline; }
 }

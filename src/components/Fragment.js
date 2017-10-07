@@ -6,18 +6,18 @@ export default class Fragment extends Component {
   constructor(props) {
     super(props)
     if (props.header) {
-      this.additionalClass = 'header-component'
+      this.wrapperClass = 'header-component'
     } else if (props.footer) {
-      this.additionalClass = 'footer-component'      
+      this.wrapperClass = 'footer-component'      
     } else {
-      this.additionalClass = ''
+      this.wrapperClass = 'centered'
     }
   }
 
   render() {
     return (
       <div style={{ background: this.props.color || 'white' }} className='fragment' >
-        <div className={`fragment-container ${this.additionalClass}`}>
+        <div className={`fragment-container ${this.wrapperClass}`}>
           {this.props.children}
         </div>
       </div>

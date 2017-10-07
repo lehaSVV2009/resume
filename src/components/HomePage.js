@@ -40,10 +40,12 @@ export default class HomePage extends Component {
       <div className='home' style={{ 'height': this.state.height }}>
         <SimpleInfo 
           fullName={this.props.fullName}
+          fullNameDelay={2000}
           description={this.props.description}
+          descriptionDelay={2500}
         />
-        <ScrollDownButton 
-          scrollTo={this.state.scrollTo}
+        <ScrollDownButton
+          delay={3000} 
         />
       </div>
     )
