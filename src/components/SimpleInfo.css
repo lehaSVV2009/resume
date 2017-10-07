@@ -4,16 +4,13 @@
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
-  color: white;
-}
+  color: white; }
 
 .simple-info h6 {
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 2px;
-}
+  letter-spacing: 2px; }
 
 .simple-info h3 {
   text-transform: uppercase;
-  letter-spacing: 9px;
-}
+  letter-spacing: 9px; }

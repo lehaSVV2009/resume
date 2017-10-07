@@ -1,0 +1,31 @@
+.fragment {
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+}
+
+.fragment-container {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+p.headline {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 10pt;
+  opacity: 0.8;
+}
+
+.fragment-container.header-component {
+  padding: 0;
+}
+
+.fragment-container.footer-component {
+  padding: 0;
+}

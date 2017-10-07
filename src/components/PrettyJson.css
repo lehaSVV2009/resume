@@ -1,11 +1,9 @@
 ul {
   list-style: none;
-  color: #EFEBE9;
-}
+  color: #EFEBE9; }
 
 .pretty-json {
-  font-family: fantasy
-}
+  font-family: fantasy; }
 
 .row {
   padding-left: 20px;
@@ -13,13 +11,10 @@ ul {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-top: 0;
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 .json-code-key {
-  color: #FFCC80;
-}
+  color: #FFCC80; }
 
 .json-code-value {
-  color: #FF8080;
-}
+  color: #FF8080; }
