@@ -17,8 +17,8 @@ export default class App extends Component {
     return (
       <MuiThemeProvider>
         <div>
-          <Fragment color='black' header>
-            <HomePage
+          <Fragment color='#1B1B1B' header>
+            <HomePage 
               fullName={resume.basics.name}
               description={resume.basics.label}
             />
@@ -38,7 +38,7 @@ export default class App extends Component {
           <Fragment>
             <ContactPage email={resume.basics.email}/>
           </Fragment>
-         <Fragment color='black' footer>
+         <Fragment color='#1B1B1B' footer>
             <FooterPage links={resume.basics.profiles}/>
           </Fragment>
         </div>
