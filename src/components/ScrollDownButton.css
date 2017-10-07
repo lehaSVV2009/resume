@@ -1,5 +1,38 @@
-.scroll-down-btn {
+.scroll-down {
   text-align: center;
   position: absolute;
   bottom: 20px;
-  width: 100%; }
+  width: 100%;
+  letter-spacing: 12px;
+  color: #ffffff;
+  animation: colorText 5s ease-out infinite, nudgeText 5s ease-out infinite; }
+
+@keyframes nudgeText {
+  0% {
+    transform: translateY(0); }
+  20% {
+    transform: translateY(2px); }
+  30% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(2px); }
+  60% {
+    transform: translateY(0); }
+  80% {
+    transform: translateY(2px); }
+  90% {
+    transform: translateY(0); } }
+
+@keyframes colorText {
+  21% {
+    color: #4e5559; }
+  30% {
+    color: #ffffff; }
+  51% {
+    color: #4e5559; }
+  60% {
+    color: #ffffff; }
+  81% {
+    color: #4e5559; }
+  90% {
+    color: #ffffff; } }
