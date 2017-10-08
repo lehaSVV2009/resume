@@ -12,11 +12,15 @@ export default class SimpleInfo extends Component {
   render() {
     return (
       <div className='simple-info'>
-        <Anime opacity={[0, 1]} translateY={'1em'} delay={(e, i) => this.props.fullNameDelay}>
+        <Anime opacity={[0, 1]} translateY={'2em'} delay={(e, i) => this.props.fullNameDelay}>
           <h3>{this.props.fullName}</h3>
         </Anime>
+        <br/>
+        <br/>
         <Logo/>
-        <Anime opacity={[0, 1]} translateY={'-1em'} delay={(e, i) => this.props.descriptionDelay}>
+        <br/>
+        <br/>
+        <Anime opacity={[0, 1]} translateY={'-2em'} delay={(e, i) => this.props.descriptionDelay}>
           <h6>{this.props.description}</h6>
         </Anime>
       </div>

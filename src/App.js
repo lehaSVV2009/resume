@@ -17,28 +17,28 @@ export default class App extends Component {
     return (
       <MuiThemeProvider>
         <div>
-          <Fragment color='#1B1B1B' header>
+          <Fragment color='#333A56' header>
             <HomePage 
               fullName={resume.basics.name}
               description={resume.basics.label}
             />
           </Fragment>
-          <Fragment color='aquamarine'>
+          <Fragment color='#F7F5E6'>
             <AboutPage about={resume.basics.summary}/>
           </Fragment>
           <Fragment>
             <ProjectsPage work={resume.work}/>
           </Fragment>
-          <Fragment color='lightskyblue'>
+          <Fragment color='#F7F5E6'>
             <SkillsPage skills={resume.skills}/>
           </Fragment>
-          <Fragment color='aquamarine'>
+          <Fragment color='#333A56'>
             <InterestsPage interests={resume.interests}/>
           </Fragment>
           <Fragment>
             <ContactPage email={resume.basics.email}/>
           </Fragment>
-         <Fragment color='#1B1B1B' footer>
+         <Fragment color='#333A56' footer>
             <FooterPage links={resume.basics.profiles}/>
           </Fragment>
         </div>

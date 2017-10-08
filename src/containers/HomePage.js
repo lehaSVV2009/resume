@@ -11,8 +11,7 @@ export default class HomePage extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      height: props.height,
-      scrollTo: props.height
+      height: props.height
     }
   }
 
@@ -30,8 +29,7 @@ export default class HomePage extends Component {
    */
   handleWindowResize = () => {
     this.setState({
-      height: window.innerHeight + 'px',
-      scrollTo: window.innerHeight
+      height: window.innerHeight + 'px'
     })
   }
 
@@ -45,7 +43,7 @@ export default class HomePage extends Component {
           descriptionDelay={3000}
         />
         <ScrollDownButton
-          delay={4000} 
+          delay={3500} 
         />
       </div>
     )
