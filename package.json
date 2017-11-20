@@ -4,14 +4,16 @@
   "private": true,
   "homepage": "/resume",
   "dependencies": {
-    "material-ui": "0.19.2",
-    "react": "15.6.1",
-    "react-anime": "0.3.4",
-    "react-dom": "15.6.1",
-    "react-material-ui-form-validator": "1.0.0",
-    "react-scripts": "1.0.13",
-    "react-tap-event": "2.0.1",
-    "react-tap-event-plugin": "2.0.1"
+    "halogen": "^0.2.0",
+    "material-ui": "^0.19.2",
+    "react": "^15.6.1",
+    "react-anime": "^0.3.4",
+    "react-dom": "^15.6.1",
+    "react-material-ui-form-validator": "^1.0.0",
+    "react-scripts": "^1.0.13",
+    "react-tap-event": "^2.0.1",
+    "react-tap-event-plugin": "^2.0.1",
+    "react-toastify": "^2.2.1"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
@@ -23,7 +25,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "node-sass-chokidar": "0.0.3",
-    "npm-run-all": "4.1.1"
+    "node-sass-chokidar": "^0.0.3",
+    "npm-run-all": "^4.1.1"
   }
 }

@@ -12,8 +12,10 @@ export default class ContactForm extends Component {
   }
 
   handleSubmit = () => {
-    // TODO add a server to handle mails
-    window.open(`mailto:${this.props.email}?body=${this.state.message}`);
+    this.props.onSubmit({
+      email: this.props.email,
+      message: this.state.message,
+    })
   }
 
   handleMessageInputChange = (event) => {
