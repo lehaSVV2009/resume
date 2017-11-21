@@ -20,3 +20,6 @@ yarn.lock
 
 # Only scss, no css in sources
 src/**/*.css
+
+# Build folder
+build/*

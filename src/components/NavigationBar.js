@@ -4,7 +4,8 @@ import IconButton from 'material-ui/IconButton'
 import IconPdf from 'material-ui/svg-icons/image/picture-as-pdf'
 
 export default class NavigationBar extends Component {
-  handleOpenPdf = () => window.open('/cv.pdf', '_blank')
+  // resume is added because of relative path in github pages
+  handleOpenPdf = () => window.open('/resume/cv.pdf', '_blank')
 
   render() {
     return (
