@@ -7,6 +7,7 @@ import FooterPage from './containers/FooterPage'
 import Fragment from './components/Fragment'
 import HomePage from './containers/HomePage'
 import InterestsPage from './containers/InterestsPage'
+import NavigationBar from './components/NavigationBar'
 import ProjectsPage from './containers/ProjectsPage'
 import SkillsPage from './containers/SkillsPage'
 
@@ -17,7 +18,8 @@ export default class App extends Component {
     return (
       <MuiThemeProvider>
         <div>
-          <Fragment color='#333A56' header>
+          <NavigationBar/>
+          <Fragment color='#473a56' header>
             <HomePage 
               fullName={resume.basics.name}
               description={resume.basics.label}
@@ -32,13 +34,13 @@ export default class App extends Component {
           <Fragment color='#F7F5E6'>
             <SkillsPage skills={resume.skills}/>
           </Fragment>
-          <Fragment color='#333A56'>
+          <Fragment color='#473a56'>
             <InterestsPage interests={resume.interests}/>
           </Fragment>
           <Fragment>
             <ContactPage email={resume.basics.email}/>
           </Fragment>
-         <Fragment color='#333A56' footer>
+         <Fragment color='#473a56' footer>
             <FooterPage links={resume.basics.profiles}/>
           </Fragment>
         </div>
