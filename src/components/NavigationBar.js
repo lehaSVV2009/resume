@@ -9,14 +9,12 @@ export default class NavigationBar extends Component {
 
   render() {
     return (
-      <AppBar 
-        style={{ backgroundColor: '#473a56', position: 'fixed', height: '8%', zIndex: 1 }}
+      <AppBar
+        style={{ backgroundColor: '#473a56', position: 'fixed', zIndex: 1 }}
         showMenuIconButton={false}
-      >
-        <IconButton onTouchTap={this.handleOpenPdf}>
-          <IconPdf color={'white'} />
-        </IconButton>
-      </AppBar>
+        iconElementRight={<IconButton><IconPdf color={'white'}/></IconButton>}
+        onRightIconButtonTouchTap={this.handleOpenPdf}
+      />
     )
   }
 }
