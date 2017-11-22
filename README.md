@@ -33,6 +33,7 @@ No tests, sorry...
 ## Deployment
 
 Travis deploys build folder on Github Pages
+
 Configurations are here - `.travis.yml`
 
 ## Built With
