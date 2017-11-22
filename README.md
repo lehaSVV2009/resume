@@ -1,4 +1,4 @@
-# Simple and beatiful React Material-UI CV (or portfolio or resume)
+# Beatiful React Material-UI Portfolio | Resume | CV
 
 Feel free to change `resume.json` in `src` folder and use it as your own CV :smile:
 
