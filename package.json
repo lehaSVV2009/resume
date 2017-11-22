@@ -1,19 +1,19 @@
 {
   "name": "resume",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "private": true,
   "homepage": "/resume",
   "dependencies": {
     "halogen": "^0.2.0",
-    "material-ui": "^0.19.2",
-    "react": "^15.6.1",
+    "material-ui": "^1.0.0-beta.21",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
     "react-anime": "^0.3.4",
-    "react-dom": "^15.6.1",
-    "react-material-ui-form-validator": "^1.0.0",
+    "react-dom": "^16.1.1",
     "react-scripts": "^1.0.13",
-    "react-tap-event": "^2.0.1",
-    "react-tap-event-plugin": "^2.0.1",
-    "react-toastify": "^2.2.1"
+    "react-toastify": "^2.2.1",
+    "typeface-roboto": "^0.0.45"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",

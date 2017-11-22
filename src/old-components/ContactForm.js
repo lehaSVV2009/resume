@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import RaisedButton from 'material-ui/RaisedButton'
+import Button from 'material-ui-next/Button'
 import {TextValidator} from 'react-material-ui-form-validator'
 import {ValidatorForm} from 'react-form-validator-core'
 
@@ -46,7 +46,7 @@ export default class ContactForm extends Component {
           errorMessages={['Enter your message']}
         />
         <br/>
-        <RaisedButton type='submit' label='Send' />
+        <Button raised color='accent' type='submit'>Send</Button>
       </ValidatorForm>
     )
   }
