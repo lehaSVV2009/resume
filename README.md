@@ -32,6 +32,8 @@ No tests, sorry...
 
 ## Deployment
 
+No magic, build folder contains only static resources - html, js, css, images.
+
 Travis deploys build folder on Github Pages
 
 Configurations are here - `.travis.yml`
