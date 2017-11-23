@@ -1,7 +1,6 @@
 .fragment {
   padding-left: 5%;
   padding-right: 5%;
-  position: relative;
 }
 
 .fragment-container {
@@ -21,8 +20,8 @@ p.headline {
   opacity: 0.8;
 }
 
-.fragment-container.header-component {
-  padding: 0;    
+.fragment-container.home-component {
+  padding: 0;
 }
 
 .fragment-container.footer-component {

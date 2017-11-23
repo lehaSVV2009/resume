@@ -11,6 +11,7 @@
     "react-dom": "^15.6.1",
     "react-material-ui-form-validator": "^1.0.0",
     "react-scripts": "^1.0.13",
+    "react-scroll": "^1.6.5",
     "react-tap-event": "^2.0.1",
     "react-tap-event-plugin": "^2.0.1",
     "react-toastify": "^2.2.1"

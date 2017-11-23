@@ -1,12 +1,13 @@
 import React, {Component} from 'react'
+import { Element } from 'react-scroll'
 
 import './Fragment.css'
 
 export default class Fragment extends Component {
   constructor(props) {
     super(props)
-    if (props.header) {
-      this.wrapperClass = 'header-component'
+    if (props.home) {
+      this.wrapperClass = 'home-component'
     } else if (props.footer) {
       this.wrapperClass = 'footer-component'      
     } else {
@@ -18,7 +19,9 @@ export default class Fragment extends Component {
     return (
       <div style={{ background: this.props.color || 'white' }} className='fragment' >
         <div className={`fragment-container ${this.wrapperClass}`}>
-          {this.props.children}
+          <Element name={this.props.tag || ''}>
+            {this.props.children}
+          </Element>
         </div>
       </div>
     )
