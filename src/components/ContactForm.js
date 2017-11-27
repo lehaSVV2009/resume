@@ -3,19 +3,29 @@ import RaisedButton from 'material-ui/RaisedButton'
 import {TextValidator} from 'react-material-ui-form-validator'
 import {ValidatorForm} from 'react-form-validator-core'
 
+const fieldStyle = {
+  width: '100%'
+}
+
 export default class ContactForm extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      message: ''
+      from: '',
+      message: '',
     }
   }
 
   handleSubmit = () => {
     this.props.onSubmit({
-      email: this.props.email,
+      to: this.props.to,
+      from: this.state.from,
       message: this.state.message,
     })
+  }
+
+  handleFromInputChange = (event) => {
+    this.setState({ from: event.target.value })
   }
 
   handleMessageInputChange = (event) => {
@@ -23,20 +33,28 @@ export default class ContactForm extends Component {
   }
 
   render() {
-    const { email } = this.props
-    const { message } = this.state
+    const { to } = this.props
+    const { from, message } = this.state
     return (
       <ValidatorForm onSubmit={this.handleSubmit}>
         <TextValidator
-          style={{ width: '100%' }}
-          floatingLabelText='My email'
+          style={fieldStyle}
+          floatingLabelText='To'
           disabled={true}
-          name='email'
-          value={email}
+          name='to'
+          value={to}
         />
         <br/>
         <TextValidator
-          style={{ width: '100%' }}
+          style={fieldStyle}
+          floatingLabelText='From'
+          onChange={this.handleFromInputChange}
+          name='from'
+          value={from}
+        />
+        <br/>
+        <TextValidator
+          style={fieldStyle}
           floatingLabelText='Say Hello'
           onChange={this.handleMessageInputChange}
           name='message'

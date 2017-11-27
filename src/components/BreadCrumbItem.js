@@ -17,12 +17,11 @@ export default class BreadCrumbItem extends Component {
     return (
       <Link 
         to={this.props.anchor}
-        offset={-150}
         duration={1000}
         smooth
-       >
+      >
         <Mobile>
-          <MenuItem 
+          <MenuItem
             primaryText={name}
           />
         </Mobile>

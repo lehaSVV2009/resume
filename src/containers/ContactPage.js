@@ -10,12 +10,12 @@ export default class ContactPage extends Component {
     loading: false,
   }
 
-  handleSubmit = ({ email, message }) => {
+  handleSubmit = ({ to, from, message }) => {
     this.setState({ loading: true })
-    fetch(`https://formspree.io/${email}`, {
+    fetch(`https://formspree.io/${to}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', },
-      body: JSON.stringify({message})
+      body: JSON.stringify({from, message})
     })
     .then(response => {
       if (response.status >= 200 && response.status < 300) {
@@ -52,7 +52,7 @@ export default class ContactPage extends Component {
       <div className="contact">
         <p className="headline">Contact</p>
         <ContactForm
-          email={this.props.email}
+          to={this.props.email}
           onSubmit={this.handleSubmit}
         />
         <ToastContainer/>

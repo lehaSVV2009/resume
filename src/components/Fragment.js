@@ -17,13 +17,15 @@ export default class Fragment extends Component {
 
   render() {
     return (
-      <div style={{ background: this.props.color || 'white' }} className='fragment' >
+      <Element 
+        name={this.props.tag || ''} 
+        style={{ background: this.props.color || 'white' }} 
+        className='fragment'
+      >
         <div className={`fragment-container ${this.wrapperClass}`}>
-          <Element name={this.props.tag || ''}>
-            {this.props.children}
-          </Element>
+          {this.props.children}
         </div>
-      </div>
+      </Element>
     )
   }
 }
