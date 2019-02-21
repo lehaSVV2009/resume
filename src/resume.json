@@ -2,10 +2,10 @@
   "basics": {
     "name": "Alex Soroka",
     "label": "Full Stack Developer",
-    "picture": "",
+    "picture": "https://lehasvv2009.github.io/resume/avatar.jpeg",
     "email": "lehaSVV2009@gmail.com",
     "website": "https://lehasvv2009.github.io/resume",
-    "summary": "Full stack developer. \nSpecializing in ReactJS, Java Spring and MySQL. \nLoves programming, travelling and sport. \nLiving in Minsk, Belarus.",
+    "summary": "Full stack developer. \nSpecializing in ReactJS and Java Spring. \nLoves programming, travelling and sport. \nLiving in Minsk, Belarus.",
     "location": {
       "city": "Minsk",
       "countryCode": "BY",
@@ -199,27 +199,19 @@
   "skills": [
     {
       "name": "Java",
-      "level": "4 years"
+      "level": "5 years"
     },
     {
       "name": "JavaScript",
-      "level": "4 years"
+      "level": "5 years"
     },
     {
       "name": "Spring",
-      "level": "3 years"
-    },
-    {
-      "name": "Groovy",
-      "level": "2 years"
+      "level": "4 years"
     },
     {
       "name": "React JS",
-      "level": "2 years"
-    },
-    {
-      "name": "MySQL",
-      "level": "1 year"
+      "level": "3 years"
     }
   ],
   "languages": [
