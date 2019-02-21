@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Alex Soroka",
-    "label": "Full Stack Developer in Minsk",
+    "label": "Full Stack Developer",
     "picture": "",
     "email": "lehaSVV2009@gmail.com",
     "website": "https://lehasvv2009.github.io/resume",
@@ -69,6 +69,7 @@
             "ES6",
             "React",
             "Redux",
+            "Mobx",
             "Material UI",
             "Jasmine",
             "Grunt",
@@ -89,8 +90,11 @@
             "Openshift",
             "Artifactory",
             "AWS EC2",
-            "Jenkins"
-          ]
+            "Jenkins",
+            "Apache Camel",
+            "WebSocket"
+          ],
+          "startDate": "2014-10-10"
         },
         {
           "name": "MedScale+",
@@ -111,7 +115,9 @@
             "Docker",
             "AWS Elastic Beanstalk",
             "Bamboo"
-          ]
+          ],
+          "startDate": "2017-07-01",
+          "endDate": "2017-08-15"
         }
       ]
     },
@@ -126,7 +132,9 @@
           "description": "Support of bank content management system",
           "technologies": [
             "IBM Tivoli Storage Manager"
-          ]
+          ],
+          "startDate": "2014-08-01",
+          "endDate": "2014-10-01"
         },
         {
           "name": "Belveb Bank System",
@@ -141,7 +149,9 @@
             "IBM WebSphere",
             "Apache POI",
             "SVN"
-          ]
+          ],
+          "startDate": "2014-02-01",
+          "endDate": "2014-08-01"
         },
         {
           "role": "Java Web Developer",
@@ -156,7 +166,9 @@
             "IBM WebSphere",
             "Apache POI",
             "SVN"
-          ]
+          ],
+          "startDate": "2013-09-20",
+          "endDate": "2014-02-01"
         }
       ]
     }
