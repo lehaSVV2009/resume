@@ -15,7 +15,7 @@
     "react-scroll": "^1.6.5",
     "react-tap-event": "^2.0.1",
     "react-tap-event-plugin": "^2.0.1",
-    "react-toastify": "^2.2.1"
+    "react-toastify": "^4.5.2"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",

@@ -35,9 +35,7 @@ export default class ContactPage extends Component {
   }
 
   showSuccessNotification = (message) => {
-    toast(`Thank you! I'll answer you soon!`, {
-      className: 'success-notification'
-    })
+    toast.success(`Thank you! I'll answer you soon!`)
   }
 
   showErrorNotification = (error) => {
