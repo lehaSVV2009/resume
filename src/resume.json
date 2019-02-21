@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Alex Soroka",
-    "label": "Full Stack Developer",
+    "label": "Full Stack Web Developer",
     "picture": "https://lehasvv2009.github.io/resume/avatar.jpeg",
     "email": "lehaSVV2009@gmail.com",
     "website": "https://lehasvv2009.github.io/resume",
-    "summary": "Full stack developer. \nSpecializing in ReactJS and Java Spring. \nLoves programming, travelling and sport. \nLiving in Minsk, Belarus.",
+    "summary": "Full Stack Web Developer. \nSpecializing in ReactJS and Java Spring. \nLoves programming, travelling and sport. \nLiving in Minsk, Belarus.",
     "location": {
       "city": "Minsk",
       "countryCode": "BY",
@@ -130,9 +130,7 @@
           "role": "Java Developer",
           "company": "IBA",
           "description": "Support of bank content management system",
-          "technologies": [
-            "IBM Tivoli Storage Manager"
-          ],
+          "technologies": ["IBM Tivoli Storage Manager"],
           "startDate": "2014-08-01",
           "endDate": "2014-10-01"
         },
@@ -180,7 +178,7 @@
       "studyType": "Bachelor",
       "startDate": "2011-09-01",
       "endDate": "2016-06-01"
-    }, 
+    },
     {
       "institution": "BSUIR",
       "area": "Ergonomics",

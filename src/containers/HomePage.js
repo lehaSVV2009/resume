@@ -1,27 +1,27 @@
-import React, {Component} from 'react'
+import React, { Component } from "react";
 
-import SimpleInfo from '../components/SimpleInfo'
-import ScrollDownButton from '../components/ScrollDownButton'
-import './HomePage.css'
+import SimpleInfo from "../components/SimpleInfo";
+import ScrollDownButton from "../components/ScrollDownButton";
+import "./HomePage.css";
 
 /**
  * First page component. Shown on full browser window until it is not scrolled down.
  */
 export default class HomePage extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       height: props.height
-    }
+    };
   }
 
   componentDidMount() {
-    window.addEventListener('resize', this.handleWindowResize)
-    this.handleWindowResize()
+    window.addEventListener("resize", this.handleWindowResize);
+    this.handleWindowResize();
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.handleWindowResize)
+    window.removeEventListener("resize", this.handleWindowResize);
   }
 
   /**
@@ -29,23 +29,21 @@ export default class HomePage extends Component {
    */
   handleWindowResize = () => {
     this.setState({
-      height: window.innerHeight + 'px'
-    })
-  }
+      height: window.innerHeight + "px"
+    });
+  };
 
   render() {
     return (
-      <div className='home' style={{ 'height': this.state.height }}>
-        <SimpleInfo 
+      <div className="home" style={{ height: this.state.height }}>
+        <SimpleInfo
           fullName={this.props.fullName}
           fullNameDelay={2500}
           description={this.props.description}
           descriptionDelay={3000}
         />
-        <ScrollDownButton
-          delay={3500} 
-        />
+        <ScrollDownButton delay={3500} />
       </div>
-    )
+    );
   }
 }
