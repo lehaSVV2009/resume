@@ -4,6 +4,19 @@ import Chip from "material-ui/Chip";
 
 import "./ProjectItem.css";
 
+const formatDate = (date, defaultIfNull) =>
+  date && Date.parse(date)
+    ? new Date(date).toLocaleDateString("en-gb", {
+        month: "short",
+        year: "numeric"
+      })
+    : defaultIfNull || "";
+
+const toSubtitle = (startDate, endDate, company) =>
+  `${formatDate(startDate)} - ${formatDate(endDate, "now")} ${
+    company ? `(${company})` : ""
+  }`;
+
 export default class ProjectItem extends Component {
   render() {
     const { project } = this.props;
@@ -16,8 +29,15 @@ export default class ProjectItem extends Component {
       <div className="project">
         <Card>
           <CardHeader
-            title={(project.name ? project.name + ". " : "") + project.position}
-            subtitle={project.company}
+            title={
+              (project.position ? project.position + ". " : "") +
+              (project.name || "")
+            }
+            subtitle={toSubtitle(
+              project.startDate,
+              project.endDate,
+              project.company
+            )}
             actAsExpander={true}
             showExpandableButton={true}
           />
@@ -25,6 +45,13 @@ export default class ProjectItem extends Component {
             {project.description}
             <br />
             <br />
+            {project.website && (
+              <a href={project.website} target="_blank">
+                See project
+                <br />
+                <br />
+              </a>
+            )}
             <div className="projects">
               {Array.isArray(project.highlights) &&
                 project.highlights.map((highlight, index) => (
