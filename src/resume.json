@@ -5,7 +5,7 @@
     "picture": "https://lehasvv2009.github.io/resume/avatar.jpeg",
     "email": "lehaSVV2009@gmail.com",
     "website": "https://lehasvv2009.github.io/resume",
-    "summary": "Full Stack Web Developer. \nSpecializing in ReactJS and Java Spring. \nLoves programming, travelling and sport. \nLiving in Minsk, Belarus.",
+    "summary": "Full Stack Web Developer. \n\nSpecializing in ReactJS and Java Spring. \nLoves programming, travelling and sport. \nLiving in Minsk, Belarus.",
     "location": {
       "city": "Minsk",
       "countryCode": "BY",
@@ -182,8 +182,9 @@
     {
       "institution": "BSUIR",
       "area": "Ergonomics",
-      "studyType": "Bachelor",
-      "startDate": "2017-09-01"
+      "studyType": "Master's Degree",
+      "startDate": "2017-09-01",
+      "endDate": "2018-06-01"
     }
   ],
   "publications": [

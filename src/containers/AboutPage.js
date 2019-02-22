@@ -8,7 +8,10 @@ export default class AboutPage extends Component {
     const { picture, about } = this.props;
     return (
       <div className="about">
-        <Avatar src={picture} size={200} />
+        <Avatar
+          src={picture || "https://www.gravatar.com/avatar?d=mp&s=1000"}
+          size={200}
+        />
         <p className="about-text">{about}</p>
       </div>
     );
