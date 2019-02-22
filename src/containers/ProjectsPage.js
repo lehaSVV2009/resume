@@ -8,14 +8,9 @@ export default class ProjectsPage extends Component {
       <div>
         <p className="headline">Projects</p>
         {Array.isArray(this.props.work) &&
-          this.props.work.map(job => {
-            if (!job || !Array.isArray(job.projects)) {
-              return <span />;
-            }
-            return job.projects.map((project, index) => (
-              <ProjectItem key={index} project={project} />
-            ));
-          })}
+          this.props.work.map((project, index) => (
+            <ProjectItem key={index} project={project} />
+          ))}
       </div>
     );
   }

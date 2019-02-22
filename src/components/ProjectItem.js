@@ -7,11 +7,16 @@ import "./ProjectItem.css";
 export default class ProjectItem extends Component {
   render() {
     const { project } = this.props;
+
+    if (!project) {
+      return <span />;
+    }
+
     return (
       <div className="project">
         <Card>
           <CardHeader
-            title={(project.name ? project.name + ". " : "") + project.role}
+            title={(project.name ? project.name + ". " : "") + project.position}
             subtitle={project.company}
             actAsExpander={true}
             showExpandableButton={true}
@@ -21,10 +26,10 @@ export default class ProjectItem extends Component {
             <br />
             <br />
             <div className="projects">
-              {Array.isArray(project.technologies) &&
-                project.technologies.map((techonology, index) => (
-                  <div key={index} className="project-technology">
-                    <Chip>{techonology}</Chip>
+              {Array.isArray(project.highlights) &&
+                project.highlights.map((highlight, index) => (
+                  <div key={index} className="project-highlight">
+                    <Chip>{highlight}</Chip>
                   </div>
                 ))}
             </div>
