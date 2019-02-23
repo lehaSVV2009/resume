@@ -1,47 +1,62 @@
 # Beatiful React Material-UI Portfolio | Resume | CV
 
 Feel free to change `resume.json` in `src` folder and use it as your own CV :smile:
+P.S. [JSON Resume](https://jsonresume.org/schema/) is used here.
+
+## Owner tutorial
+
+1. Update LinkedIn profile.
+2. Either export LinkedIn data and use [resumonk.com](https://www.resumonk.com) to transform linkedin.zip to `resume.json` OR update `resume.json` manually. (`cv.pdf` will be automatically updated).
+3. `git push` and check build/deployment status on [travis](https://travis-ci.org/lehaSVV2009/resume).
 
 ## Getting Started
 
-<a href="http://alexsoroka.tk" target="_blank">Live demo</a>
+<a href="http://lehasvv2009.github.io/resume" target="_blank">Live demo</a>
 
 Made with HATE :smiling_imp: (I'm tired of phrases 'Made with love')
 
-### Installing
+## Installing
 
 ```
-git clone https://github.com/lehaSVV2009/resume.git
+$ git clone https://github.com/lehaSVV2009/resume.git
 ```
 
 ```
-yarn install
-yarn start
+$ yarn
+$ yarn start
+```
+
+or
+
+```
+$ npm install
+$ npm start
+```
+
+## Running tests
+
+```
+$ yarn test
 ```
 
 or 
 
 ```
-npm install
-npm start
+$ npm test
 ```
-
-## Running the tests
-
-No tests, sorry...
 
 ## Deployment
 
 No magic, build folder contains only static resources - html, js, css, images.
 
-Travis deploys build folder on Github Pages
+Travis deploys build folder on Github Pages.
 
-Configurations are here - `.travis.yml`
+Configurations are here - `.travis.yml`.
 
 ## Built With
 
-* [Travis](https://travis-ci.org/) CI and deployment 
-* [Yarn](https://yarnpkg.com/) builds web client
+- [Travis](https://travis-ci.org/) CI and deployment
+- [Yarn](https://yarnpkg.com/) builds web client
 
 ## Contributing
 
@@ -50,8 +65,6 @@ Help wanted :smile:
 If you want to contribute - just create issues and/or pull requests and let's discuss there. No hard rules.
 
 ## Versioning
-
-`0.1.0`
 
 No stress about versioning :smile:
 
