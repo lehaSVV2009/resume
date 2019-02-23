@@ -141,21 +141,20 @@
     },
     {
       "name": "MedScale+",
-      "position": "Java Developer",
+      "position": "Backend Developer",
       "company": "Issoft Solutions",
       "website": "https://portal.medscaleplus.com",
       "description": "Web and mobile applications for medical items monitoring on ships.",
       "highlights": [
-        "Java 8",
-        "Groovy",
         "Spring",
+        "Hibernate",
         "Spock",
         "Swagger",
         "OAuth2",
         "Gradle",
         "MySQL",
         "Docker",
-        "AWS Elastic Beanstalk",
+        "AWS EC2",
         "Bamboo"
       ],
       "startDate": "2017-07-01",
@@ -168,7 +167,6 @@
       "website": "https://prosjekthotell.com",
       "description": "Enterprise document management system for engineering and oil industry in Norway.",
       "highlights": [
-        "Java 8",
         "Spring",
         "Alfresco",
         "CMIS",
@@ -209,7 +207,7 @@
       "endDate": "2014-08-01"
     },
     {
-      "position": "Java Web Developer",
+      "position": "Full Stack Developer",
       "company": "IBA",
       "description": "Web based document management system.",
       "highlights": [
@@ -296,7 +294,56 @@
       "name": "Camping"
     }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "title": "Docker Training",
+      "date": "2018-07-01",
+      "awarder": "Issoft Solutions",
+      "summary": "Succesfully finished training."
+    },
+    {
+      "title": "Amazon Web Services for Java Developers Training",
+      "date": "2018-03-01",
+      "awarder": "Issoft Solutions",
+      "summary": "Succesfully finished training."
+    },
+    {
+      "title": "Hibernate, JPA, Spring Training",
+      "date": "2018-01-15",
+      "awarder": "Issoft Solutions",
+      "summary": "Succesfully finished training."
+    },
+    {
+      "title": "ReactJS Basics Training",
+      "date": "2016-06-01",
+      "awarder": "Issoft Solutions",
+      "summary": "Succesfully finished training."
+    },
+    {
+      "title": "EJB Web Development Training",
+      "date": "2014-08-01",
+      "awarder": "IBA",
+      "summary": "Succesfully finished training."
+    },
+    {
+      "title": "Java Web Development Training",
+      "date": "2014-05-01",
+      "awarder": "IBA",
+      "summary": "Succesfully finished training."
+    },
+    {
+      "title": "Java Web Development Training",
+      "date": "2013-08-01",
+      "awarder": "Itransition",
+      "summary": "Succesfully finished training."
+    },
+    {
+      "title": "Android Development Basics Training",
+      "date": "2013-05-01",
+      "awarder": "Belhard",
+      "summary": "Succesfully finished training."
+    }
+  ],
   "volunteer": [
     {
       "organization": "Welfare for animals in Goa",
@@ -304,7 +351,7 @@
       "website": "http://wagoa.com",
       "startDate": "2019-01-15",
       "endDate": "2019-02-30",
-      "summary": "Hourly a day helped cows and dogs in Indian shelters."
+      "summary": "Hour a day helped injured cows and dogs in Indian shelters."
     },
     {
       "organization": "Boardgame.io open source project on Github",
