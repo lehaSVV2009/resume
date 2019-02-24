@@ -1,0 +1,963 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Alex Soroka</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Alex Soroka
+					</h1>
+					<h2>
+						Full Stack Web Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">lehaSVV2009@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+375336389581</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="https://lehasvv2009.github.io/resume">https://lehasvv2009.github.io/resume</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Full Stack Web Developer. Specializing in ReactJS and Java Spring. Loves programming, traveling and sport. Living in Minsk, Belarus.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/lehaSVV2009">lehaSVV2009</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/alex-soroka-74b070ba">alex-soroka-74b070ba</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Facebook
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.facebook.com/leha.soroka">leha.soroka</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Instagram
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.instagram.com/specialforkadet">specialforkadet</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>-</span>
+					<span class="date">
+						2018-12-01 — 2019-02-18
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://lehasvv2009.github.io/territories/">https://lehasvv2009.github.io/territories/</a>
+				</div>
+				<div class="position">
+					Full Stack Developer
+				</div>
+				<div class="summary">
+					<p>Simple battleship-like board game.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">React</li>
+					<li class="bullet">Material UI</li>
+					<li class="bullet">Styled Components</li>
+					<li class="bullet">boardgame.io</li>
+					<li class="bullet">three.js</li>
+					<li class="bullet">brain.js</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Issoft Solutions</span>
+					<span class="date">
+						2018-05-01 — 2018-11-15
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://vb.interaxo.com/">https://vb.interaxo.com/</a>
+				</div>
+				<div class="position">
+					Full Stack Developer
+				</div>
+				<div class="summary">
+					<p>React Question Board for meetings and planning using Interaxo document management system.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">REST API</li>
+					<li class="bullet">Spring</li>
+					<li class="bullet">Hibernate</li>
+					<li class="bullet">PostgreSQL</li>
+					<li class="bullet">React</li>
+					<li class="bullet">Material UI</li>
+					<li class="bullet">Redux</li>
+					<li class="bullet">React DnD</li>
+					<li class="bullet">React Virtualized</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>-</span>
+					<span class="date">
+						2018-06-01 — 2018-09-15
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://equipengine.herokuapp.com/">https://equipengine.herokuapp.com/</a>
+				</div>
+				<div class="position">
+					Frontend Lead Developer
+				</div>
+				<div class="summary">
+					<p>Web project with courses for students and teachers.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">React</li>
+					<li class="bullet">Redux</li>
+					<li class="bullet">Styled Components</li>
+					<li class="bullet">React Player</li>
+					<li class="bullet">Swagger</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Issoft Solutions</span>
+					<span class="date">
+						2018-02-01 — 2018-05-01
+					</span>
+				</h4>
+				<div class="position">
+					Backend Developer
+				</div>
+				<div class="summary">
+					<p>Application allows to set up external workflow for different folders in document management system.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">REST API</li>
+					<li class="bullet">Spring</li>
+					<li class="bullet">Hibernate</li>
+					<li class="bullet">Apache Camel</li>
+					<li class="bullet">WebSocket</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>-</span>
+					<span class="date">
+						2018-03-01 — 2018-04-15
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://5walls.com/">https://5walls.com/</a>
+				</div>
+				<div class="position">
+					Frontend Developer
+				</div>
+				<div class="summary">
+					<p>Pinterest like room fittings.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">React</li>
+					<li class="bullet">Material UI</li>
+					<li class="bullet">Redux</li>
+					<li class="bullet">React Stack Grid</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>-</span>
+					<span class="date">
+						2017-11-01 — 2018-02-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://localinsights.io/">https://localinsights.io/</a>
+				</div>
+				<div class="position">
+					Frontend Developer
+				</div>
+				<div class="summary">
+					<p>Real estate search app.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">React</li>
+					<li class="bullet">Material UI</li>
+					<li class="bullet">Redux</li>
+					<li class="bullet">Leaflet</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Issoft Solutions</span>
+					<span class="date">
+						2017-01-01 — 2018-01-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://api.interaxo.com/">https://api.interaxo.com/</a>
+				</div>
+				<div class="position">
+					Backend Developer
+				</div>
+				<div class="summary">
+					<p>REST Public API for big document management system.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">REST API</li>
+					<li class="bullet">Spring</li>
+					<li class="bullet">OpenID Connect</li>
+					<li class="bullet">OAuth2</li>
+					<li class="bullet">Keycloak</li>
+					<li class="bullet">Retrofit</li>
+					<li class="bullet">Swagger</li>
+					<li class="bullet">Docker</li>
+					<li class="bullet">Openshift</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Issoft Solutions</span>
+					<span class="date">
+						2017-07-01 — 2017-08-15
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://portal.medscaleplus.com">https://portal.medscaleplus.com</a>
+				</div>
+				<div class="position">
+					Backend Developer
+				</div>
+				<div class="summary">
+					<p>Web and mobile applications for medical items monitoring on ships.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Spring</li>
+					<li class="bullet">Hibernate</li>
+					<li class="bullet">Spock</li>
+					<li class="bullet">Swagger</li>
+					<li class="bullet">OAuth2</li>
+					<li class="bullet">Gradle</li>
+					<li class="bullet">MySQL</li>
+					<li class="bullet">Docker</li>
+					<li class="bullet">AWS EC2</li>
+					<li class="bullet">Bamboo</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Issoft Solutions</span>
+					<span class="date">
+						2014-10-10 — 2017-01-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://prosjekthotell.com">https://prosjekthotell.com</a>
+				</div>
+				<div class="position">
+					Full Stack Developer
+				</div>
+				<div class="summary">
+					<p>Enterprise document management system for engineering and oil industry in Norway.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Spring</li>
+					<li class="bullet">Alfresco</li>
+					<li class="bullet">CMIS</li>
+					<li class="bullet">JUnit</li>
+					<li class="bullet">Gradle</li>
+					<li class="bullet">ExtJS</li>
+					<li class="bullet">Cordova/Phonegap</li>
+					<li class="bullet">Google Analytics</li>
+					<li class="bullet">Jenkins</li>
+					<li class="bullet">Git</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>IBA</span>
+					<span class="date">
+						2014-08-01 — 2014-10-01
+					</span>
+				</h4>
+				<div class="position">
+					Java Developer
+				</div>
+				<div class="summary">
+					<p>Support of bank content management system.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">IBM Tivoli Storage Manager</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>IBA</span>
+					<span class="date">
+						2014-02-01 — 2014-08-01
+					</span>
+				</h4>
+				<div class="position">
+					Full Stack Developer
+				</div>
+				<div class="summary">
+					<p>Web based bank document management system.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Apache Struts</li>
+					<li class="bullet">Dojo</li>
+					<li class="bullet">Ant</li>
+					<li class="bullet">IBM FileNet</li>
+					<li class="bullet">IBM WebSphere</li>
+					<li class="bullet">Apache POI</li>
+					<li class="bullet">SVN</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>IBA</span>
+					<span class="date">
+						2013-09-20 — 2014-02-01
+					</span>
+				</h4>
+				<div class="position">
+					Full Stack Developer
+				</div>
+				<div class="summary">
+					<p>Web based document management system.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">JSP</li>
+					<li class="bullet">Servlets</li>
+					<li class="bullet">XSLT</li>
+					<li class="bullet">Maven</li>
+					<li class="bullet">IBM FileNet</li>
+					<li class="bullet">IBM WebSphere</li>
+					<li class="bullet">Apache POI</li>
+					<li class="bullet">SVN</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Welfare for animals in Goa</span>
+					<span class="date">
+						2019-01-15 — 2019-02-10
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://wagoa.com">http://wagoa.com</a>
+				</div>
+				<div class="position">
+					Volunteer
+				</div>
+				<div class="summary">
+					<p>Hour a day helped injured cows and dogs in Indian shelters.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Boardgame.io on Github</span>
+					<span class="date">
+						2018-12-15 — 2019-02-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://boardgame.io">https://boardgame.io</a>
+				</div>
+				<div class="position">
+					Contributor
+				</div>
+				<div class="summary">
+					<p>Fixed several issues related to deployment and board game lobby</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>BSUIR</span>
+					<span class="date">
+						2011-09-01 — 2016-06-01
+					</span>
+				</h4>
+				<div class="area">
+					Artificial intelligence
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>BSUIR</span>
+					<span class="date">
+						2017-09-01 — 2018-06-01
+					</span>
+				</h4>
+				<div class="area">
+					Ergonomics
+				</div>
+				<div class="studyType">
+					Master&#x27;s Degree
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Docker Training</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2018-07-01
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Issoft Solutions</strong>
+				</div>
+				<div class="summary">
+					Succesfully finished training.
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Amazon Web Services for Java Developers Training</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2018-03-01
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Issoft Solutions</strong>
+				</div>
+				<div class="summary">
+					Succesfully finished training.
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Hibernate, JPA, Spring Training</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2018-01-15
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Issoft Solutions</strong>
+				</div>
+				<div class="summary">
+					Succesfully finished training.
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>ReactJS Basics Training</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2016-06-01
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Issoft Solutions</strong>
+				</div>
+				<div class="summary">
+					Succesfully finished training.
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>EJB Web Development Training</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2014-08-01
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>IBA</strong>
+				</div>
+				<div class="summary">
+					Succesfully finished training.
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Java Web Development Training</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2014-05-01
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>IBA</strong>
+				</div>
+				<div class="summary">
+					Succesfully finished training.
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Java Web Development Training</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2013-08-01
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Itransition</strong>
+				</div>
+				<div class="summary">
+					Succesfully finished training.
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Android Development Basics Training</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2013-05-01
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Belhard</strong>
+				</div>
+				<div class="summary">
+					Succesfully finished training.
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="publications" class="row">
+		<aside class="col-sm-3">
+			<h3>Publications</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>AI Knowledge base in cookery</span>
+					<span class="date">
+						2015-12-03
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://distant.bsuir.by/conf"></a>
+				</div>
+				<div class="publisher">
+					<em>Published by</em>
+					<strong>BSUIR</strong>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Java</h4>
+				</div>
+				<ul class="keywords">
+					<li>5 years</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>JavaScript</h4>
+				</div>
+				<ul class="keywords">
+					<li>5 years</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Spring</h4>
+				</div>
+				<ul class="keywords">
+					<li>4 years</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>React JS</h4>
+				</div>
+				<ul class="keywords">
+					<li>3 years</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Russian</strong>
+				</div>
+				<div class="fluency">
+					Native
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Advanced
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>German</strong>
+				</div>
+				<div class="fluency">
+					Beginner
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Programming</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Sport</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Camping</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Sleeping</h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+	</div>
+	
+	</body>
+</html>

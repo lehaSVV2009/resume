@@ -6,11 +6,10 @@
     "email": "lehaSVV2009@gmail.com",
     "phone": "+375336389581",
     "website": "https://lehasvv2009.github.io/resume",
-    "summary": "Full Stack Web Developer. \n\nSpecializing in ReactJS and Java Spring. \nLoves programming, travelling and sport. \nLiving in Minsk, Belarus.",
+    "summary": "Full Stack Web Developer. Specializing in ReactJS and Java Spring. Loves programming, traveling and sport. Living in Minsk, Belarus.",
     "location": {
       "city": "Minsk",
-      "countryCode": "BY",
-      "region": "Minsk"
+      "countryCode": "BY"
     },
     "profiles": [
       {
@@ -24,9 +23,9 @@
         "url": "https://www.linkedin.com/in/alex-soroka-74b070ba"
       },
       {
-        "network": "VK",
-        "username": "kadedt",
-        "url": "https://vk.com/kadedt"
+        "network": "Facebook",
+        "username": "leha.soroka",
+        "url": "https://www.facebook.com/leha.soroka"
       },
       {
         "network": "Instagram",
@@ -39,6 +38,7 @@
     {
       "name": "Territories",
       "position": "Full Stack Developer",
+      "company": "-",
       "website": "https://lehasvv2009.github.io/territories/",
       "summary": "Simple battleship-like board game.",
       "highlights": [
@@ -75,6 +75,7 @@
     {
       "name": "EquipEngine",
       "position": "Frontend Lead Developer",
+      "company": "-",
       "website": "https://equipengine.herokuapp.com/",
       "summary": "Web project with courses for students and teachers.",
       "highlights": [
@@ -105,6 +106,7 @@
     {
       "name": "5Walls",
       "position": "Frontend Developer",
+      "company": "-",
       "website": "https://5walls.com/",
       "summary": "Pinterest like room fittings.",
       "highlights": ["React", "Material UI", "Redux", "React Stack Grid"],
@@ -114,6 +116,7 @@
     {
       "name": "Local Insights",
       "position": "Frontend Developer",
+      "company": "-",
       "website": "https://localinsights.io/",
       "summary": "Real estate search app.",
       "highlights": ["React", "Material UI", "Redux", "Leaflet"],
@@ -123,8 +126,8 @@
     {
       "name": "Interaxo Public API",
       "position": "Backend Developer",
-      "website": "https://api.interaxo.com/",
       "company": "Issoft Solutions",
+      "website": "https://api.interaxo.com/",
       "summary": "REST Public API for big document management system.",
       "highlights": [
         "REST API",
@@ -228,7 +231,7 @@
   "education": [
     {
       "institution": "BSUIR",
-      "area": "Artificial inteligence",
+      "area": "Artificial intelligence",
       "studyType": "Bachelor",
       "startDate": "2011-09-01",
       "endDate": "2016-06-01"
@@ -252,19 +255,19 @@
   "skills": [
     {
       "name": "Java",
-      "level": "5 years"
+      "keywords": ["5 years"]
     },
     {
       "name": "JavaScript",
-      "level": "5 years"
+      "keywords": ["5 years"]
     },
     {
       "name": "Spring",
-      "level": "4 years"
+      "keywords": ["4 years"]
     },
     {
       "name": "React JS",
-      "level": "3 years"
+      "keywords": ["3 years"]
     }
   ],
   "languages": [

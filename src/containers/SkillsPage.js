@@ -18,7 +18,10 @@ export default class SkillsPage extends Component {
     }
     return skills.map(skill => {
       const json = {};
-      json[skill.name] = skill.level;
+      json[skill.name] =
+        Array.isArray(skill.keywords) && skill.keywords.length > 0
+          ? skill.keywords[0]
+          : "";
       return json;
     });
   };

@@ -12,7 +12,16 @@ export default class AboutPage extends Component {
           src={picture || "https://www.gravatar.com/avatar?d=mp&s=1000"}
           size={200}
         />
-        <p className="about-text">{about}</p>
+        <p className="about-text">
+          {about &&
+            typeof about === "string" &&
+            about.split(".").map((text, index) => (
+              <div>
+                {text}. <br />
+                {index === 0 && <br />}
+              </div>
+            ))}
+        </p>
       </div>
     );
   }

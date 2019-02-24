@@ -14,7 +14,7 @@ const formatDate = (date, defaultIfNull) =>
 
 const toSubtitle = (startDate, endDate, company) =>
   `${formatDate(startDate)} - ${formatDate(endDate, "now")} ${
-    company ? `(${company})` : ""
+    company && company !== "-" ? `(${company})` : ""
   }`;
 
 export default class ProjectItem extends Component {
