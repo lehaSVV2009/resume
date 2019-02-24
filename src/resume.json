@@ -1,9 +1,10 @@
 {
   "basics": {
     "name": "Alex Soroka",
-    "label": "Full Stack Developer",
+    "label": "Full Stack Web Developer",
     "picture": "https://lehasvv2009.github.io/resume/avatar.jpeg",
     "email": "lehaSVV2009@gmail.com",
+    "phone": "+375336389581",
     "website": "https://lehasvv2009.github.io/resume",
     "summary": "Full Stack Web Developer. \n\nSpecializing in ReactJS and Java Spring. \nLoves programming, travelling and sport. \nLiving in Minsk, Belarus.",
     "location": {
@@ -268,22 +269,19 @@
   ],
   "languages": [
     {
-      "name": "Russian",
-      "level": "Native"
+      "language": "Russian",
+      "fluency": "Native"
     },
     {
-      "name": "English",
-      "level": "Advanced"
+      "language": "English",
+      "fluency": "Advanced"
     },
     {
-      "name": "German",
-      "level": "Beginner"
+      "language": "German",
+      "fluency": "Beginner"
     }
   ],
   "interests": [
-    {
-      "name": "Sleeping"
-    },
     {
       "name": "Programming"
     },
@@ -292,6 +290,9 @@
     },
     {
       "name": "Camping"
+    },
+    {
+      "name": "Sleeping"
     }
   ],
   "awards": [
@@ -354,7 +355,7 @@
       "summary": "Hour a day helped injured cows and dogs in Indian shelters."
     },
     {
-      "organization": "Boardgame.io open source project on Github",
+      "organization": "Boardgame.io on Github",
       "position": "Contributor",
       "website": "https://boardgame.io",
       "startDate": "2018-12-15",
