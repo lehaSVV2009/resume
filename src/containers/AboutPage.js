@@ -17,8 +17,7 @@ export default class AboutPage extends Component {
             typeof about === "string" &&
             about.split(".").map((text, index) => (
               <div>
-                {text}. <br />
-                {index === 0 && <br />}
+                {text}. <br /> <br />
               </div>
             ))}
         </p>
