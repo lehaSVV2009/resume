@@ -3,8 +3,8 @@ import React, { Component } from "react";
 import NavigationBar from "../components/NavigationBar";
 
 export default class HeaderPage extends Component {
-  // resume is added because of relative path in github pages
-  handleOpenPdf = () => window.open("/resume/cv.pdf", "_blank");
+  handleOpenPdf = () =>
+    window.open(`${process.env.PUBLIC_URL}/cv.html`, "_blank");
 
   render() {
     return (
