@@ -40,7 +40,7 @@
       "name": "Territories",
       "position": "Full Stack Developer",
       "website": "https://lehasvv2009.github.io/territories/",
-      "description": "Simple battleship-like board game.",
+      "summary": "Simple battleship-like board game.",
       "highlights": [
         "React",
         "Material UI",
@@ -57,7 +57,7 @@
       "position": "Full Stack Developer",
       "company": "Issoft Solutions",
       "website": "https://vb.interaxo.com/",
-      "description": "React Question Board for meetings and planning using Interaxo document management system.",
+      "summary": "React Question Board for meetings and planning using Interaxo document management system.",
       "highlights": [
         "REST API",
         "Spring",
@@ -76,7 +76,7 @@
       "name": "EquipEngine",
       "position": "Frontend Lead Developer",
       "website": "https://equipengine.herokuapp.com/",
-      "description": "Web project with courses for students and teachers.",
+      "summary": "Web project with courses for students and teachers.",
       "highlights": [
         "React",
         "Redux",
@@ -91,7 +91,7 @@
       "name": "Interaxo Connected Workflows",
       "position": "Backend Developer",
       "company": "Issoft Solutions",
-      "description": "Application allows to set up external workflow for different folders in document management system.",
+      "summary": "Application allows to set up external workflow for different folders in document management system.",
       "highlights": [
         "REST API",
         "Spring",
@@ -106,7 +106,7 @@
       "name": "5Walls",
       "position": "Frontend Developer",
       "website": "https://5walls.com/",
-      "description": "Pinterest like room fittings.",
+      "summary": "Pinterest like room fittings.",
       "highlights": ["React", "Material UI", "Redux", "React Stack Grid"],
       "startDate": "2018-03-01",
       "endDate": "2018-04-15"
@@ -115,7 +115,7 @@
       "name": "Local Insights",
       "position": "Frontend Developer",
       "website": "https://localinsights.io/",
-      "description": "Real estate search app.",
+      "summary": "Real estate search app.",
       "highlights": ["React", "Material UI", "Redux", "Leaflet"],
       "startDate": "2017-11-01",
       "endDate": "2018-02-01"
@@ -125,7 +125,7 @@
       "position": "Backend Developer",
       "website": "https://api.interaxo.com/",
       "company": "Issoft Solutions",
-      "description": "REST Public API for big document management system.",
+      "summary": "REST Public API for big document management system.",
       "highlights": [
         "REST API",
         "Spring",
@@ -145,7 +145,7 @@
       "position": "Backend Developer",
       "company": "Issoft Solutions",
       "website": "https://portal.medscaleplus.com",
-      "description": "Web and mobile applications for medical items monitoring on ships.",
+      "summary": "Web and mobile applications for medical items monitoring on ships.",
       "highlights": [
         "Spring",
         "Hibernate",
@@ -166,7 +166,7 @@
       "position": "Full Stack Developer",
       "company": "Issoft Solutions",
       "website": "https://prosjekthotell.com",
-      "description": "Enterprise document management system for engineering and oil industry in Norway.",
+      "summary": "Enterprise document management system for engineering and oil industry in Norway.",
       "highlights": [
         "Spring",
         "Alfresco",
@@ -185,7 +185,7 @@
     {
       "position": "Java Developer",
       "company": "IBA",
-      "description": "Support of bank content management system.",
+      "summary": "Support of bank content management system.",
       "highlights": ["IBM Tivoli Storage Manager"],
       "startDate": "2014-08-01",
       "endDate": "2014-10-01"
@@ -194,7 +194,7 @@
       "name": "Belveb Bank System",
       "position": "Full Stack Developer",
       "company": "IBA",
-      "description": "Web based bank document management system.",
+      "summary": "Web based bank document management system.",
       "highlights": [
         "Apache Struts",
         "Dojo",
@@ -210,7 +210,7 @@
     {
       "position": "Full Stack Developer",
       "company": "IBA",
-      "description": "Web based document management system.",
+      "summary": "Web based document management system.",
       "highlights": [
         "JSP",
         "Servlets",

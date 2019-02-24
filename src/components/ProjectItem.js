@@ -42,7 +42,7 @@ export default class ProjectItem extends Component {
             showExpandableButton={true}
           />
           <CardText expandable={true}>
-            {project.description}
+            {project.summary}
             <br />
             <br />
             {project.website && (
