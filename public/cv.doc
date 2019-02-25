@@ -5288,16 +5288,16 @@
 							<w:rPr>
 								<w:sz w:val="20"/>
 							</w:rPr>
-							<w:t>Facebook, </w:t>
+							<w:t>Skype, </w:t>
 						</w:r>
 						
-						<w:hlink w:dest="https://www.facebook.com/leha.soroka">
+						<w:hlink w:dest="skype:csi.alexsoroka">
 							<w:r wsp:rsidRPr="00F662E2">
 								<w:rPr>
 									<w:rStyle w:val="Hyperlink"/>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>leha.soroka</w:t>
+								<w:t>csi.alexsoroka</w:t>
 							</w:r>
 						</w:hlink>
 						
