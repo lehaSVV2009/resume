@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Card, CardHeader, CardText } from "material-ui/Card";
 import Chip from "material-ui/Chip";
 
@@ -18,60 +18,56 @@ const toSubtitle = (startDate, endDate, company) =>
     company && company !== "-" ? `(${company})` : ""
   }`;
 
-export default class ProjectItem extends Component {
-  render() {
-    const { project } = this.props;
-
-    if (!project) {
-      return <span />;
-    }
-
-    return (
-      <div className="project">
-        <Card>
-          <CardHeader
-            title={
-              (project.position ? project.position + ". " : "") +
-              (project.name || "")
-            }
-            subtitle={toSubtitle(
-              project.startDate,
-              project.endDate,
-              project.company
-            )}
-            actAsExpander={true}
-            showExpandableButton={true}
-          />
-          <CardText expandable={true}>
-            <ReplacedDividerText
-              text={project.summary}
-              divider="."
-              replacement={
-                <span>
-                  .<br />
-                </span>
-              }
-            />
-            <br />
-            <br />
-            {project.website && (
-              <a href={project.website} target="_blank">
-                See project
-                <br />
-                <br />
-              </a>
-            )}
-            <div className="projects">
-              {Array.isArray(project.highlights) &&
-                project.highlights.map((highlight, index) => (
-                  <div key={index} className="project-highlight">
-                    <Chip>{highlight}</Chip>
-                  </div>
-                ))}
-            </div>
-          </CardText>
-        </Card>
-      </div>
-    );
+export default ({ project }) => {
+  if (!project) {
+    return <span />;
   }
-}
+
+  return (
+    <div className="project">
+      <Card>
+        <CardHeader
+          title={
+            (project.position ? project.position + ". " : "") +
+            (project.name || "")
+          }
+          subtitle={toSubtitle(
+            project.startDate,
+            project.endDate,
+            project.company
+          )}
+          actAsExpander={true}
+          showExpandableButton={true}
+        />
+        <CardText expandable={true}>
+          <ReplacedDividerText
+            text={project.summary}
+            divider="."
+            replacement={
+              <span>
+                .<br />
+              </span>
+            }
+          />
+          <br />
+          <br />
+          {project.website && (
+            <a href={project.website} target="_blank">
+              See project
+              <br />
+              <br />
+            </a>
+          )}
+          <div className="projects">
+            {Array.isArray(project.highlights) &&
+              project.highlights.map((highlight, index) => (
+                <div key={index} className="project-highlight">
+                  <Chip>{highlight}</Chip>
+                </div>
+              ))}
+          </div>
+        </CardText>
+      </Card>
+    </div>
+  );
+};
