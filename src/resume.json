@@ -9,6 +9,7 @@
     "summary": "5 years experience Full Stack Developer. Having fun with programming (backend or frontend, office or remote, paid or open source) and traveling. Trying to be useful in any team. Currently welcome to relocation offered jobs.",
     "location": {
       "city": "Minsk",
+      "region": "Belarus",
       "countryCode": "BY"
     },
     "profiles": [
@@ -40,7 +41,7 @@
       "position": "Full Stack Developer",
       "company": "-",
       "website": "https://lehasvv2009.github.io/territories/",
-      "summary": "Simple battleship-like board game.",
+      "summary": "Simple battleship-like board game. Personally I designed and implemented entire game which includes game logic, frontend, backend for online game and AI bot.",
       "highlights": [
         "React",
         "Material UI",
@@ -57,10 +58,10 @@
       "position": "Full Stack Developer",
       "company": "Issoft Solutions",
       "website": "https://vb.interaxo.com/",
-      "summary": "React Question Board for meetings and planning using Interaxo document management system.",
+      "summary": "React Question Board for meetings and planning using Interaxo document management system. Within the project I designed and implemented robust and secure REST API for the app and implemented new web pages like filterable cards list page, card forms, auth page, etc. Additionally I introduced a new library for all common components that are used across React applications of the customer. Plus configured CI, deployment and analytics. Now the project is easily scaled, monitored and successfully used by different customers who wants more and more new features.",
       "highlights": [
-        "REST API",
         "Spring",
+        "REST API",
         "Hibernate",
         "PostgreSQL",
         "React",
@@ -77,7 +78,7 @@
       "position": "Frontend Lead Developer",
       "company": "-",
       "website": "https://equipengine.herokuapp.com/",
-      "summary": "Web project with courses for students and teachers.",
+      "summary": "Web project with courses for students and teachers. I implemented some new views and integrated the project with existing API according to the client requirements. I also introduced the project to new developers, tried to teach them project best practices, helped them and monitored their work.",
       "highlights": [
         "React",
         "Redux",
@@ -92,10 +93,10 @@
       "name": "Interaxo Connected Workflows",
       "position": "Backend Developer",
       "company": "Issoft Solutions",
-      "summary": "Application allows to set up external workflow for different folders in document management system.",
+      "summary": "Application allows to set up external workflow for different folders in document management system. Within the project with help of mentor I implemented the application that synchronizes folders in workflow using document management system API. Now the application is successfully used by several document management clients to simplify their real workflow.",
       "highlights": [
-        "REST API",
         "Spring",
+        "REST API",
         "Hibernate",
         "Apache Camel",
         "WebSocket"
@@ -108,7 +109,7 @@
       "position": "Frontend Developer",
       "company": "-",
       "website": "https://5walls.com/",
-      "summary": "Pinterest like room fittings.",
+      "summary": "Pinterest like room fittings. I set up frontend app, implemented registration and authentication flow, build responsive pinterest view and set up bitbucket pipelines. Now the client rapidly reviews the changes of client developers, offers new users a personal account, monitors new users and enjoys pinterest view for the products.",
       "highlights": ["React", "Material UI", "Redux", "React Stack Grid"],
       "startDate": "2018-03-01",
       "endDate": "2018-04-15"
@@ -118,7 +119,7 @@
       "position": "Frontend Developer",
       "company": "-",
       "website": "https://localinsights.io/",
-      "summary": "Real estate search app.",
+      "summary": "Real estate search app. I used Material-UI Grid layout system to make application responsive, Material UI to create nice views, migrated sass to css-in-js to clean up sass files, replaced webpack config with create-react-app scripts and refactored plenty of code. Now the project is completely responsive and easier to read, support and implement new features.",
       "highlights": ["React", "Material UI", "Redux", "Leaflet"],
       "startDate": "2017-11-01",
       "endDate": "2018-02-01"
@@ -128,10 +129,10 @@
       "position": "Backend Developer",
       "company": "Issoft Solutions",
       "website": "https://api.interaxo.com/",
-      "summary": "REST Public API for big document management system.",
+      "summary": "REST Public API for big document management system. I spent a lot of time learning REST API best practices and with help of mentor I implemented Public API, which is monitored, covered by different types of tests, secured by OAuth2, well-documented, versionable and follow many REST API best practices. Now API is successfully used by many internal document management system applications as well as external document management customer applications.",
       "highlights": [
-        "REST API",
         "Spring",
+        "REST API",
         "OpenID Connect",
         "OAuth2",
         "Keycloak",
@@ -148,19 +149,8 @@
       "position": "Backend Developer",
       "company": "Issoft Solutions",
       "website": "https://portal.medscaleplus.com",
-      "summary": "Web and mobile applications for medical items monitoring on ships.",
-      "highlights": [
-        "Spring",
-        "Hibernate",
-        "Spock",
-        "Swagger",
-        "OAuth2",
-        "Gradle",
-        "MySQL",
-        "Docker",
-        "AWS EC2",
-        "Bamboo"
-      ],
+      "summary": "Web and mobile applications for medical items monitoring on ships. I fixed all the bugs, provided by the client, and some bugs found by me in Spring Data logic and deployment to AWS. Now the application is used by captains and crew members on ships according to monitoring data.",
+      "highlights": ["Spring", "Hibernate", "Spock", "AWS EC2", "Bamboo"],
       "startDate": "2017-07-01",
       "endDate": "2017-08-15"
     },
@@ -169,7 +159,7 @@
       "position": "Full Stack Developer",
       "company": "Issoft Solutions",
       "website": "https://prosjekthotell.com",
-      "summary": "Enterprise document management system for engineering and oil industry in Norway.",
+      "summary": "Enterprise document management system for engineering and oil industry in Norway. By the end date I've learnt all the areas of the application and have been able to quickly find and fix any bugs. I improved some areas like bulk import, download, upload, email handling, security, mobile app, etc. I also refactored a lot of code. Now the amount of the application users and new features still rapidly grows while the amount of bugs grows not so fast as it was before areas improvements.",
       "highlights": [
         "Spring",
         "Alfresco",
@@ -187,7 +177,7 @@
     },
     {
       "position": "Java Developer",
-      "company": "IBA",
+      "company": "IBA Group",
       "summary": "Support of bank content management system.",
       "highlights": ["IBM Tivoli Storage Manager"],
       "startDate": "2014-08-01",
@@ -196,7 +186,7 @@
     {
       "name": "Belveb Bank System",
       "position": "Full Stack Developer",
-      "company": "IBA",
+      "company": "IBA Group",
       "summary": "Web based bank document management system.",
       "highlights": [
         "Apache Struts",
@@ -211,8 +201,8 @@
       "endDate": "2014-08-01"
     },
     {
-      "position": "Full Stack Developer",
-      "company": "IBA",
+      "position": "Java Developer",
+      "company": "IBA Group",
       "summary": "Web based document management system.",
       "highlights": [
         "JSP",
@@ -230,16 +220,16 @@
   ],
   "education": [
     {
-      "institution": "BSUIR",
+      "institution": "Belarusian State University of Informatics and Radioelectronics",
       "area": "Artificial intelligence",
       "studyType": "Bachelor",
       "startDate": "2011-09-01",
       "endDate": "2016-06-01"
     },
     {
-      "institution": "BSUIR",
+      "institution": "Belarusian State University of Informatics and Radioelectronics",
       "area": "Ergonomics",
-      "studyType": "Master's Degree",
+      "studyType": "Master",
       "startDate": "2017-09-01",
       "endDate": "2018-06-01"
     }
@@ -326,13 +316,13 @@
     {
       "title": "EJB Web Development Training",
       "date": "2014-08-01",
-      "awarder": "IBA",
+      "awarder": "IBA Group",
       "summary": "Succesfully finished training."
     },
     {
       "title": "Java Web Development Training",
       "date": "2014-05-01",
-      "awarder": "IBA",
+      "awarder": "IBA Group",
       "summary": "Succesfully finished training."
     },
     {

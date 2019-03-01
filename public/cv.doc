@@ -2766,7 +2766,7 @@
 						<w:b/>
 						<w:sz w:val="20"/>
 					</w:rPr>
-					<w:t>Minsk</w:t>
+					<w:t>Minsk, Belarus</w:t>
 				</w:r>
 			</w:p>
 			
@@ -2999,7 +2999,7 @@
 								<w:rPr>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>Simple battleship-like board game.</w:t>
+								<w:t>Simple battleship-like board game. Personally I designed and implemented entire game which includes game logic, frontend, backend for online game and AI bot.</w:t>
 							</w:r>
 						</w:p>
 						
@@ -3163,31 +3163,10 @@
 								<w:rPr>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>React Question Board for meetings and planning using Interaxo document management system.</w:t>
+								<w:t>React Question Board for meetings and planning using Interaxo document management system. Within the project I designed and implemented robust and secure REST API for the app and implemented new web pages like filterable cards list page, card forms, auth page, etc. Additionally I introduced a new library for all common components that are used across React applications of the customer. Plus configured CI, deployment and analytics. Now the project is easily scaled, monitored and successfully used by different customers who wants more and more new features.</w:t>
 							</w:r>
 						</w:p>
 						
-						
-						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
-							<w:pPr>
-								<w:listPr>
-									<w:ilvl w:val="0"/>
-									<w:ilfo w:val="15"/>
-									<wx:t wx:val="·"/>
-									<wx:font wx:val="Symbol"/>
-								</w:listPr>
-								<w:contextualSpacing/>
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-							</w:pPr>
-							<w:r wsp:rsidRPr="00DF6AD6">
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-								<w:t>REST API</w:t>
-							</w:r>
-						</w:p>
 						
 						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
 							<w:pPr>
@@ -3207,6 +3186,27 @@
 									<w:sz w:val="20"/>
 								</w:rPr>
 								<w:t>Spring</w:t>
+							</w:r>
+						</w:p>
+						
+						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
+							<w:pPr>
+								<w:listPr>
+									<w:ilvl w:val="0"/>
+									<w:ilfo w:val="15"/>
+									<wx:t wx:val="·"/>
+									<wx:font wx:val="Symbol"/>
+								</w:listPr>
+								<w:contextualSpacing/>
+								<w:rPr>
+									<w:sz w:val="20"/>
+								</w:rPr>
+							</w:pPr>
+							<w:r wsp:rsidRPr="00DF6AD6">
+								<w:rPr>
+									<w:sz w:val="20"/>
+								</w:rPr>
+								<w:t>REST API</w:t>
 							</w:r>
 						</w:p>
 						
@@ -3390,7 +3390,7 @@
 								<w:rPr>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>Web project with courses for students and teachers.</w:t>
+								<w:t>Web project with courses for students and teachers. I implemented some new views and integrated the project with existing API according to the client requirements. I also introduced the project to new developers, tried to teach them project best practices, helped them and monitored their work.</w:t>
 							</w:r>
 						</w:p>
 						
@@ -3533,31 +3533,10 @@
 								<w:rPr>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>Application allows to set up external workflow for different folders in document management system.</w:t>
+								<w:t>Application allows to set up external workflow for different folders in document management system. Within the project with help of mentor I implemented the application that synchronizes folders in workflow using document management system API. Now the application is successfully used by several document management clients to simplify their real workflow.</w:t>
 							</w:r>
 						</w:p>
 						
-						
-						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
-							<w:pPr>
-								<w:listPr>
-									<w:ilvl w:val="0"/>
-									<w:ilfo w:val="15"/>
-									<wx:t wx:val="·"/>
-									<wx:font wx:val="Symbol"/>
-								</w:listPr>
-								<w:contextualSpacing/>
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-							</w:pPr>
-							<w:r wsp:rsidRPr="00DF6AD6">
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-								<w:t>REST API</w:t>
-							</w:r>
-						</w:p>
 						
 						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
 							<w:pPr>
@@ -3577,6 +3556,27 @@
 									<w:sz w:val="20"/>
 								</w:rPr>
 								<w:t>Spring</w:t>
+							</w:r>
+						</w:p>
+						
+						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
+							<w:pPr>
+								<w:listPr>
+									<w:ilvl w:val="0"/>
+									<w:ilfo w:val="15"/>
+									<wx:t wx:val="·"/>
+									<wx:font wx:val="Symbol"/>
+								</w:listPr>
+								<w:contextualSpacing/>
+								<w:rPr>
+									<w:sz w:val="20"/>
+								</w:rPr>
+							</w:pPr>
+							<w:r wsp:rsidRPr="00DF6AD6">
+								<w:rPr>
+									<w:sz w:val="20"/>
+								</w:rPr>
+								<w:t>REST API</w:t>
 							</w:r>
 						</w:p>
 						
@@ -3676,7 +3676,7 @@
 								<w:rPr>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>Pinterest like room fittings.</w:t>
+								<w:t>Pinterest like room fittings. I set up frontend app, implemented registration and authentication flow, build responsive pinterest view and set up bitbucket pipelines. Now the client rapidly reviews the changes of client developers, offers new users a personal account, monitors new users and enjoys pinterest view for the products.</w:t>
 							</w:r>
 						</w:p>
 						
@@ -3798,7 +3798,7 @@
 								<w:rPr>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>Real estate search app.</w:t>
+								<w:t>Real estate search app. I used Material-UI Grid layout system to make application responsive, Material UI to create nice views, migrated sass to css-in-js to clean up sass files, replaced webpack config with create-react-app scripts and refactored plenty of code. Now the project is completely responsive and easier to read, support and implement new features.</w:t>
 							</w:r>
 						</w:p>
 						
@@ -3920,31 +3920,10 @@
 								<w:rPr>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>REST Public API for big document management system.</w:t>
+								<w:t>REST Public API for big document management system. I spent a lot of time learning REST API best practices and with help of mentor I implemented Public API, which is monitored, covered by different types of tests, secured by OAuth2, well-documented, versionable and follow many REST API best practices. Now API is successfully used by many internal document management system applications as well as external document management customer applications.</w:t>
 							</w:r>
 						</w:p>
 						
-						
-						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
-							<w:pPr>
-								<w:listPr>
-									<w:ilvl w:val="0"/>
-									<w:ilfo w:val="15"/>
-									<wx:t wx:val="·"/>
-									<wx:font wx:val="Symbol"/>
-								</w:listPr>
-								<w:contextualSpacing/>
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-							</w:pPr>
-							<w:r wsp:rsidRPr="00DF6AD6">
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-								<w:t>REST API</w:t>
-							</w:r>
-						</w:p>
 						
 						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
 							<w:pPr>
@@ -3964,6 +3943,27 @@
 									<w:sz w:val="20"/>
 								</w:rPr>
 								<w:t>Spring</w:t>
+							</w:r>
+						</w:p>
+						
+						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
+							<w:pPr>
+								<w:listPr>
+									<w:ilvl w:val="0"/>
+									<w:ilfo w:val="15"/>
+									<wx:t wx:val="·"/>
+									<wx:font wx:val="Symbol"/>
+								</w:listPr>
+								<w:contextualSpacing/>
+								<w:rPr>
+									<w:sz w:val="20"/>
+								</w:rPr>
+							</w:pPr>
+							<w:r wsp:rsidRPr="00DF6AD6">
+								<w:rPr>
+									<w:sz w:val="20"/>
+								</w:rPr>
+								<w:t>REST API</w:t>
 							</w:r>
 						</w:p>
 						
@@ -4147,7 +4147,7 @@
 								<w:rPr>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>Web and mobile applications for medical items monitoring on ships.</w:t>
+								<w:t>Web and mobile applications for medical items monitoring on ships. I fixed all the bugs, provided by the client, and some bugs found by me in Spring Data logic and deployment to AWS. Now the application is used by captains and crew members on ships according to monitoring data.</w:t>
 							</w:r>
 						</w:p>
 						
@@ -4232,111 +4232,6 @@
 								<w:rPr>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>Swagger</w:t>
-							</w:r>
-						</w:p>
-						
-						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
-							<w:pPr>
-								<w:listPr>
-									<w:ilvl w:val="0"/>
-									<w:ilfo w:val="15"/>
-									<wx:t wx:val="·"/>
-									<wx:font wx:val="Symbol"/>
-								</w:listPr>
-								<w:contextualSpacing/>
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-							</w:pPr>
-							<w:r wsp:rsidRPr="00DF6AD6">
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-								<w:t>OAuth2</w:t>
-							</w:r>
-						</w:p>
-						
-						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
-							<w:pPr>
-								<w:listPr>
-									<w:ilvl w:val="0"/>
-									<w:ilfo w:val="15"/>
-									<wx:t wx:val="·"/>
-									<wx:font wx:val="Symbol"/>
-								</w:listPr>
-								<w:contextualSpacing/>
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-							</w:pPr>
-							<w:r wsp:rsidRPr="00DF6AD6">
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-								<w:t>Gradle</w:t>
-							</w:r>
-						</w:p>
-						
-						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
-							<w:pPr>
-								<w:listPr>
-									<w:ilvl w:val="0"/>
-									<w:ilfo w:val="15"/>
-									<wx:t wx:val="·"/>
-									<wx:font wx:val="Symbol"/>
-								</w:listPr>
-								<w:contextualSpacing/>
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-							</w:pPr>
-							<w:r wsp:rsidRPr="00DF6AD6">
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-								<w:t>MySQL</w:t>
-							</w:r>
-						</w:p>
-						
-						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
-							<w:pPr>
-								<w:listPr>
-									<w:ilvl w:val="0"/>
-									<w:ilfo w:val="15"/>
-									<wx:t wx:val="·"/>
-									<wx:font wx:val="Symbol"/>
-								</w:listPr>
-								<w:contextualSpacing/>
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-							</w:pPr>
-							<w:r wsp:rsidRPr="00DF6AD6">
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-								<w:t>Docker</w:t>
-							</w:r>
-						</w:p>
-						
-						<w:p wsp:rsidR="005B2442" wsp:rsidRDefault="00DF6AD6" wsp:rsidP="00DF6AD6">
-							<w:pPr>
-								<w:listPr>
-									<w:ilvl w:val="0"/>
-									<w:ilfo w:val="15"/>
-									<wx:t wx:val="·"/>
-									<wx:font wx:val="Symbol"/>
-								</w:listPr>
-								<w:contextualSpacing/>
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
-							</w:pPr>
-							<w:r wsp:rsidRPr="00DF6AD6">
-								<w:rPr>
-									<w:sz w:val="20"/>
-								</w:rPr>
 								<w:t>AWS EC2</w:t>
 							</w:r>
 						</w:p>
@@ -4395,7 +4290,7 @@
 								<w:rPr>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>Enterprise document management system for engineering and oil industry in Norway.</w:t>
+								<w:t>Enterprise document management system for engineering and oil industry in Norway. By the end date I&#39;ve learnt all the areas of the application and have been able to quickly find and fix any bugs. I improved some areas like bulk import, download, upload, email handling, security, mobile app, etc. I also refactored a lot of code. Now the amount of the application users and new features still rapidly grows while the amount of bugs grows not so fast as it was before areas improvements.</w:t>
 							</w:r>
 						</w:p>
 						
@@ -4625,7 +4520,7 @@
 								<w:t>, </w:t>
 							</w:r>
 							<w:r wsp:rsidR="00DF6AD6" wsp:rsidRPr="00DF6AD6">
-								<w:t>IBA, 8/2014 - </w:t>
+								<w:t>IBA Group, 8/2014 - </w:t>
 							</w:r>
 							<w:r>
 								<w:t>10/2014</w:t>
@@ -4684,7 +4579,7 @@
 								<w:t>, </w:t>
 							</w:r>
 							<w:r wsp:rsidR="00DF6AD6" wsp:rsidRPr="00DF6AD6">
-								<w:t>IBA, 2/2014 - </w:t>
+								<w:t>IBA Group, 2/2014 - </w:t>
 							</w:r>
 							<w:r>
 								<w:t>8/2014</w:t>
@@ -4863,13 +4758,13 @@
 							<aml:annotation aml:id="2" w:type="Word.Bookmark.Start" w:name="h.te210npfwk8y" w:col-first="0" w:col-last="0"/>
 							<aml:annotation aml:id="2" w:type="Word.Bookmark.End"/>
 							<w:r>
-								<w:t>Full Stack Developer</w:t>
+								<w:t>Java Developer</w:t>
 							</w:r>
 							<w:r>
 								<w:t>, </w:t>
 							</w:r>
 							<w:r wsp:rsidR="00DF6AD6" wsp:rsidRPr="00DF6AD6">
-								<w:t>IBA, 9/2013 - </w:t>
+								<w:t>IBA Group, 9/2013 - </w:t>
 							</w:r>
 							<w:r>
 								<w:t>2/2014</w:t>
@@ -5090,7 +4985,7 @@
 							<aml:annotation aml:id="5" w:type="Word.Bookmark.Start" w:name="h.x22jpt133j12" w:col-first="0" w:col-last="0"/>
 							<aml:annotation aml:id="5" w:type="Word.Bookmark.End"/>
 							<w:r wsp:rsidRPr="00DF6AD6">
-								<w:t>BSUIR</w:t>
+								<w:t>Belarusian State University of Informatics and Radioelectronics</w:t>
 							</w:r>
 							<w:r>
 								<w:t>, 6/2016</w:t>
@@ -5113,7 +5008,7 @@
 							<aml:annotation aml:id="5" w:type="Word.Bookmark.Start" w:name="h.x22jpt133j12" w:col-first="0" w:col-last="0"/>
 							<aml:annotation aml:id="5" w:type="Word.Bookmark.End"/>
 							<w:r wsp:rsidRPr="00DF6AD6">
-								<w:t>BSUIR</w:t>
+								<w:t>Belarusian State University of Informatics and Radioelectronics</w:t>
 							</w:r>
 							<w:r>
 								<w:t>, 6/2018</w:t>

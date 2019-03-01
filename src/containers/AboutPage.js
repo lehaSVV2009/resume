@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Avatar from "material-ui/Avatar";
 
+import ReplacedDividerText from "../components/ReplacedDividerText";
 import "./AboutPage.css";
 
 export default class AboutPage extends Component {
@@ -13,13 +14,15 @@ export default class AboutPage extends Component {
           size={200}
         />
         <p className="about-text">
-          {about &&
-            typeof about === "string" &&
-            about.split(".").map((text, index) => (
-              <div>
-                {text}. <br /> <br />
-              </div>
-            ))}
+          <ReplacedDividerText
+            text={about}
+            divider="."
+            replacement={
+              <span>
+                .<br />
+              </span>
+            }
+          />
         </p>
       </div>
     );

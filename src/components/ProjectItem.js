@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Card, CardHeader, CardText } from "material-ui/Card";
 import Chip from "material-ui/Chip";
 
+import ReplacedDividerText from "../components/ReplacedDividerText";
 import "./ProjectItem.css";
 
 const formatDate = (date, defaultIfNull) =>
@@ -42,7 +43,15 @@ export default class ProjectItem extends Component {
             showExpandableButton={true}
           />
           <CardText expandable={true}>
-            {project.summary}
+            <ReplacedDividerText
+              text={project.summary}
+              divider="."
+              replacement={
+                <span>
+                  .<br />
+                </span>
+              }
+            />
             <br />
             <br />
             {project.website && (
