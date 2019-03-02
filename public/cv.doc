@@ -4147,7 +4147,7 @@
 								<w:rPr>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>Web and mobile applications for medical items monitoring on ships. I fixed all the bugs, provided by the client, and some bugs found by me in Spring Data logic and deployment to AWS. Now the application is used by captains and crew members on ships according to monitoring data.</w:t>
+								<w:t>Web and mobile applications for medical items monitoring on ships. I fixed all the bugs, provided by the client, and some bugs found by me in Spring Data logic and deployment to AWS. Now the application is used by captains and crew members on ships.</w:t>
 							</w:r>
 						</w:p>
 						

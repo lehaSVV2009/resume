@@ -149,7 +149,7 @@
       "position": "Backend Developer",
       "company": "Issoft Solutions",
       "website": "https://portal.medscaleplus.com",
-      "summary": "Web and mobile applications for medical items monitoring on ships. I fixed all the bugs, provided by the client, and some bugs found by me in Spring Data logic and deployment to AWS. Now the application is used by captains and crew members on ships according to monitoring data.",
+      "summary": "Web and mobile applications for medical items monitoring on ships. I fixed all the bugs, provided by the client, and some bugs found by me in Spring Data logic and deployment to AWS. Now the application is used by captains and crew members on ships.",
       "highlights": ["Spring", "Hibernate", "Spock", "AWS EC2", "Bamboo"],
       "startDate": "2017-07-01",
       "endDate": "2017-08-15"
