@@ -50,6 +50,7 @@ export default class ContactForm extends Component {
           floatingLabelText="From"
           onChange={this.handleFromInputChange}
           name="from"
+          type="email"
           value={from}
         />
         <br />
