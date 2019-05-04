@@ -9,8 +9,9 @@ P.S. [JSON Resume](https://jsonresume.org/schema/) is used here.
 2. Either export LinkedIn data and use [resumonk.com](https://www.resumonk.com) to transform `linkedin.zip` to `resume.json` OR update `resume.json` manually.
 3. Generate Standard `cv.doc` by [Resume Fodder](https://resumefodder.com) (upload updated `resume.json` and download `cv.doc`).
 4. Convert `cv.doc` to `cv.docx` and `cv.pdf` by [CloudConvert](https://cloudconvert.com).
-5. Put converted files to `public` folder as `public/cv.docx` and `public/cv.pdf`.
-6. `git push` and check build/deployment status on [travis](https://travis-ci.org/lehaSVV2009/resume) (`cv.html` will be updated automatically).
+5. If you want to change structure/design in docx/pdf, upload docx to [Google Docs](https://docs.google.com/document/d/1wbSc1S7JoPLY9iR4js4_gAePr65JO-SWYp7DaJ_QaYc), change and export to PDF/DOCX.
+6. Put converted files to `public` folder as `public/cv.docx` and `public/cv.pdf`.
+7. `git push` and check build/deployment status on [travis](https://travis-ci.org/lehaSVV2009/resume) (`cv.html` will be updated automatically).
 
 ## Getting Started
 
