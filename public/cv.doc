@@ -2752,7 +2752,7 @@
 						<w:b/>
 						<w:sz w:val="20"/>
 					</w:rPr>
-					<w:t>Alex Soroka</w:t>
+					<w:t>Aliaksei Saroka</w:t>
 				</w:r>
 			</w:p>
 			
@@ -5153,13 +5153,13 @@
 							<w:t>LinkedIn, </w:t>
 						</w:r>
 						
-						<w:hlink w:dest="https://www.linkedin.com/in/alex-soroka-74b070ba">
+						<w:hlink w:dest="https://www.linkedin.com/in/aliaksei-saroka">
 							<w:r wsp:rsidRPr="00F662E2">
 								<w:rPr>
 									<w:rStyle w:val="Hyperlink"/>
 									<w:sz w:val="20"/>
 								</w:rPr>
-								<w:t>alex-soroka-74b070ba</w:t>
+								<w:t>aliaksei-saroka</w:t>
 							</w:r>
 						</w:hlink>
 						

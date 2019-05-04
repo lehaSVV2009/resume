@@ -75,7 +75,7 @@ Application is still too small for it.
 
 ## Authors
 
-**Alex Soroka** - https://github.com/lehaSVV2009
+**Aliaksei Saroka** - https://github.com/lehaSVV2009
 
 ## License
 
@@ -83,4 +83,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-Great thanks [Katerina Draenkova](https://github.com/KaterinaDraenkova) and [Pavel Evleev](https://github.com/PavelEvleev) for inspiration!
+Great thanks [Katerina Soroka](https://github.com/KaterinaSoroka) and [Pavel Evleev](https://github.com/PavelEvleev) for inspiration!
