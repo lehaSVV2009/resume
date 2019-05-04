@@ -11,7 +11,7 @@ export default ({ links }) => {
     <div className="link-list">
       {links.map((link, index) => (
         <span key={index}>
-          <a target="_blank" href={link.url}>
+          <a target="_blank" rel="noopener noreferrer" href={link.url}>
             {link.network}
           </a>
           {index !== links.length - 1 && "/ "}

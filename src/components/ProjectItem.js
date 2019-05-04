@@ -52,7 +52,7 @@ export default ({ project }) => {
           <br />
           <br />
           {project.website && (
-            <a href={project.website} target="_blank">
+            <a href={project.website} target="_blank" rel="noopener noreferrer">
               See project
               <br />
               <br />
