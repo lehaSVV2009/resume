@@ -108,6 +108,7 @@ P.S. [JSON Resume](https://jsonresume.org/schema/) is used here.
 4. Sign up to https://formspree.io/ to get emails from `Contact` form.
 
 P.S. `SEO` and `cv.html` are automatically applied.
+
 P.S.2. Unfortunately `cv.pdf` and `cv.docx` are not auto generated... Try [Resume Fodder](https://resumefodder.com) + [CloudConvert](https://cloudconvert.com) and update `public/cv.docx` and `public/cv.pdf` files if you need that.
 
 ## Linkedin tutorial
