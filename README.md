@@ -92,19 +92,19 @@ P.S. [JSON Resume](https://jsonresume.org/schema/) is used here.
 
 1. `Fork` this repository.
 2. Deploy app with `github-pages` + `travis`, i.e. sync github account with travis.
-   2.1. Go to https://github.com/settings/tokens and generate new token with `repo` scope. (With any name like `travis-resume`)
-   2.2. Copy this access token.
-   2.3. Login via github to https://travis-ci.org/.
-   2.4. Click `+` and `Sync account`.
-   2.5. Find and enable `resume` repository in travis repositories list.
-   2.6. Click `resume` settings in Travis.
-   2.7. In section `Environment Variables` add input name `GITHUB_TOKEN`, input access token as value and click `Add`. (Don't enable display value in build logs!)
-   2.8. Click `More options` -> `Trigger build` -> `Trigger custom build` in Travis and wait for a couple of minutes.
-   2.9. Go to https://*yourgithubaccount*.github.io/resume and you'll see resume of Aliaksei Saroka.
+   1. Go to https://github.com/settings/tokens and generate new token with `repo` scope. (With any name like `travis-resume`)
+   2. Copy this access token.
+   3. Login via github to https://travis-ci.org/.
+   4. Click `+` and `Sync account`.
+   5. Find and enable `resume` repository in travis repositories list.
+   6. Click `resume` settings in Travis.
+   7. In section `Environment Variables` add input name `GITHUB_TOKEN`, input access token as value and click `Add`. (Don't enable display value in build logs!)
+   8. Click `More options` -> `Trigger build` -> `Trigger custom build` in Travis and wait for a couple of minutes.
+   9. Go to https://*yourgithubaccount*.github.io/resume and you'll see resume of Aliaksei Saroka.
 3. Change `resume.json`
-   3.1. Go to https://github.com/*YourGithubAccount*/resume/blob/master/src/resume.json
-   3.2. Click `Edit` and change to smth you want (e.g. [paste this](#resume-example)).
-   3.3. Click `Commit Changes`, wait for 1-2 minutes and open https://*yourgithubaccount*.github.io/resume.
+   1. Go to https://github.com/*YourGithubAccount*/resume/blob/master/src/resume.json
+   2. Click `Edit` and change to smth you want (e.g. [paste this](#resume-example)).
+   3. Click `Commit Changes`, wait for 1-2 minutes and open https://*yourgithubaccount*.github.io/resume.
 4. Sign up to https://formspree.io/ to get emails from `Contact` form.
 
 P.S. `SEO` and `cv.html` are automatically applied.
