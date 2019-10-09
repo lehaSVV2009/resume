@@ -5,7 +5,6 @@ import camping from "../images/camping.gif";
 import programming from "../images/programming.jpg";
 import sleeping from "../images/sleeping.jpg";
 import snowboarding from "../images/snowboarding.gif";
-import unknown from "../images/unknown.jpg";
 
 export default class Interests extends Component {
   constructor(props) {
@@ -29,7 +28,7 @@ export default class Interests extends Component {
       ? snowboarding
       : name === "Camping"
       ? camping
-      : unknown;
+      : `https://loremflickr.com/320/240/${name}`;
   };
 
   render() {
