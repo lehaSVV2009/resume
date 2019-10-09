@@ -9,6 +9,7 @@
     "react": "^15.6.1",
     "react-anime": "^0.3.4",
     "react-dom": "^15.6.1",
+    "react-helmet": "^5.2.1",
     "react-material-ui-form-validator": "^1.0.0",
     "react-responsive": "^4.0.3",
     "react-scripts": "^3.0.0",

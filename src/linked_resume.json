@@ -1,0 +1,305 @@
+{
+  "basics": {
+    "name": "Aliaksei Saroka",
+    "label": "5 years experience Full Stack Developer. Having fun with programming (backend or frontend, office or remote, paid or open source) and traveling. Trying to be useful in any team. Currently welcome to relocation offered jobs.",
+    "picture": "",
+    "email": "",
+    "phone": "",
+    "website": "",
+    "summary": "Computer Software",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "BY",
+      "region": ""
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Big Data Technologies",
+      "position": "Research And Development Engineer",
+      "website": "",
+      "startDate": "2019-05-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Local Insights",
+      "position": "Frontend Developer",
+      "website": "",
+      "startDate": "2017-11-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2018-02-01"
+    },
+    {
+      "company": "ISsoft",
+      "position": "Full Stack Web Developer",
+      "website": "",
+      "startDate": "2014-10-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2018-11-01"
+    },
+    {
+      "company": "IBA Group",
+      "position": "Java Developer",
+      "website": "",
+      "startDate": "2013-09-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2014-10-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Belarusian State University of Informatics and Radioelectronics",
+      "area": "",
+      "studyType": "Master's degree",
+      "startDate": "2016-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2018-01-01"
+    },
+    {
+      "institution": "Belarusian State University of Informatics and Radioelectronics",
+      "area": "",
+      "studyType": "",
+      "startDate": "2011-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2016-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Spring Framework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JUnit",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JDBC",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hibernate",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Maven",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Tomcat",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WebSphere",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JIRA",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Alfresco",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IBM FileNet",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gradle",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ExtJS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Dojo",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SASS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Groovy",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Scala",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Glassfish",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "English",
+      "fluency": "Full professional proficiency"
+    }
+  ],
+  "projects": [
+    {
+      "name": "AliTools Trends",
+      "startDate": "2019-05-01",
+      "summary": "Trends of Aliexpress products  Position - R&D Engineer Technologies - PHP Laravel, Vue.js",
+      "url": "https://alitools.pro/trends/"
+    },
+    {
+      "name": "Territories",
+      "startDate": "2018-12-01",
+      "summary": "Simple battleship-like board game.  Position - Full Stack Developer. Technologies - React, Material UI, Styled Components, boardgame.io, three.js, AI brain.js.  Personally I designed and implemented entire game which includes game logic, frontend, backend for online game and AI bot.",
+      "url": "https://lehasvv2009.github.io/territories/",
+      "endDate": "2019-02-01"
+    },
+    {
+      "name": "EquipEngine",
+      "startDate": "2018-06-01",
+      "summary": "Web project with courses for students and teachers.  Position - Frontend Lead Developer. Technologies - React, Redux, Styled Components, React Player, Swagger.   1) The client wanted me to implement a couple of views, integrate UI-only entire application with almost ready REST API and lead new team developers. 2) Within the project I implemented new views like user profile, login, improved old views like user messages, courses view, tutorial view, introduced new components (tables, expandable card, loading bar, completeness bar, file upload, video player, etc.), approaches (feature toggling, loadable, etc.) and libraries (redux, reselect, axios, toastr, etc.), improved project design with common design patterns, parameterized some views to be able to work with React state, refactor folder structure and some areas and integrated auth and many student-teacher-admin views with REST API. I also introduced the project to new developers, tried to teach them project best practices, helped them and monitored their work. 3) Some new views have been implemented. The project has been integrated with API.",
+      "url": "https://equipengine.herokuapp.com/",
+      "endDate": "2018-09-01"
+    },
+    {
+      "name": "Interaxo Visual Design Board",
+      "startDate": "2018-05-01",
+      "summary": "React Question Board for meetings and planning using Interaxo document management system.   Position - Full Stack Developer. Technologies - Spring, REST API, Hibernate, PostgreSQL, React, Material UI, Redux, React DnD, React Virtualized.  1) The client wanted me to implement backend for the application and to implement some web pages. 2) Within the project I designed and implemented robust and secure REST API for the app and implemented new web pages like filterable cards list page, card forms, auth page, etc. Additionally I introduced a new library for all common components that are used across React applications of the customer. Plus configured CI, deployment and analytics. 3) Now the project is easily scaled, monitored and successfully used by different customers who wants more and more new features.",
+      "url": "https://vb.interaxo.com/",
+      "endDate": "2018-11-01"
+    },
+    {
+      "name": "5Walls",
+      "startDate": "2018-03-01",
+      "summary": "Pinterest like room fittings.  Position - Frontend Developer. Technologies - React, Material UI, Redux, React Stack Grid.  1) My client wanted simple registration and authentication flow, pinterest like products page and quick way to review UI changes from other developers. 2) I set up frontend app to work fine with REST API using axios and redux-saga, implemented registration and authentication flow with some help of redux-auth-wrapper, used react-stack-grid library to build responsive pinterest view and set up bitbucket pipelines to automatically build and deploy frontend to Google App Engine. 3) Now the client rapidly reviews the changes of client developers, offers new users a personal account, monitors new users and enjoys pinterest view for the products.",
+      "url": "https://5walls.com/",
+      "endDate": "2018-04-01"
+    },
+    {
+      "name": "Interaxo Connected Workflows",
+      "startDate": "2018-02-01",
+      "summary": "Application allows to set up external workflow for different folders in document management system.  Position - Backend Developer. Technologies - Spring, REST API, Hibernate, Apache Camel, WebSocket.  1) The client wanted me to implement an application that allows to configure basic workflow in document management system. 2) Within the project with help of mentor I implemented the application that synchronizes folders in workflow using document management system API. 3) Now the application is successfully used by several document management clients to simplify their real workflow.",
+      "url": "",
+      "endDate": "2018-05-01"
+    },
+    {
+      "name": "Local Insights",
+      "startDate": "2017-11-01",
+      "summary": "Real estate search app.  Position - Frontend Developer. Technologies - React, Material UI, Redux, Leaflet.  1) My client wanted to make real estate web application responsive, improve code to be clean and reusable, simplify build config and make several design improvements. 2) I used Material-UI Grid layout system to make application responsive, Material UI to create nice views, migrated sass to css-in-js to clean up sass files, replaced webpack config with create-react-app scripts and refactored plenty of code. 3) Now the project is completely responsive and easier to read, support and implement new features.",
+      "url": "https://localinsights.io/",
+      "endDate": "2018-02-01"
+    },
+    {
+      "name": "MedScale+",
+      "startDate": "2017-07-01",
+      "summary": "Web and mobile applications for medical items monitor on ships.  Position - Backend Developer. Technologies - Spring, Hibernate, Spock, AWS EC2, Bamboo.  1) My client wanted me to fix some bugs in logic in almost ready application. 2) I fixed all the bugs, provided by the client and some bugs found by me in Spring Data logic and deployment to AWS. 3) Now the application is used by captains and crew members on ships according to monitoring data.",
+      "url": "https://portal.medscaleplus.com/",
+      "endDate": "2017-08-01"
+    },
+    {
+      "name": "Interaxo Public API",
+      "startDate": "2017-01-01",
+      "summary": "REST Public API for big document management system.  Position - Backend Developer. Technologies - Spring, REST API, OpenID Connect, OAuth2, Keycloak, Retrofit, Swagger, Docker, Openshift.  1) My client wanted me to implement REST API for document management system according to all the best practices. 2) I spent a lot of time learning REST API best practices and with help of mentor I implemented Public API, which is monitored, covered by different types of tests, secured by OAuth2, well-documented, versionable and follow many REST API best practices. 3) Now API is successfully used by many internal document management system applications as well as external document management customer applications.",
+      "url": "https://api.interaxo.com/",
+      "endDate": "2018-01-01"
+    },
+    {
+      "name": "INTERAXO",
+      "startDate": "2014-12-01",
+      "summary": "Enterprise document management system for engineering and oil industry in Norway.  Position - Full Stack Developer. Technologies - Spring, Alfresco, CMIS, JUnit, Gradle, ExtJS, Cordova/Phonegap, Google Analytics, Jenkins, Git.  1) My client wanted me to fix bugs in the existing document management system and make some frontend and backend improvements. 2) By the end date I've learnt all the areas of the application and have been able to quickly find and fix any bugs. I improved some areas like bulk import, download, upload, file naming, activities, email handling, security, mobile app, etc. and refactored a lot of code. 3) Now the amount of the application users and new features still rapidly grows while the amount of bugs grows not so fast as it was before areas improvements.",
+      "url": "https://prosjekthotell.com/",
+      "endDate": "2017-01-01"
+    },
+    {
+      "name": "Bank content management system",
+      "startDate": "2014-08-01",
+      "summary": "Support of bank content management system.  Position - Java Developer. Technologies - IBM Tivole Storage Manager.",
+      "url": "",
+      "endDate": "2014-10-01"
+    },
+    {
+      "name": "Belveb document management system",
+      "startDate": "2014-02-01",
+      "summary": "Web based bank document management system.  Position - Full Stack Developer. Technologies - Apache Struts, Dojo, Ant, IBM FileNet, IBM WebSphere, Apache POI, SVN.",
+      "url": "",
+      "endDate": "2014-08-01"
+    },
+    {
+      "name": "Document management system",
+      "startDate": "2013-10-01",
+      "summary": "Web based document management system.  Position - Java developer. Technologies - JSP, Servlets, XSLT, Maven, IBM FileNet, IBM WebSphere, Apache POI, SVN.",
+      "url": "",
+      "endDate": "2014-02-01"
+    }
+  ]
+}
