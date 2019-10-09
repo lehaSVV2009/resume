@@ -38,11 +38,11 @@ export default class HomePage extends Component {
       <div className="home" style={{ height: this.state.height }}>
         <SimpleInfo
           fullName={this.props.fullName}
-          fullNameDelay={2500}
+          fullNameDelay={3000}
           description={this.props.description}
-          descriptionDelay={3000}
+          descriptionDelay={3500}
         />
-        <ScrollDownButton delay={3500} />
+        <ScrollDownButton delay={4000} />
       </div>
     );
   }

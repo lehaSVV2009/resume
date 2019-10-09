@@ -11,7 +11,7 @@ export default () => (
     <Anime
       easing="easeInOutSine"
       duration={1500}
-      delay={(element, index) => index * 200}
+      delay={(element, index) => index * 200 + 500}
       strokeDashoffset={element => {
         const pathLength = element.getTotalLength() || 0;
         element.setAttribute("stroke-dasharray", pathLength);
