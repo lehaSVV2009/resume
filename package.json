@@ -6,6 +6,7 @@
   "dependencies": {
     "halogen": "^0.2.0",
     "material-ui": "^0.19.2",
+    "puppeteer": "^2.0.0",
     "react": "^15.6.1",
     "react-anime": "^0.3.4",
     "react-dom": "^15.6.1",
@@ -23,8 +24,9 @@
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
-    "build": "npm run build-html && npm run build-css && react-scripts build",
+    "build": "npm run build-html && npm run build-pdf && npm run build-css && react-scripts build",
     "build-html": "cd src && resume export ../public/cv.html && cd ..",
+    "build-pdf": "cd src && resume export ../public/cv.pdf && cd ..",
     "test": "CI=true react-scripts test env=jsdom",
     "eject": "react-scripts eject"
   },
@@ -38,7 +40,7 @@
     "npm-run-all": "^4.1.1",
     "prettier": "^1.16.4",
     "pretty-quick": "^1.10.0",
-    "resume-cli": "^1.1.2"
+    "resume-cli": "^1.2.7"
   },
   "browserslist": {
     "production": [
