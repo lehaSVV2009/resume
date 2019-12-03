@@ -41,7 +41,7 @@
       "position": "Senior Software Engineer",
       "company": "Big Data Technologies",
       "website": "https://yagodabi.ru",
-      "summary": "Analytics for large online-store suppliers. Personally I designed application architecture able to manage big data, set up and supported infrastructure, implemented demo, implemented MVP and led all technical solutions.",
+      "summary": "Analytics for large online-store suppliers. Personally I've designed application architecture taking into account the complexity of algorithms and big data, set up and supported infrastructure, implemented demo, implemented MVP and led all further technical solutions.",
       "highlights": [
         "NodeJS",
         "Express",
@@ -61,7 +61,7 @@
       "position": "Senior Software Engineer",
       "company": "Big Data Technologies",
       "website": "https://chrome.google.com/webstore/detail/enifpbhifdiccfjcaipfipjpfdejibjm",
-      "summary": "Chrome extension to share online-shop coupons and promotions. Personally I've set up project infrastructure, implemented MVP and led technical part of the project for other developers.",
+      "summary": "Chrome extension to share online-shop coupons and promotions. In short period I've set up project infrastructure, implemented MVP and led a developer who worked on the project afterwards. That allowed my client to move to next phase (marketing).",
       "highlights": [
         "React",
         "Material-UI",
@@ -77,7 +77,7 @@
       "position": "Senior Software Engineer",
       "company": "Big Data Technologies",
       "website": "https://alitools.pro/trends/",
-      "summary": "Trends of Aliexpress products. Personally I implemented a few versions of trending algorithm, added several complex filters to search, added social login, integrated application with a few payment systems, improved logging and monitoring, added integration to external online shops, improved analytics, improved performance of too long operations and added some tricky customizations to landing pages.",
+      "summary": "Trends of Aliexpress products. In the project I've implemented a few versions of trending algorithm, added several complex filters to search, added social login, integrated application with a few payment systems, improved logging and monitoring, added integration to external online shops, improved analytics, improved performance of too long operations and added some tricky customizations to landing pages. Implemented features increased level of attraction and retention and allowed client to get paid subscriptions from users.",
       "highlights": [
         "PHP",
         "Laravel",
