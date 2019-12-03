@@ -95,7 +95,7 @@
     {
       "name": "Territories",
       "position": "Full Stack Developer",
-      "company": "-",
+      "company": "Freelance",
       "website": "https://lehasvv2009.github.io/territories/",
       "summary": "Simple battleship-like board game. Personally I designed and implemented entire game which includes game logic, frontend, backend for online game and AI bot.",
       "highlights": [
@@ -132,7 +132,7 @@
     {
       "name": "EquipEngine",
       "position": "Frontend Lead Developer",
-      "company": "-",
+      "company": "Freelance",
       "website": "https://equipengine.herokuapp.com/",
       "summary": "Web project with courses for students and teachers. I implemented some new views and integrated the project with existing API according to the client requirements. I also introduced the project to new developers, tried to teach them project best practices, helped them and monitored their work.",
       "highlights": [
@@ -163,7 +163,7 @@
     {
       "name": "5Walls",
       "position": "Frontend Developer",
-      "company": "-",
+      "company": "Freelance",
       "website": "https://5walls.com/",
       "summary": "Pinterest like room fittings. I set up frontend app, implemented registration and authentication flow, build responsive pinterest view and set up bitbucket pipelines. Now the client rapidly reviews the changes of client developers, offers new users a personal account, monitors new users and enjoys pinterest view for the products.",
       "highlights": ["React", "Material UI", "Redux", "React Stack Grid"],
@@ -173,7 +173,7 @@
     {
       "name": "Local Insights",
       "position": "Frontend Developer",
-      "company": "-",
+      "company": "Freelance",
       "website": "https://localinsights.io/",
       "summary": "Real estate search app. I used Material-UI Grid layout system to make application responsive, Material UI to create nice views, migrated sass to css-in-js to clean up sass files, replaced webpack config with create-react-app scripts and refactored plenty of code. Now the project is completely responsive and easier to read, support and implement new features.",
       "highlights": ["React", "Material UI", "Redux", "Leaflet"],
