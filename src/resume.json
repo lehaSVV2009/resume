@@ -41,7 +41,7 @@
       "position": "Senior Software Engineer",
       "company": "Big Data Technologies",
       "website": "https://yagodabi.ru",
-      "summary": "Analytics for large online-store suppliers. Personally I've designed application architecture taking into account the complexity of algorithms and big data, set up and supported infrastructure, implemented demo, implemented MVP and led all further technical solutions.",
+      "summary": "Analytics for large online-store suppliers. Personally I've designed application architecture, taking into account the complexity of algorithms and big data, set up and supported infrastructure, implemented demo, implemented MVP and led all further technical solutions.",
       "highlights": [
         "NodeJS",
         "Express",
