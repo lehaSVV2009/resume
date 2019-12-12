@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Aliaksei Saroka",
-    "label": "Senior Software Engineer",
-    "picture": "https://lehasvv2009.github.io/resume/avatar.jpeg",
-    "email": "lehaSVV2009@gmail.com",
-    "phone": "+375336389581",
-    "website": "https://lehasvv2009.github.io/resume",
-    "summary": "Will solve your problem. 6 years experience. Having fun with programming (backend or frontend, office or remote, paid or open source). Currently welcome to relocation offered jobs.",
+    "name": "Yury Muski",
+    "label": "Senior DevOps Tools Engineer",
+    "picture": "https://media.licdn.com/dms/image/C5603AQGsBHPjvlWAVg/profile-displayphoto-shrink_800_800/0?e=1576713600&v=beta&t=r2ltKozYaWIqsWnIfAqNb4TWXz4BloKlHwADVrrNZ8I",
+    "email": "muski.yury@gmail.com",
+    "phone": "",
+    "website": "https://yurymuski.github.io/resume",
+    "summary": "Team-player, with good communication skills. \nStrong ability to maintain and troubleshoot issues.\nLPI certified DevOps Tools Engineer. AWS Certified Solutions Architect Associate.",
     "location": {
       "city": "Minsk",
       "region": "Belarus",
@@ -15,305 +15,156 @@
     "profiles": [
       {
         "network": "Github",
-        "username": "lehaSVV2009",
-        "url": "https://github.com/lehaSVV2009"
+        "username": "yurymuski",
+        "url": "https://github.com/yurymuski"
       },
       {
         "network": "LinkedIn",
-        "username": "aliaksei-saroka",
-        "url": "https://www.linkedin.com/in/aliaksei-saroka"
-      },
-      {
-        "network": "Skype",
-        "username": "csi.alexsoroka",
-        "url": "skype:csi.alexsoroka"
-      },
-      {
-        "network": "Instagram",
-        "username": "specialforkadet",
-        "url": "https://www.instagram.com/specialforkadet"
+        "username": "yury-muski",
+        "url": "https://www.linkedin.com/in/yury-muski"
       }
     ]
   },
   "work": [
     {
-      "name": "Yagoda BI",
-      "position": "Senior Software Engineer",
       "company": "Big Data Technologies",
-      "website": "https://yagodabi.ru",
-      "summary": "Analytics for large online-store suppliers. Personally I've designed application architecture, taking into account the complexity of algorithms and big data, set up and supported infrastructure, implemented demo, implemented MVP and led all further technical solutions.",
+      "position": "Senior DevOps Engineer",
+      "website": "",
+      "startDate": "2018-09-01",
+      "summary": "AWS infra architecture and setup",
       "highlights": [
-        "NodeJS",
-        "Express",
-        "Sequelize",
-        "XLSX",
-        "MySQL",
-        "Clickhouse",
+        "Terraform",
+        "Ansible",
+        "Telegraf",
+        "Prometheus",
+        "Grafana",
+        "ELK",
         "Docker",
-        "React",
-        "Material UI",
-        "Grafana"
-      ],
-      "startDate": "2019-09-01"
-    },
-    {
-      "name": "Promocat",
-      "position": "Senior Software Engineer",
-      "company": "Big Data Technologies",
-      "website": "https://chrome.google.com/webstore/detail/enifpbhifdiccfjcaipfipjpfdejibjm",
-      "summary": "Chrome extension to share online-shop coupons and promotions. In short period I've set up project infrastructure, implemented MVP and led a developer who worked on the project afterwards. That allowed my client to move to next phase (marketing).",
-      "highlights": [
-        "React",
-        "Material-UI",
-        "Styled Components",
-        "SeleniumJS",
-        "Chrome Extension"
-      ],
-      "startDate": "2019-09-01",
-      "endDate": "2019-12-01"
-    },
-    {
-      "name": "AliTools Trends",
-      "position": "Senior Software Engineer",
-      "company": "Big Data Technologies",
-      "website": "https://alitools.pro/trends/",
-      "summary": "Trends of Aliexpress products. In the project I've implemented a few versions of trending algorithm, added several complex filters to search, added social login, integrated application with a few payment systems, improved logging and monitoring, added integration to external online shops, improved analytics, improved performance of too long operations and added some tricky customizations to landing pages. Implemented features increased level of attraction and retention and allowed client to get paid subscriptions from users.",
-      "highlights": [
+        "Kubernetes",
+        "Helm",
+        "Jenkins",
+        "Gitlab-CI",
+        "Nginx",
+        "Kafka",
+        "Python",
+        "Bash scripting",
+        "NodeJS",
         "PHP",
-        "Laravel",
-        "Vue.js",
-        "MySQL",
-        "Clickhouse",
+        "GO apps support",
         "Redis",
-        "Stripe",
-        "Paypal",
-        "Tilda"
-      ],
-      "startDate": "2019-05-21",
-      "endDate": "2019-09-01"
+        "Mysql",
+        "Mongo",
+        "Clickhouse"
+      ]
     },
     {
-      "name": "Territories",
-      "position": "Full Stack Developer",
-      "company": "Freelance",
-      "website": "https://lehasvv2009.github.io/territories/",
-      "summary": "Simple battleship-like board game. Personally I designed and implemented entire game which includes game logic, frontend, backend for online game and AI bot.",
+      "company": "Aterise",
+      "position": "Senior DevOps Engineer",
+      "website": "",
+      "startDate": "2018-07-01",
+      "summary": "Shinyproxy for R apps",
       "highlights": [
-        "React",
-        "Material UI",
-        "Styled Components",
-        "boardgame.io",
-        "three.js",
-        "brain.js"
+        "Shinyproxy for R apps",
+        "CM: Ansible",
+        "CD: Jenkins",
+        "Nginx",
+        "Docker",
+        "Keycloak",
+        "Jenkins"
       ],
-      "startDate": "2018-12-01",
-      "endDate": "2019-02-18"
+      "endDate": "2018-10-01"
     },
     {
-      "name": "Interaxo Visual Design Board",
-      "position": "Full Stack Developer",
-      "company": "Issoft Solutions",
-      "website": "https://vb.interaxo.com/",
-      "summary": "React Question Board for meetings and planning using Interaxo document management system. Within the project I designed and implemented robust and secure REST API for the app and implemented new web pages like filterable cards list page, card forms, auth page, etc. Additionally I introduced a new library for all common components that are used across React applications of the customer. Plus configured CI, deployment and analytics. Now the project is easily scaled, monitored and successfully used by different customers who wants more and more new features.",
-      "highlights": [
-        "Spring",
-        "REST API",
-        "Hibernate",
-        "PostgreSQL",
-        "React",
-        "Material UI",
-        "Redux",
-        "React DnD",
-        "React Virtualized"
-      ],
+      "company": "Aterise",
+      "position": "Senior DevOps Engineer",
+      "website": "",
       "startDate": "2018-05-01",
-      "endDate": "2018-11-15"
+      "summary": "",
+      "highlights": [
+        "CM: Ansible and Capistrano",
+        "CD: Jenkins",
+        "Monitoring via Cadvisor",
+        "Prometheus and Grafana",
+        "Docker Swarm cluster for RoR apps",
+        "Linux troubleshooting and maintenance"
+      ],
+      "endDate": "2018-10-01"
     },
     {
-      "name": "EquipEngine",
-      "position": "Frontend Lead Developer",
-      "company": "Freelance",
-      "website": "https://equipengine.herokuapp.com/",
-      "summary": "Web project with courses for students and teachers. I implemented some new views and integrated the project with existing API according to the client requirements. I also introduced the project to new developers, tried to teach them project best practices, helped them and monitored their work.",
+      "company": "Adform",
+      "position": "Systems Engineer (DevOps)",
+      "website": "",
+      "startDate": "2017-10-01",
+      "summary": "",
       "highlights": [
-        "React",
-        "Redux",
-        "Styled Components",
-        "React Player",
-        "Swagger"
+        "CM: Puppet",
+        "Terraform",
+        "Linux troubleshooting and maintenance ",
+        "ElasticSearch + Logstash + Kafka + Kibana",
+        "Mesos platform for Storm topologies",
+        "WebPlatform ( IIS + HAProxy + AWS Route53 )",
+        "ChatOps (Slack + Hubot)"
       ],
-      "startDate": "2018-06-01",
-      "endDate": "2018-09-15"
-    },
-    {
-      "name": "Interaxo Connected Workflows",
-      "position": "Backend Developer",
-      "company": "Issoft Solutions",
-      "summary": "Application allows to set up external workflow for different folders in document management system. Within the project with help of mentor I implemented the application that synchronizes folders in workflow using document management system API. Now the application is successfully used by several document management clients to simplify their real workflow.",
-      "highlights": [
-        "Spring",
-        "REST API",
-        "Hibernate",
-        "Apache Camel",
-        "WebSocket"
-      ],
-      "startDate": "2018-02-01",
       "endDate": "2018-05-01"
     },
     {
-      "name": "5Walls",
-      "position": "Frontend Developer",
-      "company": "Freelance",
-      "website": "https://5walls.com/",
-      "summary": "Pinterest like room fittings. I set up frontend app, implemented registration and authentication flow, build responsive pinterest view and set up bitbucket pipelines. Now the client rapidly reviews the changes of client developers, offers new users a personal account, monitors new users and enjoys pinterest view for the products.",
-      "highlights": ["React", "Material UI", "Redux", "React Stack Grid"],
-      "startDate": "2018-03-01",
-      "endDate": "2018-04-15"
-    },
-    {
-      "name": "Local Insights",
-      "position": "Frontend Developer",
-      "company": "Freelance",
-      "website": "https://localinsights.io/",
-      "summary": "Real estate search app. I used Material-UI Grid layout system to make application responsive, Material UI to create nice views, migrated sass to css-in-js to clean up sass files, replaced webpack config with create-react-app scripts and refactored plenty of code. Now the project is completely responsive and easier to read, support and implement new features.",
-      "highlights": ["React", "Material UI", "Redux", "Leaflet"],
-      "startDate": "2017-11-01",
-      "endDate": "2018-02-01"
-    },
-    {
-      "name": "Interaxo Public API",
-      "position": "Backend Developer",
-      "company": "Issoft Solutions",
-      "website": "https://api.interaxo.com/",
-      "summary": "REST Public API for big document management system. I spent a lot of time learning REST API best practices and with help of mentor I implemented Public API, which is monitored, covered by different types of tests, secured by OAuth2, well-documented, versionable and follow many REST API best practices. Now API is successfully used by many internal document management system applications as well as external document management customer applications.",
+      "company": "EPAM Systems",
+      "position": "CNO Engineer (Cloud Native Operations)",
+      "website": "",
+      "startDate": "2017-04-01",
+      "summary": "",
       "highlights": [
-        "Spring",
-        "REST API",
-        "OpenID Connect",
-        "OAuth2",
-        "Keycloak",
-        "Retrofit",
-        "Swagger",
-        "Docker",
-        "Openshift"
+        "AWS",
+        "CI: Jenkins DSL for Java spring boot apps",
+        "CD: Spinnaker",
+        "CM: Ansible and Cloudformation"
       ],
-      "startDate": "2017-01-01",
-      "endDate": "2018-01-01"
+      "endDate": "2017-10-01"
     },
     {
-      "name": "MedScale+",
-      "position": "Backend Developer",
-      "company": "Issoft Solutions",
-      "website": "https://portal.medscaleplus.com",
-      "summary": "Web and mobile applications for medical items monitoring on ships. I fixed all the bugs, provided by the client, and some bugs found by me in Spring Data logic and deployment to AWS. Now the application is used by captains and crew members on ships.",
-      "highlights": ["Spring", "Hibernate", "Spock", "AWS EC2", "Bamboo"],
-      "startDate": "2017-07-01",
-      "endDate": "2017-08-15"
-    },
-    {
-      "name": "Interaxo",
-      "position": "Full Stack Developer",
-      "company": "Issoft Solutions",
-      "website": "https://prosjekthotell.com",
-      "summary": "Enterprise document management system for engineering and oil industry in Norway. By the end date I've learnt all the areas of the application and have been able to quickly find and fix any bugs. I improved some areas like bulk import, download, upload, email handling, security, mobile app, etc. I also refactored a lot of code. Now the amount of the application users and new features still rapidly grows while the amount of bugs grows not so fast as it was before areas improvements.",
+      "company": "EPAM Systems",
+      "position": "Build Engineer",
+      "website": "",
+      "startDate": "2016-06-01",
+      "summary": "",
       "highlights": [
-        "Spring",
-        "Alfresco",
-        "CMIS",
-        "JUnit",
-        "Gradle",
-        "ExtJS",
-        "Cordova/Phonegap",
-        "Google Analytics",
-        "Jenkins",
-        "Git"
-      ],
-      "startDate": "2014-10-10",
-      "endDate": "2017-01-01"
-    },
-    {
-      "position": "Java Developer",
-      "company": "IBA Group",
-      "summary": "Support of bank content management system.",
-      "highlights": ["IBM Tivoli Storage Manager"],
-      "startDate": "2014-08-01",
-      "endDate": "2014-10-01"
-    },
-    {
-      "name": "Belveb Bank System",
-      "position": "Full Stack Developer",
-      "company": "IBA Group",
-      "summary": "Web based bank document management system.",
-      "highlights": [
-        "Apache Struts",
-        "Dojo",
+        "TFS; Jenkins",
+        "Ansible",
+        "Nexus",
+        "Powershell",
+        "Bash",
+        "Tomcat",
+        "IIS",
         "Ant",
-        "IBM FileNet",
-        "IBM WebSphere",
-        "Apache POI",
-        "SVN"
+        "Msbuild",
+        "350+ servers",
+        "CICD via TFS and Jenkins for JAVA.NET projects"
       ],
-      "startDate": "2014-02-01",
-      "endDate": "2014-08-01"
+      "endDate": "2017-10-01"
     },
     {
-      "position": "Java Developer",
-      "company": "IBA Group",
-      "summary": "Web based document management system.",
+      "company": "1st central clinic",
+      "position": "System Administrator",
+      "website": "",
+      "startDate": "2014-04-01",
+      "summary": "Maintenance of IT environment in medical organizations. Installed and configured DNS, DHCP, Firewall (Kerio Control), Terminal server, MS SQL Server. Organized network infrastructure, configured Cisco, D-link, TP-link. Supported medical software based on MS SQL database",
       "highlights": [
-        "JSP",
-        "Servlets",
-        "XSLT",
-        "Maven",
-        "IBM FileNet",
-        "IBM WebSphere",
-        "Apache POI",
-        "SVN"
+        "DNS",
+        "DHCP",
+        "MS SQL"
       ],
-      "startDate": "2013-09-20",
-      "endDate": "2014-02-01"
+      "endDate": "2016-06-01"
     }
   ],
   "education": [
     {
       "institution": "BSUIR",
-      "area": "Artificial intelligence",
+      "area": "",
       "studyType": "Bachelor",
-      "startDate": "2011-09-01",
-      "endDate": "2016-06-01"
-    },
-    {
-      "institution": "BSUIR",
-      "area": "Ergonomics",
-      "studyType": "Master",
-      "startDate": "2016-09-01",
-      "endDate": "2018-06-01"
-    }
-  ],
-  "publications": [
-    {
-      "name": "AI Knowledge base in cookery",
-      "publisher": "BSUIR",
-      "releaseDate": "2015-12-03",
-      "website": "http://distant.bsuir.by/conf"
-    }
-  ],
-  "skills": [
-    {
-      "name": "JavaScript",
-      "keywords": ["6 years"]
-    },
-    {
-      "name": "React JS",
-      "keywords": ["4 years"]
-    },
-    {
-      "name": "Java",
-      "keywords": ["5 years"]
-    },
-    {
-      "name": "Spring",
-      "keywords": ["4 years"]
+      "startDate": "2017-09-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2022-06-01"
     }
   ],
   "languages": [
@@ -324,92 +175,64 @@
     {
       "language": "English",
       "fluency": "Advanced"
-    },
-    {
-      "language": "German",
-      "fluency": "Beginner"
     }
   ],
   "interests": [
     {
-      "name": "Programming"
-    },
-    {
-      "name": "Sport"
-    },
-    {
-      "name": "Camping"
-    },
-    {
       "name": "Sleeping"
+    },
+    {
+      "name": "Dogs"
+    },
+    {
+      "name": "Taxi"
+    },
+    {
+      "name": "Hockey"
     }
   ],
   "awards": [
     {
-      "title": "Docker Training",
-      "date": "2018-07-01",
-      "awarder": "Issoft Solutions",
-      "summary": "Succesfully finished training."
+      "title": "LPIC-OT DevOps Tools Engineer",
+      "date": "2018-07-04",
+      "awarder": "Linux Professional Institute",
+      "summary": "Credential ID 2atq8jdjvy"
     },
     {
-      "title": "Amazon Web Services for Java Developers Training",
-      "date": "2018-03-01",
-      "awarder": "Issoft Solutions",
-      "summary": "Succesfully finished training."
-    },
-    {
-      "title": "Hibernate, JPA, Spring Training",
-      "date": "2018-01-15",
-      "awarder": "Issoft Solutions",
-      "summary": "Succesfully finished training."
-    },
-    {
-      "title": "ReactJS Basics Training",
-      "date": "2016-06-01",
-      "awarder": "Issoft Solutions",
-      "summary": "Succesfully finished training."
-    },
-    {
-      "title": "EJB Web Development Training",
-      "date": "2014-08-01",
-      "awarder": "IBA Group",
-      "summary": "Succesfully finished training."
-    },
-    {
-      "title": "Java Web Development Training",
-      "date": "2014-05-01",
-      "awarder": "IBA Group",
-      "summary": "Succesfully finished training."
-    },
-    {
-      "title": "Java Web Development Training",
-      "date": "2013-08-01",
-      "awarder": "Itransition",
-      "summary": "Succesfully finished training."
-    },
-    {
-      "title": "Android Development Basics Training",
-      "date": "2013-05-01",
-      "awarder": "Belhard",
-      "summary": "Succesfully finished training."
+      "title": "AWS Certified Solutions Architect Associate",
+      "date": "2019-10-28",
+      "awarder": "Amazon Web Services (AWS)",
+      "summary": "Credential ID N7568QF1M14QQ7KK"
     }
   ],
-  "volunteer": [
+  "skills": [
     {
-      "organization": "Welfare for animals in Goa",
-      "position": "Volunteer",
-      "website": "http://wagoa.com",
-      "startDate": "2019-01-15",
-      "endDate": "2019-02-10",
-      "summary": "Hour a day helped injured cows and dogs in Indian shelters."
+      "name": "Linux",
+      "level": "",
+      "keywords": [
+        "5 years"
+      ]
     },
     {
-      "organization": "Boardgame.io on Github",
-      "position": "Contributor",
-      "website": "https://boardgame.io",
-      "startDate": "2018-12-15",
-      "endDate": "2019-02-01",
-      "summary": "Fixed several issues related to deployment and board game lobby"
+      "name": "Ansible",
+      "level": "",
+      "keywords": [
+        "3 years"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": [
+        "3 years"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "",
+      "keywords": [
+        "2 years"
+      ]
     }
   ]
 }
