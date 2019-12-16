@@ -9,7 +9,6 @@ import HeaderPage from "./containers/HeaderPage";
 import HomePage from "./containers/HomePage";
 import InterestsPage from "./containers/InterestsPage";
 import ProjectsPage from "./containers/ProjectsPage";
-import Seo from "./containers/Seo";
 import SkillsPage from "./containers/SkillsPage";
 
 import resume from "./resume.json";
@@ -46,20 +45,6 @@ export default class App extends Component {
     return (
       <MuiThemeProvider>
         <div>
-          <Seo
-            name={resume.basics.name}
-            label={resume.basics.label}
-            website={resume.basics.website}
-            imageUrl={resume.basics.picture}
-            keywords={[
-              resume.basics.name,
-              resume.basics.label,
-              "CV",
-              "Resume",
-              "Portfolio",
-              resume.basics.location.city
-            ]}
-          />
           <HeaderPage breadCrumb={breadCrumb} />
           <Fragment color="#473a56" tag={breadCrumb[0].anchor} home>
             <HomePage

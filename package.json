@@ -9,7 +9,6 @@
     "react": "^15.6.1",
     "react-anime": "^0.3.4",
     "react-dom": "^15.6.1",
-    "react-helmet": "^5.2.1",
     "react-material-ui-form-validator": "^1.0.0",
     "react-responsive": "^4.0.3",
     "react-scripts": "^3.0.0",
@@ -23,9 +22,10 @@
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
-    "build": "npm run build-html && npm run build-pdf && npm run build-css && react-scripts build",
+    "build": "npm run build-html && npm run build-pdf && npm run build-seo && npm run build-css && react-scripts build",
     "build-html": "cd src && resume export ../public/cv.html && cd ..",
     "build-pdf": "cd src && resume export ../public/cv.pdf && cd ..",
+    "build-seo": "node buildSeo.js",
     "test": "CI=true react-scripts test env=jsdom",
     "eject": "react-scripts eject"
   },
@@ -39,6 +39,7 @@
     "npm-run-all": "^4.1.1",
     "prettier": "^1.16.4",
     "pretty-quick": "^1.10.0",
+    "pug": "^2.0.4",
     "puppeteer": "^2.0.0",
     "resume-cli": "^1.2.7"
   },
