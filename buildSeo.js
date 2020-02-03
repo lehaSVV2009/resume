@@ -13,7 +13,7 @@ const {
 
 // react-helmet didn't help with non-google crawlers
 const html = pug.renderFile("./public/index.html.pug", {
-  title: `Resume/CV of ${name}`,
+  title: name,
   description: `${name} - ${label}`,
   website: website,
   imageUrl: picture,
