@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.4e6efbae.chunk.css",
+    "main.js": "/resume/static/js/main.07702b91.chunk.js",
+    "main.js.map": "/resume/static/js/main.07702b91.chunk.js.map",
+    "runtime~main.js": "/resume/static/js/runtime~main.30522d0f.js",
+    "runtime~main.js.map": "/resume/static/js/runtime~main.30522d0f.js.map",
+    "static/css/2.f4948e68.chunk.css": "/resume/static/css/2.f4948e68.chunk.css",
+    "static/js/2.4d85da14.chunk.js": "/resume/static/js/2.4d85da14.chunk.js",
+    "static/js/2.4d85da14.chunk.js.map": "/resume/static/js/2.4d85da14.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "precache-manifest.f5978e22f80f3a3ef9c1cda63c7155cd.js": "/resume/precache-manifest.f5978e22f80f3a3ef9c1cda63c7155cd.js",
+    "service-worker.js": "/resume/service-worker.js",
+    "static/css/2.f4948e68.chunk.css.map": "/resume/static/css/2.f4948e68.chunk.css.map",
+    "static/css/main.4e6efbae.chunk.css.map": "/resume/static/css/main.4e6efbae.chunk.css.map",
+    "static/media/camping.gif": "/resume/static/media/camping.0b81490d.gif",
+    "static/media/programming.jpg": "/resume/static/media/programming.ca9ed1a4.jpg",
+    "static/media/sleeping.jpg": "/resume/static/media/sleeping.f066ccf6.jpg",
+    "static/media/snowboarding.gif": "/resume/static/media/snowboarding.30404734.gif"
+  }
+}
