@@ -39,7 +39,7 @@
     {
       "name": "Seller Assistant App",
       "position": "Senior Software Engineer",
-      "company": "Freelance",
+      "company": "Seller Assistant App",
       "website": "https://www.sellerassistant.app/",
       "summary": "Product research chrome extension for amazon resellers. Set up analytics, improved architecture, CI/CD, payment system, implemented some UI features, etc.",
       "highlights": [
@@ -334,11 +334,11 @@
       "keywords": ["4 years"]
     },
     {
-      "name": "MySQL",
-      "keywords": ["4 years"]
+      "name": "Laravel",
+      "keywords": ["2 years"]
     },
     {
-      "name": "Laravel",
+      "name": "MySQL",
       "keywords": ["2 years"]
     }
   ],
