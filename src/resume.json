@@ -37,6 +37,21 @@
   },
   "work": [
     {
+      "name": "Seller Assistant App",
+      "position": "Senior Software Engineer",
+      "company": "Freelance",
+      "website": "https://www.sellerassistant.app/",
+      "summary": "Product research chrome extension for amazon resellers. Set up analytics, improved architecture, CI/CD, payment system, implemented some UI features, etc.",
+      "highlights": [
+        "PHP",
+        "Laravel",
+        "Laravel Spark",
+        "MariaDB",
+        "Vue.js"
+      ],
+      "startDate": "2020-10-01"
+    },
+    {
       "name": "Yagoda BI",
       "position": "Senior Software Engineer",
       "company": "Big Data Technologies",
@@ -52,9 +67,11 @@
         "Docker",
         "React",
         "Material UI",
-        "Grafana"
+        "Grafana",
+        "Ansible"
       ],
-      "startDate": "2019-09-01"
+      "startDate": "2019-09-01",
+      "endDate": "2020-04-01"
     },
     {
       "name": "Promocat",
