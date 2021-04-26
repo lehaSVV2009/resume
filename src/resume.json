@@ -6,7 +6,7 @@
     "email": "lehaSVV2009@gmail.com",
     "phone": "+375336389581",
     "website": "https://lehasvv2009.github.io/resume",
-    "summary": "Will solve your problem. 6 years experience. Having fun with programming (backend or frontend, office or remote, paid or open source). Currently welcome to relocation offered jobs.",
+    "summary": "Will solve your problem. 7 years experience. Having fun with programming (backend or frontend, paid or open source).",
     "location": {
       "city": "Minsk",
       "region": "Belarus",
@@ -47,7 +47,8 @@
         "Laravel",
         "Laravel Spark",
         "MariaDB",
-        "Vue.js"
+        "Vue.js",
+        "Chrome Extension"
       ],
       "startDate": "2020-10-01"
     },
@@ -322,7 +323,7 @@
     },
     {
       "name": "React JS",
-      "keywords": ["4 years"]
+      "keywords": ["5 years"]
     },
     {
       "name": "Java",
@@ -331,6 +332,14 @@
     {
       "name": "Spring",
       "keywords": ["4 years"]
+    },
+    {
+      "name": "MySQL",
+      "keywords": ["4 years"]
+    },
+    {
+      "name": "Laravel",
+      "keywords": ["2 years"]
     }
   ],
   "languages": [
