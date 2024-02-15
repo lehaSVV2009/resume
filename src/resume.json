@@ -50,7 +50,8 @@
         "Vue.js",
         "Chrome Extension"
       ],
-      "startDate": "2020-10-01"
+      "startDate": "2020-10-01",
+      "endDate": "2021-10-01"
     },
     {
       "name": "Yagoda BI",
