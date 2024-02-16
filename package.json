@@ -24,6 +24,8 @@
     "build-pdf": "html-export-pdf-cli ./public/cv.html -o ./public/cv.pdf",
     "build-seo": "node buildSeo.js",
     "test": "CI=true react-scripts test env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "hooks": {
