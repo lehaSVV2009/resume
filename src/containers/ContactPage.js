@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import emailjs from "@emailjs/browser";
 import { RingLoader } from "halogen";
 import { toast, ToastContainer } from "react-toastify";
 
@@ -12,11 +13,13 @@ export default class ContactPage extends Component {
 
   handleSubmit = ({ to, from, message }) => {
     this.setState({ loading: true });
-    fetch(`https://formspree.io/${to}`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ from, message })
-    })
+    emailjs
+      .send(
+        process.env.REACT_APP_EMAIL_JS_SERVICE_ID,
+        process.env.REACT_APP_EMAIL_JS_TEMPLATE_ID,
+        { to, from, message },
+        process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY
+      )
       .then(response => {
         if (response.status >= 200 && response.status < 300) {
           return response;

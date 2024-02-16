@@ -1,9 +1,11 @@
 {
   "name": "resume",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "homepage": "/resume",
   "dependencies": {
+    "@emailjs/browser": "^4.1.0",
+    "@formspree/react": "^2.5.1",
     "halogen": "^0.2.0",
     "material-ui": "^0.19.2",
     "react": "^15.6.1",
@@ -11,7 +13,7 @@
     "react-dom": "^15.6.1",
     "react-material-ui-form-validator": "^1.0.0",
     "react-responsive": "^4.0.3",
-    "react-scripts": "^3.0.0",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.6.5",
     "react-tap-event": "^2.0.1",
     "react-tap-event-plugin": "^2.0.1",
