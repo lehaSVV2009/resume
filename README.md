@@ -1,6 +1,6 @@
 # Beatiful React Material-UI Portfolio | Resume | CV
 
-Feel free to change `resume.json` in `src` folder and use it as your own CV :smile:
+Feel free to change `resume.json` in `src` folder and use it as your own SEO optimized CV :smile:
 P.S. [JSON Resume](https://jsonresume.org/schema/) is used here.
 
 ## Resume Example
@@ -107,9 +107,9 @@ P.S. [JSON Resume](https://jsonresume.org/schema/) is used here.
    3. Click `Commit Changes`, wait for 1-2 minutes and open https://*yourgithubaccount*.github.io/resume.
 4. Sign up to https://formspree.io/ to get emails from `Contact` form.
 
-P.S. `SEO` and `cv.html` are automatically applied.
+P.S. `SEO`, `cv.html` and `cv.pdf` are automatically applied.
 
-P.S.2. Unfortunately `cv.pdf` and `cv.docx` are not auto generated... Try [Resume Fodder](https://resumefodder.com) + [CloudConvert](https://cloudconvert.com) and update `public/cv.docx` and `public/cv.pdf` files if you need that.
+P.S.2. Unfortunately `cv.docx` is not auto generated... Try [pdf2docx](https://pdf2docx.com/) + [CloudConvert](https://cloudconvert.com) and update `public/cv.docx` file if you need that.
 
 ## Linkedin tutorial
 
@@ -159,7 +159,7 @@ $ npm test
 
 ## Deployment
 
-No magic, build folder contains only static resources - html, js, css, images.
+No magic, build folder contains only static resources - html, js,.scss, images.
 
 Travis deploys build folder on Github Pages.
 
