@@ -147,6 +147,17 @@ $ npm test
 
 ## Deployment
 
+```
+$ yarn deploy
+```
+
+or
+
+```
+$ npm run deploy
+```
+
+
 No magic, build folder contains only static resources - html, js,.scss, images.
 
 Github pages deploy build folder on gh-pages branch.
