@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Element } from "react-scroll";
 
-import "./Fragment.css";
+import "./Fragment.scss";
 
 export default class Fragment extends Component {
   constructor(props) {

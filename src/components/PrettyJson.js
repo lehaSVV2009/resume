@@ -2,7 +2,7 @@ import React from "react";
 
 import PrettyJsonObject from "./PrettyJsonObject";
 
-import "./PrettyJson.css";
+import "./PrettyJson.scss";
 
 // TODO extract PrettyJsonArray
 // or use react-json-view or smth like that

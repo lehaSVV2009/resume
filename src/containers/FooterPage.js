@@ -1,7 +1,7 @@
 import React from "react";
 
 import Links from "../components/Links";
-import "./FooterPage.css";
+import "./FooterPage.scss";
 
 export default ({ links }) => (
   <div className="footer">

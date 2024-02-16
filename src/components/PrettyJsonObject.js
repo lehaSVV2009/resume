@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import "./PrettyJson.css";
+import "./PrettyJson.scss";
 
 export default class PrettyJsonObject extends Component {
   constructor(props) {

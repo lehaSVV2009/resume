@@ -2,7 +2,7 @@ import React from "react";
 import Anime from "react-anime";
 
 import Logo from "./Logo";
-import "./SimpleInfo.css";
+import "./SimpleInfo.scss";
 
 /**
  * Simple info about resume owner.

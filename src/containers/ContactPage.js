@@ -3,7 +3,7 @@ import { RingLoader } from "halogen";
 import { toast, ToastContainer } from "react-toastify";
 
 import ContactForm from "../components/ContactForm";
-import "./ContactPage.css";
+import "./ContactPage.scss";
 
 export default class ContactPage extends Component {
   state = {

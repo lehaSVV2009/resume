@@ -3,7 +3,7 @@ import { Card, CardHeader, CardText } from "material-ui/Card";
 import Chip from "material-ui/Chip";
 
 import ReplacedDividerText from "../components/ReplacedDividerText";
-import "./ProjectItem.css";
+import "./ProjectItem.scss";
 
 const formatDate = (date, defaultIfNull) =>
   date && Date.parse(date)

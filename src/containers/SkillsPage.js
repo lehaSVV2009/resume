@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import Console from "../components/Console";
 import PrettyJson from "../components/PrettyJson";
-import "./SkillsPage.css";
+import "./SkillsPage.scss";
 
 export default class SkillsPage extends Component {
   constructor(props) {

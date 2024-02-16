@@ -2,7 +2,7 @@ import React from "react";
 import Avatar from "material-ui/Avatar";
 
 import ReplacedDividerText from "../components/ReplacedDividerText";
-import "./AboutPage.css";
+import "./AboutPage.scss";
 
 export default ({ picture, about }) => (
   <div className="about">

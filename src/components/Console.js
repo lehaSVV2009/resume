@@ -1,7 +1,7 @@
 import React from "react";
 import Paper from "material-ui/Paper";
 
-import "./Console.css";
+import "./Console.scss";
 
 const consoleStyle = {
   width: "100%",

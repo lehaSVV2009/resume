@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Links.css";
+import "./Links.scss";
 
 export default ({ links }) => {
   if (!Array.isArray(links)) {
