@@ -18,11 +18,10 @@
     "react-toastify": "^4.5.2"
   },
   "scripts": {
-
     "start": "react-scripts start",
     "build": "npm run build-html && npm run build-pdf && npm run build-seo && react-scripts build",
-    "build-html": "cd src && resume export ../public/cv.html && cd ..",
-    "build-pdf": "cd src && resume export ../public/cv.pdf && cd ..",
+    "build-html": "cd src && resumed render -o ../public/cv.html -t jsonresume-theme-even && cd ..",
+    "build-pdf": "html-export-pdf-cli ./public/cv.html -o ./public/cv.pdf",
     "build-seo": "node buildSeo.js",
     "test": "CI=true react-scripts test env=jsdom",
     "eject": "react-scripts eject"
@@ -32,12 +31,15 @@
   },
   "devDependencies": {
     "eslint-plugin-prettier": "^3.0.1",
+    "html-export-pdf-cli": "^1.1.5",
     "husky": "^1.3.1",
+    "jsonresume-theme-even": "^0.22.0",
     "npm-run-all": "^4.1.1",
     "prettier": "^1.16.4",
     "pretty-quick": "^1.10.0",
     "pug": "^2.0.4",
     "puppeteer": "^2.0.0",
+    "resumed": "^3.0.1",
     "sass": "^1.71.0"
   },
   "browserslist": {

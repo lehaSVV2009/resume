@@ -1,1042 +1,859 @@
-<!doctype html>
-<html>
-	<head>
-	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-	
-	<title>Aliaksei Saroka</title>
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-	
-	<style type="text/css">
-	@import url(
-	https://fonts.googleapis.com/css?family=Lato:400,700
-);
-body {
-	background: #fff;
-	font-family: Lato, sans-serif;
-	margin: 0 0 80px;
-}
-a {
-	color: #2ecc71;
-}
-a:focus,
-a:hover {
-	color: #f1c40f;
-	text-decoration: none;
-}
-p {
-	line-height: 1.5;
-	margin: 0;
-}
-p + p {
-	margin-top: 10px;
-}
-h1,
-h2,
-h3,
-h4 {
-	margin-top: 0
-}
-section {
-	margin-top: 30px;
-}
-li {
-	line-height: 1.8;
-	list-style: none;
-}
-li:before {
-	content: "\f052";
-	float: left;
-	font: 13px Octicons;
-	margin-top: 6px;
-	margin-left: -20px;
-	opacity: .1;
-	position: absolute;
-}
-blockquote {
-	border-left: 5px solid #e7e9ec;
-	font-size: 14px;
-}
-em {
-	color: #95a5a6;
-	font-weight: normal;
-	font-style: normal;
-}
-h4 span:first-child {
-	color: #000;
-	font-weight: bold;
-}
-.container {
-	max-width: 750px;
-	padding: 0 30px;
-}
-.col-sm-6 {
-	margin-bottom: 10px;
-}
-.col-sm-12 h4 {
-	margin-top: 12px; 
-}
-.col-sm-12 + .col-sm-12 {
-	margin-top: 30px;
-}
-#header {
-	background: #f4f6f6;
-	padding: 50px 0;
-	margin-bottom: 30px;
-}
-#header h2 {
-	color: #95a5a6;
-	font-size: 24px;
-}
-#content h3 {
-	color: #f1c40f;
-	font-size: 26px;
-	margin-top: -4px;
-}
-#content aside {
-	text-align: right;
-	padding-right: 30px;
-}
-#profiles .network {
-	text-transform: capitalize;
-}
-#work .position,
-#volunteer .position {
-	font-weight: bold;
-	margin-bottom: 8px;
-}
-#education .area {
-	font-weight: bold;
-}
-#education .area:before {
-	content: "\f0d7";
-	font: 16px Octicons;
-	margin-right: 6px;
-}
-#education .studyType {
-	margin-left: 25px;
-}
-#awards .summary,
-#publications .summary {
-	margin-top: 8px;
-}
-#publications .website a:before {
-	content: attr(href);
-}
-
-@media (min-width: 480px) {
-	.strike-through {
-		border-top: 1px solid #f4f6f6;
-		height: 20px;
-		margin-top: 12px;
-		margin-bottom: -2px;
-		position: relative;
-	}
-	.strike-through span,
-	.strike-through a {
-		background: #fff;
-		position: absolute;
-	}
-	.strike-through span:first-child {
-		padding-right: 20px;
-		margin-top: -12px;
-	}
-	.strike-through span + span {
-		font-size: 14px;
-		margin-top: -10px;
-		padding-left: 20px;
-		right: 0;
-	}
-}
-@media (max-width: 768px) {
-	.col-sm-6:last-child {
-		margin-bottom: 0px;
-	}
-	#content aside {
-		margin-bottom: 20px;
-		padding-right: 0;
-		text-align: left;
-	}
-	#publications .website a:before {
-		content: "View publication";
-	}
-}
-@media (max-width: 480px) {
-	h1 {
-		font-size: 26px;
-	}
-	.date {
-		font-size: 14px;
-		margin-bottom: 5px;
-	}
-	.strike-through span:first-child {
-		margin-bottom: 7px;
-	}
-	.strike-through span {
-		display: block;
-	}	
-	#header {
-		margin-bottom: 10px;
-		padding: 40px 0;
-	}
-	#actions {
-		display: none;
-	}
-}
-
-	</style>
-	
-	</head>
-	<body>
-	
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-9 col-sm-push-3">
-					<h1>
-						Aliaksei Saroka
-					</h1>
-					<h2>
-						Senior Software Engineer
-					</h2>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div id="content" class="container">
-
-	<section id="contact" class="row">
-		<aside class="col-sm-3">
-			<h3>Contact</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<strong>Email</strong>
-				<div class="email">lehaSVV2009@gmail.com</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Phone</strong>
-				<div class="phone">+375336389581</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Website</strong>
-				<div class="website">
-					<a href="https://lehasvv2009.github.io/resume">https://lehasvv2009.github.io/resume</a>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	<section id="about" class="row">
-		<aside class="col-sm-3">
-			<h3>About</h3>
-		</aside>
-		<div class="col-sm-9">
-			<p>Will solve your problem. 6 years experience. Having fun with programming (backend or frontend, office or remote, paid or open source). Currently welcome to relocation offered jobs.</p>
-		</div>
-	</section>
-	<section id="profiles" class="row">
-		<aside class="col-sm-3">
-			<h3>Profiles</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-				<div class="col-sm-6">
-					<strong class="network">
-						Github
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://github.com/lehaSVV2009">lehaSVV2009</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<strong class="network">
-						LinkedIn
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://www.linkedin.com/in/aliaksei-saroka">aliaksei-saroka</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<strong class="network">
-						Skype
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="skype:csi.alexsoroka">csi.alexsoroka</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<strong class="network">
-						Instagram
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://www.instagram.com/specialforkadet">specialforkadet</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="work" class="row">
-		<aside class="col-sm-3">
-			<h3>Work</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Big Data Technologies</span>
-					<span class="date">
-						2019-09-01 — 
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://yagodabi.ru">https://yagodabi.ru</a>
-				</div>
-				<div class="position">
-					Senior Software Engineer
-				</div>
-				<div class="summary">
-					<p>Analytics for large online-store suppliers. Personally I&#x27;ve designed application architecture, taking into account the complexity of algorithms and big data, set up and supported infrastructure, implemented demo, implemented MVP and led all further technical solutions.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">NodeJS</li>
-					<li class="bullet">Express</li>
-					<li class="bullet">Sequelize</li>
-					<li class="bullet">XLSX</li>
-					<li class="bullet">MySQL</li>
-					<li class="bullet">Clickhouse</li>
-					<li class="bullet">Docker</li>
-					<li class="bullet">React</li>
-					<li class="bullet">Material UI</li>
-					<li class="bullet">Grafana</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Big Data Technologies</span>
-					<span class="date">
-						2019-09-01 — 2019-12-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://chrome.google.com/webstore/detail/enifpbhifdiccfjcaipfipjpfdejibjm">https://chrome.google.com/webstore/detail/enifpbhifdiccfjcaipfipjpfdejibjm</a>
-				</div>
-				<div class="position">
-					Senior Software Engineer
-				</div>
-				<div class="summary">
-					<p>Chrome extension to share online-shop coupons and promotions. In short period I&#x27;ve set up project infrastructure, implemented MVP and led a developer who worked on the project afterwards. That allowed my client to move to next phase (marketing).</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">React</li>
-					<li class="bullet">Material-UI</li>
-					<li class="bullet">Styled Components</li>
-					<li class="bullet">SeleniumJS</li>
-					<li class="bullet">Chrome Extension</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Big Data Technologies</span>
-					<span class="date">
-						2019-05-21 — 2019-09-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://alitools.pro/trends/">https://alitools.pro/trends/</a>
-				</div>
-				<div class="position">
-					Senior Software Engineer
-				</div>
-				<div class="summary">
-					<p>Trends of Aliexpress products. In the project I&#x27;ve implemented a few versions of trending algorithm, added several complex filters to search, added social login, integrated application with a few payment systems, improved logging and monitoring, added integration to external online shops, improved analytics, improved performance of too long operations and added some tricky customizations to landing pages. Implemented features increased level of attraction and retention and allowed client to get paid subscriptions from users.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">PHP</li>
-					<li class="bullet">Laravel</li>
-					<li class="bullet">Vue.js</li>
-					<li class="bullet">MySQL</li>
-					<li class="bullet">Clickhouse</li>
-					<li class="bullet">Redis</li>
-					<li class="bullet">Stripe</li>
-					<li class="bullet">Paypal</li>
-					<li class="bullet">Tilda</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Freelance</span>
-					<span class="date">
-						2018-12-01 — 2019-02-18
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://lehasvv2009.github.io/territories/">https://lehasvv2009.github.io/territories/</a>
-				</div>
-				<div class="position">
-					Full Stack Developer
-				</div>
-				<div class="summary">
-					<p>Simple battleship-like board game. Personally I designed and implemented entire game which includes game logic, frontend, backend for online game and AI bot.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">React</li>
-					<li class="bullet">Material UI</li>
-					<li class="bullet">Styled Components</li>
-					<li class="bullet">boardgame.io</li>
-					<li class="bullet">three.js</li>
-					<li class="bullet">brain.js</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Issoft Solutions</span>
-					<span class="date">
-						2018-05-01 — 2018-11-15
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://vb.interaxo.com/">https://vb.interaxo.com/</a>
-				</div>
-				<div class="position">
-					Full Stack Developer
-				</div>
-				<div class="summary">
-					<p>React Question Board for meetings and planning using Interaxo document management system. Within the project I designed and implemented robust and secure REST API for the app and implemented new web pages like filterable cards list page, card forms, auth page, etc. Additionally I introduced a new library for all common components that are used across React applications of the customer. Plus configured CI, deployment and analytics. Now the project is easily scaled, monitored and successfully used by different customers who wants more and more new features.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Spring</li>
-					<li class="bullet">REST API</li>
-					<li class="bullet">Hibernate</li>
-					<li class="bullet">PostgreSQL</li>
-					<li class="bullet">React</li>
-					<li class="bullet">Material UI</li>
-					<li class="bullet">Redux</li>
-					<li class="bullet">React DnD</li>
-					<li class="bullet">React Virtualized</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Freelance</span>
-					<span class="date">
-						2018-06-01 — 2018-09-15
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://equipengine.herokuapp.com/">https://equipengine.herokuapp.com/</a>
-				</div>
-				<div class="position">
-					Frontend Lead Developer
-				</div>
-				<div class="summary">
-					<p>Web project with courses for students and teachers. I implemented some new views and integrated the project with existing API according to the client requirements. I also introduced the project to new developers, tried to teach them project best practices, helped them and monitored their work.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">React</li>
-					<li class="bullet">Redux</li>
-					<li class="bullet">Styled Components</li>
-					<li class="bullet">React Player</li>
-					<li class="bullet">Swagger</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Issoft Solutions</span>
-					<span class="date">
-						2018-02-01 — 2018-05-01
-					</span>
-				</h4>
-				<div class="position">
-					Backend Developer
-				</div>
-				<div class="summary">
-					<p>Application allows to set up external workflow for different folders in document management system. Within the project with help of mentor I implemented the application that synchronizes folders in workflow using document management system API. Now the application is successfully used by several document management clients to simplify their real workflow.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Spring</li>
-					<li class="bullet">REST API</li>
-					<li class="bullet">Hibernate</li>
-					<li class="bullet">Apache Camel</li>
-					<li class="bullet">WebSocket</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Freelance</span>
-					<span class="date">
-						2018-03-01 — 2018-04-15
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://5walls.com/">https://5walls.com/</a>
-				</div>
-				<div class="position">
-					Frontend Developer
-				</div>
-				<div class="summary">
-					<p>Pinterest like room fittings. I set up frontend app, implemented registration and authentication flow, build responsive pinterest view and set up bitbucket pipelines. Now the client rapidly reviews the changes of client developers, offers new users a personal account, monitors new users and enjoys pinterest view for the products.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">React</li>
-					<li class="bullet">Material UI</li>
-					<li class="bullet">Redux</li>
-					<li class="bullet">React Stack Grid</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Freelance</span>
-					<span class="date">
-						2017-11-01 — 2018-02-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://localinsights.io/">https://localinsights.io/</a>
-				</div>
-				<div class="position">
-					Frontend Developer
-				</div>
-				<div class="summary">
-					<p>Real estate search app. I used Material-UI Grid layout system to make application responsive, Material UI to create nice views, migrated sass to css-in-js to clean up sass files, replaced webpack config with create-react-app scripts and refactored plenty of code. Now the project is completely responsive and easier to read, support and implement new features.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">React</li>
-					<li class="bullet">Material UI</li>
-					<li class="bullet">Redux</li>
-					<li class="bullet">Leaflet</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Issoft Solutions</span>
-					<span class="date">
-						2017-01-01 — 2018-01-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://api.interaxo.com/">https://api.interaxo.com/</a>
-				</div>
-				<div class="position">
-					Backend Developer
-				</div>
-				<div class="summary">
-					<p>REST Public API for big document management system. I spent a lot of time learning REST API best practices and with help of mentor I implemented Public API, which is monitored, covered by different types of tests, secured by OAuth2, well-documented, versionable and follow many REST API best practices. Now API is successfully used by many internal document management system applications as well as external document management customer applications.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Spring</li>
-					<li class="bullet">REST API</li>
-					<li class="bullet">OpenID Connect</li>
-					<li class="bullet">OAuth2</li>
-					<li class="bullet">Keycloak</li>
-					<li class="bullet">Retrofit</li>
-					<li class="bullet">Swagger</li>
-					<li class="bullet">Docker</li>
-					<li class="bullet">Openshift</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Issoft Solutions</span>
-					<span class="date">
-						2017-07-01 — 2017-08-15
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://portal.medscaleplus.com">https://portal.medscaleplus.com</a>
-				</div>
-				<div class="position">
-					Backend Developer
-				</div>
-				<div class="summary">
-					<p>Web and mobile applications for medical items monitoring on ships. I fixed all the bugs, provided by the client, and some bugs found by me in Spring Data logic and deployment to AWS. Now the application is used by captains and crew members on ships.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Spring</li>
-					<li class="bullet">Hibernate</li>
-					<li class="bullet">Spock</li>
-					<li class="bullet">AWS EC2</li>
-					<li class="bullet">Bamboo</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Issoft Solutions</span>
-					<span class="date">
-						2014-10-10 — 2017-01-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://prosjekthotell.com">https://prosjekthotell.com</a>
-				</div>
-				<div class="position">
-					Full Stack Developer
-				</div>
-				<div class="summary">
-					<p>Enterprise document management system for engineering and oil industry in Norway. By the end date I&#x27;ve learnt all the areas of the application and have been able to quickly find and fix any bugs. I improved some areas like bulk import, download, upload, email handling, security, mobile app, etc. I also refactored a lot of code. Now the amount of the application users and new features still rapidly grows while the amount of bugs grows not so fast as it was before areas improvements.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Spring</li>
-					<li class="bullet">Alfresco</li>
-					<li class="bullet">CMIS</li>
-					<li class="bullet">JUnit</li>
-					<li class="bullet">Gradle</li>
-					<li class="bullet">ExtJS</li>
-					<li class="bullet">Cordova/Phonegap</li>
-					<li class="bullet">Google Analytics</li>
-					<li class="bullet">Jenkins</li>
-					<li class="bullet">Git</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>IBA Group</span>
-					<span class="date">
-						2014-08-01 — 2014-10-01
-					</span>
-				</h4>
-				<div class="position">
-					Java Developer
-				</div>
-				<div class="summary">
-					<p>Support of bank content management system.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">IBM Tivoli Storage Manager</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>IBA Group</span>
-					<span class="date">
-						2014-02-01 — 2014-08-01
-					</span>
-				</h4>
-				<div class="position">
-					Full Stack Developer
-				</div>
-				<div class="summary">
-					<p>Web based bank document management system.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Apache Struts</li>
-					<li class="bullet">Dojo</li>
-					<li class="bullet">Ant</li>
-					<li class="bullet">IBM FileNet</li>
-					<li class="bullet">IBM WebSphere</li>
-					<li class="bullet">Apache POI</li>
-					<li class="bullet">SVN</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>IBA Group</span>
-					<span class="date">
-						2013-09-20 — 2014-02-01
-					</span>
-				</h4>
-				<div class="position">
-					Java Developer
-				</div>
-				<div class="summary">
-					<p>Web based document management system.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">JSP</li>
-					<li class="bullet">Servlets</li>
-					<li class="bullet">XSLT</li>
-					<li class="bullet">Maven</li>
-					<li class="bullet">IBM FileNet</li>
-					<li class="bullet">IBM WebSphere</li>
-					<li class="bullet">Apache POI</li>
-					<li class="bullet">SVN</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="volunteer" class="row">
-		<aside class="col-sm-3">
-			<h3>Volunteer</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Welfare for animals in Goa</span>
-					<span class="date">
-						2019-01-15 — 2019-02-10
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://wagoa.com">http://wagoa.com</a>
-				</div>
-				<div class="position">
-					Volunteer
-				</div>
-				<div class="summary">
-					<p>Hour a day helped injured cows and dogs in Indian shelters.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Boardgame.io on Github</span>
-					<span class="date">
-						2018-12-15 — 2019-02-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://boardgame.io">https://boardgame.io</a>
-				</div>
-				<div class="position">
-					Contributor
-				</div>
-				<div class="summary">
-					<p>Fixed several issues related to deployment and board game lobby</p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="education" class="row">
-		<aside class="col-sm-3">
-			<h3>Education</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>BSUIR</span>
-					<span class="date">
-						2011-09-01 — 2016-06-01
-					</span>
-				</h4>
-				<div class="area">
-					Artificial intelligence
-				</div>
-				<div class="studyType">
-					Bachelor
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>BSUIR</span>
-					<span class="date">
-						2016-09-01 — 2018-06-01
-					</span>
-				</h4>
-				<div class="area">
-					Ergonomics
-				</div>
-				<div class="studyType">
-					Master
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="awards" class="row">
-		<aside class="col-sm-3">
-			<h3>Awards</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Docker Training</span>
-				</h4>
-				<div class="date pull-right">
-					<em>Awarded</em>
-					2018-07-01
-				</div>
-				<div class="awarder">
-					<em>by</em>
-					<strong>Issoft Solutions</strong>
-				</div>
-				<div class="summary">
-					Succesfully finished training.
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Amazon Web Services for Java Developers Training</span>
-				</h4>
-				<div class="date pull-right">
-					<em>Awarded</em>
-					2018-03-01
-				</div>
-				<div class="awarder">
-					<em>by</em>
-					<strong>Issoft Solutions</strong>
-				</div>
-				<div class="summary">
-					Succesfully finished training.
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Hibernate, JPA, Spring Training</span>
-				</h4>
-				<div class="date pull-right">
-					<em>Awarded</em>
-					2018-01-15
-				</div>
-				<div class="awarder">
-					<em>by</em>
-					<strong>Issoft Solutions</strong>
-				</div>
-				<div class="summary">
-					Succesfully finished training.
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>ReactJS Basics Training</span>
-				</h4>
-				<div class="date pull-right">
-					<em>Awarded</em>
-					2016-06-01
-				</div>
-				<div class="awarder">
-					<em>by</em>
-					<strong>Issoft Solutions</strong>
-				</div>
-				<div class="summary">
-					Succesfully finished training.
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>EJB Web Development Training</span>
-				</h4>
-				<div class="date pull-right">
-					<em>Awarded</em>
-					2014-08-01
-				</div>
-				<div class="awarder">
-					<em>by</em>
-					<strong>IBA Group</strong>
-				</div>
-				<div class="summary">
-					Succesfully finished training.
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Java Web Development Training</span>
-				</h4>
-				<div class="date pull-right">
-					<em>Awarded</em>
-					2014-05-01
-				</div>
-				<div class="awarder">
-					<em>by</em>
-					<strong>IBA Group</strong>
-				</div>
-				<div class="summary">
-					Succesfully finished training.
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Java Web Development Training</span>
-				</h4>
-				<div class="date pull-right">
-					<em>Awarded</em>
-					2013-08-01
-				</div>
-				<div class="awarder">
-					<em>by</em>
-					<strong>Itransition</strong>
-				</div>
-				<div class="summary">
-					Succesfully finished training.
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Android Development Basics Training</span>
-				</h4>
-				<div class="date pull-right">
-					<em>Awarded</em>
-					2013-05-01
-				</div>
-				<div class="awarder">
-					<em>by</em>
-					<strong>Belhard</strong>
-				</div>
-				<div class="summary">
-					Succesfully finished training.
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="publications" class="row">
-		<aside class="col-sm-3">
-			<h3>Publications</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>AI Knowledge base in cookery</span>
-					<span class="date">
-						2015-12-03
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://distant.bsuir.by/conf"></a>
-				</div>
-				<div class="publisher">
-					<em>Published by</em>
-					<strong>BSUIR</strong>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="skills" class="row">
-		<aside class="col-sm-3">
-			<h3>Skills</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>JavaScript</h4>
-				</div>
-				<ul class="keywords">
-					<li>6 years</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>React JS</h4>
-				</div>
-				<ul class="keywords">
-					<li>4 years</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Java</h4>
-				</div>
-				<ul class="keywords">
-					<li>5 years</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Spring</h4>
-				</div>
-				<ul class="keywords">
-					<li>4 years</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="languages" class="row">
-		<aside class="col-sm-3">
-			<h3>Languages</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>Russian</strong>
-				</div>
-				<div class="fluency">
-					Native
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>English</strong>
-				</div>
-				<div class="fluency">
-					Advanced
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>German</strong>
-				</div>
-				<div class="fluency">
-					Beginner
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="interests" class="row">
-		<aside class="col-sm-3">
-			<h3>Interests</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Programming</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Sport</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Camping</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Sleeping</h4>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-
-	</div>
-	
-	</body>
-</html>
+<!DOCTYPE html>
+    <html lang="en" style="">
+      <head>
+        <meta charset="utf-8">
+        
+    <title>Aliaksei Saroka</title>
+    <meta name="description" content="Will solve your problem. 7 years experience. Having fun with programming (backend or frontend, paid or open source).">
+  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
+        <style>:root{color-scheme:light dark;--color-background-light: #ffffff;--color-dimmed-light: #f3f4f5;--color-primary-light: #191e23;--color-secondary-light: #6c7781;--color-accent-light: #0073aa;--color-background-dark: #191e23;--color-dimmed-dark: #23282d;--color-primary-dark: #fbfbfc;--color-secondary-dark: #ccd0d4;--color-accent-dark: #00a0d2;--color-background: var(--color-background-light);--color-dimmed: var(--color-dimmed-light);--color-primary: var(--color-primary-light);--color-secondary: var(--color-secondary-light);--color-accent: var(--color-accent-light);--scale-ratio: 1.25;--scale0: 1rem;--scale1: calc(var(--scale0) * var(--scale-ratio));--scale2: calc(var(--scale1) * var(--scale-ratio));--scale3: calc(var(--scale2) * var(--scale-ratio));--scale4: calc(var(--scale3) * var(--scale-ratio));--scale5: calc(var(--scale4) * var(--scale-ratio))}@media (prefers-color-scheme: dark){:root{--color-background: var(--color-background-dark);--color-dimmed: var(--color-dimmed-dark);--color-primary: var(--color-primary-dark);--color-secondary: var(--color-secondary-dark);--color-accent: var(--color-accent-dark)}}*{box-sizing:border-box;margin:0;padding:0}html{font-size:14px}body{background:var(--color-background);color:var(--color-primary);display:grid;font:1em/1.5 Lato,sans-serif;gap:2em;grid-template-columns:[full-start] 1fr [main-start side-start] minmax(min-content,12em) [side-end content-start] minmax(min-content,36em) [main-end content-end] 1fr [full-end];grid-template-rows:auto [content] 0;margin-bottom:4em}body:before{content:"";grid-column:full;grid-row:content}ol,ul{padding-left:1em}:not(.icon-list,.tag-list)>li+li{margin-top:.4em}li::marker,.network{color:var(--color-secondary)}a{color:var(--color-accent);text-decoration:none}a:focus,a:hover{text-decoration:underline}h1,h2,h3,h5{font-weight:400}h1,h2,h3{line-height:1.2}h1{font-size:var(--scale5)}h2{color:var(--color-secondary);font-size:var(--scale4)}h3{color:var(--color-secondary);font-size:var(--scale3);grid-column:side;margin-bottom:1rem}h4{font-size:var(--scale2)}h5{font-size:var(--scale1)}h6{font-size:var(--scale0)}blockquote{border-left:.2em solid var(--color-dimmed);padding-left:1em}cite{color:var(--color-secondary);font-style:inherit}cite:before{content:"— "}svg{margin-right:.2em;vertical-align:text-bottom}.masthead{background:var(--color-dimmed);display:inherit;gap:inherit;grid-column:full;grid-template-columns:inherit;padding:4em 0;text-align:center}.masthead>*,section{grid-column:main}.masthead>img{border:4px solid;border-radius:50%;margin:0 auto;max-width:12em}article>*+*,blockquote>*+*,.timeline>div>*+*{margin-top:.6em}.meta{color:var(--color-secondary)}.stack{display:grid;gap:1.5em}.icon-list{display:flex;flex-wrap:wrap;gap:.4em 1em;justify-content:center;list-style:none;padding:0}.grid-list{display:grid;gap:1em}.tag-list{display:flex;flex-wrap:wrap;gap:.4em;list-style:none;padding:0}.tag-list>li{background:var(--color-dimmed);border-radius:.2em;padding:.2em .6em}.timeline>div{position:relative}.timeline>div:not(:last-child){padding-bottom:1rem}.timeline>div:not(:last-child):before{content:"";position:absolute;top:1rem;left:-15px;width:2px;height:100%;background:var(--color-secondary)}.timeline>div:not(:only-child):after{content:"";position:absolute;top:.6rem;left:-20px;width:8px;height:8px;background:var(--color-secondary);border:2px solid var(--color-background);border-radius:50%}@media print,(min-width: 48em){h3{text-align:right;margin-bottom:inherit}.masthead{text-align:inherit}.masthead>*,section{grid-column:content}.masthead img{grid-column:side;grid-row:span 2;max-width:100%}section{display:contents}.icon-list{flex-direction:column}.grid-list{grid-template-columns:repeat(auto-fit,minmax(calc((100% - 1em)/2),1fr))}}
+</style>
+      </head>
+      <body>
+        
+    <header class="masthead">
+      
+      <div>
+        <h1>Aliaksei Saroka</h1>
+        <h2>Senior Software Engineer</h2>
+      </div>
+      <article><p>Will solve your problem. 7 years experience. Having fun with programming (backend or frontend, paid or open source).</p></article>
+      <ul class="icon-list">
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Minsk, Belarus
+          </li>
+        
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <a href="mailto:lehaSVV2009@gmail.com">lehaSVV2009@gmail.com</a>
+          </li>
+        
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <a href="tel:+375336389581">+375336389581</a>
+          </li>
+        
+        
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            <a href="https://github.com/lehaSVV2009">lehaSVV2009</a>
+            <span class="network">(Github)</span>
+          </li>
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            <a href="https://www.linkedin.com/in/aliaksei-saroka">aliaksei-saroka</a>
+            <span class="network">(LinkedIn)</span>
+          </li>
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <a href="skype:csi.alexsoroka">csi.alexsoroka</a>
+            <span class="network">(Skype)</span>
+          </li>
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            <a href="https://www.instagram.com/specialforkadet">aliaksei-40a</a>
+            <span class="network">(Instagram)</span>
+          </li>
+        
+      </ul>
+    </header>
+  
+        
+    <section id="work">
+      <h3>Work</h3>
+      <div class="stack">
+        
+          <article>
+            <header>
+              <h4>Seller Assistant App</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Senior Software Engineer</h5>
+                    <div class="meta">
+                      <div><time datetime="2020-10-01">Oct 2020</time> – <time datetime="2021-10-01">Oct 2021</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Product research chrome extension for amazon resellers. Set up analytics, improved architecture, CI/CD, payment system, implemented some UI features, etc.</p>
+                  
+                    <ul>
+                      <li><p>PHP</p></li><li><p>Laravel</p></li><li><p>Laravel Spark</p></li><li><p>MariaDB</p></li><li><p>Vue.js</p></li><li><p>Chrome Extension</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Yagoda BI</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Senior Software Engineer</h5>
+                    <div class="meta">
+                      <div><time datetime="2019-09-01">Sep 2019</time> – <time datetime="2020-04-01">Apr 2020</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Analytics for large online-store suppliers. Personally I've designed application architecture, taking into account the complexity of algorithms and big data, set up and supported infrastructure, implemented demo, implemented MVP and led all further technical solutions.</p>
+                  
+                    <ul>
+                      <li><p>NodeJS</p></li><li><p>Express</p></li><li><p>Sequelize</p></li><li><p>XLSX</p></li><li><p>MySQL</p></li><li><p>Clickhouse</p></li><li><p>Docker</p></li><li><p>React</p></li><li><p>Material UI</p></li><li><p>Grafana</p></li><li><p>Ansible</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Promocat</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Senior Software Engineer</h5>
+                    <div class="meta">
+                      <div><time datetime="2019-09-01">Sep 2019</time> – <time datetime="2019-12-01">Dec 2019</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Chrome extension to share online-shop coupons and promotions. In short period I've set up project infrastructure, implemented MVP and led a developer who worked on the project afterwards. That allowed my client to move to next phase (marketing).</p>
+                  
+                    <ul>
+                      <li><p>React</p></li><li><p>Material-UI</p></li><li><p>Styled Components</p></li><li><p>SeleniumJS</p></li><li><p>Chrome Extension</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>AliTools Trends</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Senior Software Engineer</h5>
+                    <div class="meta">
+                      <div><time datetime="2019-05-21">May 2019</time> – <time datetime="2019-09-01">Sep 2019</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Trends of Aliexpress products. In the project I've implemented a few versions of trending algorithm, added several complex filters to search, added social login, integrated application with a few payment systems, improved logging and monitoring, added integration to external online shops, improved analytics, improved performance of too long operations and added some tricky customizations to landing pages. Implemented features increased level of attraction and retention and allowed client to get paid subscriptions from users.</p>
+                  
+                    <ul>
+                      <li><p>PHP</p></li><li><p>Laravel</p></li><li><p>Vue.js</p></li><li><p>MySQL</p></li><li><p>Clickhouse</p></li><li><p>Redis</p></li><li><p>Stripe</p></li><li><p>Paypal</p></li><li><p>Tilda</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Territories</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Full Stack Developer</h5>
+                    <div class="meta">
+                      <div><time datetime="2018-12-01">Dec 2018</time> – <time datetime="2019-02-18">Feb 2019</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Simple battleship-like board game. Personally I designed and implemented entire game which includes game logic, frontend, backend for online game and AI bot.</p>
+                  
+                    <ul>
+                      <li><p>React</p></li><li><p>Material UI</p></li><li><p>Styled Components</p></li><li><p>boardgame.io</p></li><li><p>three.js</p></li><li><p>brain.js</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Interaxo Visual Design Board</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Full Stack Developer</h5>
+                    <div class="meta">
+                      <div><time datetime="2018-05-01">May 2018</time> – <time datetime="2018-11-15">Nov 2018</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>React Question Board for meetings and planning using Interaxo document management system. Within the project I designed and implemented robust and secure REST API for the app and implemented new web pages like filterable cards list page, card forms, auth page, etc. Additionally I introduced a new library for all common components that are used across React applications of the customer. Plus configured CI, deployment and analytics. Now the project is easily scaled, monitored and successfully used by different customers who wants more and more new features.</p>
+                  
+                    <ul>
+                      <li><p>Spring</p></li><li><p>REST API</p></li><li><p>Hibernate</p></li><li><p>PostgreSQL</p></li><li><p>React</p></li><li><p>Material UI</p></li><li><p>Redux</p></li><li><p>React DnD</p></li><li><p>React Virtualized</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>EquipEngine</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Frontend Lead Developer</h5>
+                    <div class="meta">
+                      <div><time datetime="2018-06-01">Jun 2018</time> – <time datetime="2018-09-15">Sep 2018</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Web project with courses for students and teachers. I implemented some new views and integrated the project with existing API according to the client requirements. I also introduced the project to new developers, tried to teach them project best practices, helped them and monitored their work.</p>
+                  
+                    <ul>
+                      <li><p>React</p></li><li><p>Redux</p></li><li><p>Styled Components</p></li><li><p>React Player</p></li><li><p>Swagger</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Interaxo Connected Workflows</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Backend Developer</h5>
+                    <div class="meta">
+                      <div><time datetime="2018-02-01">Feb 2018</time> – <time datetime="2018-05-01">May 2018</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Application allows to set up external workflow for different folders in document management system. Within the project with help of mentor I implemented the application that synchronizes folders in workflow using document management system API. Now the application is successfully used by several document management clients to simplify their real workflow.</p>
+                  
+                    <ul>
+                      <li><p>Spring</p></li><li><p>REST API</p></li><li><p>Hibernate</p></li><li><p>Apache Camel</p></li><li><p>WebSocket</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>5Walls</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Frontend Developer</h5>
+                    <div class="meta">
+                      <div><time datetime="2018-03-01">Mar 2018</time> – <time datetime="2018-04-15">Apr 2018</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Pinterest like room fittings. I set up frontend app, implemented registration and authentication flow, build responsive pinterest view and set up bitbucket pipelines. Now the client rapidly reviews the changes of client developers, offers new users a personal account, monitors new users and enjoys pinterest view for the products.</p>
+                  
+                    <ul>
+                      <li><p>React</p></li><li><p>Material UI</p></li><li><p>Redux</p></li><li><p>React Stack Grid</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Local Insights</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Frontend Developer</h5>
+                    <div class="meta">
+                      <div><time datetime="2017-11-01">Nov 2017</time> – <time datetime="2018-02-01">Feb 2018</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Real estate search app. I used Material-UI Grid layout system to make application responsive, Material UI to create nice views, migrated sass to css-in-js to clean up sass files, replaced webpack config with create-react-app scripts and refactored plenty of code. Now the project is completely responsive and easier to read, support and implement new features.</p>
+                  
+                    <ul>
+                      <li><p>React</p></li><li><p>Material UI</p></li><li><p>Redux</p></li><li><p>Leaflet</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Interaxo Public API</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Backend Developer</h5>
+                    <div class="meta">
+                      <div><time datetime="2017-01-01">Jan 2017</time> – <time datetime="2018-01-01">Jan 2018</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>REST Public API for big document management system. I spent a lot of time learning REST API best practices and with help of mentor I implemented Public API, which is monitored, covered by different types of tests, secured by OAuth2, well-documented, versionable and follow many REST API best practices. Now API is successfully used by many internal document management system applications as well as external document management customer applications.</p>
+                  
+                    <ul>
+                      <li><p>Spring</p></li><li><p>REST API</p></li><li><p>OpenID Connect</p></li><li><p>OAuth2</p></li><li><p>Keycloak</p></li><li><p>Retrofit</p></li><li><p>Swagger</p></li><li><p>Docker</p></li><li><p>Openshift</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>MedScale+</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Backend Developer</h5>
+                    <div class="meta">
+                      <div><time datetime="2017-07-01">Jul 2017</time> – <time datetime="2017-08-15">Aug 2017</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Web and mobile applications for medical items monitoring on ships. I fixed all the bugs, provided by the client, and some bugs found by me in Spring Data logic and deployment to AWS. Now the application is used by captains and crew members on ships.</p>
+                  
+                    <ul>
+                      <li><p>Spring</p></li><li><p>Hibernate</p></li><li><p>Spock</p></li><li><p>AWS EC2</p></li><li><p>Bamboo</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Interaxo</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Full Stack Developer</h5>
+                    <div class="meta">
+                      <div><time datetime="2014-10-10">Oct 2014</time> – <time datetime="2017-01-01">Jan 2017</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Enterprise document management system for engineering and oil industry in Norway. By the end date I've learnt all the areas of the application and have been able to quickly find and fix any bugs. I improved some areas like bulk import, download, upload, email handling, security, mobile app, etc. I also refactored a lot of code. Now the amount of the application users and new features still rapidly grows while the amount of bugs grows not so fast as it was before areas improvements.</p>
+                  
+                    <ul>
+                      <li><p>Spring</p></li><li><p>Alfresco</p></li><li><p>CMIS</p></li><li><p>JUnit</p></li><li><p>Gradle</p></li><li><p>ExtJS</p></li><li><p>Cordova/Phonegap</p></li><li><p>Google Analytics</p></li><li><p>Jenkins</p></li><li><p>Git</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4></h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Java Developer</h5>
+                    <div class="meta">
+                      <div><time datetime="2014-08-01">Aug 2014</time> – <time datetime="2014-10-01">Oct 2014</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Support of bank content management system.</p>
+                  
+                    <ul>
+                      <li><p>IBM Tivoli Storage Manager</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Belveb Bank System</h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Full Stack Developer</h5>
+                    <div class="meta">
+                      <div><time datetime="2014-02-01">Feb 2014</time> – <time datetime="2014-08-01">Aug 2014</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Web based bank document management system.</p>
+                  
+                    <ul>
+                      <li><p>Apache Struts</p></li><li><p>Dojo</p></li><li><p>Ant</p></li><li><p>IBM FileNet</p></li><li><p>IBM WebSphere</p></li><li><p>Apache POI</p></li><li><p>SVN</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4></h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Java Developer</h5>
+                    <div class="meta">
+                      <div><time datetime="2013-09-20">Sep 2013</time> – <time datetime="2014-02-01">Feb 2014</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>Web based document management system.</p>
+                  
+                    <ul>
+                      <li><p>JSP</p></li><li><p>Servlets</p></li><li><p>XSLT</p></li><li><p>Maven</p></li><li><p>IBM FileNet</p></li><li><p>IBM WebSphere</p></li><li><p>Apache POI</p></li><li><p>SVN</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+      </div>
+    </section>
+  
+        
+    <section id="volunteer">
+      <h3>Volunteer</h3>
+      <div class="stack">
+        
+          <article>
+            <header>
+              <h4>Welfare for animals in Goa</h4>
+              <div class="meta">
+                <strong>Volunteer</strong>
+                <div><time datetime="2019-01-15">Jan 2019</time> – <time datetime="2019-02-10">Feb 2019</time></div>
+              </div>
+            </header>
+            <p>Hour a day helped injured cows and dogs in Indian shelters.</p>
+            
+          </article>
+        
+          <article>
+            <header>
+              <h4>Boardgame.io on Github</h4>
+              <div class="meta">
+                <strong>Contributor</strong>
+                <div><time datetime="2018-12-15">Dec 2018</time> – <time datetime="2019-02-01">Feb 2019</time></div>
+              </div>
+            </header>
+            <p>Fixed several issues related to deployment and board game lobby</p>
+            
+          </article>
+        
+      </div>
+    </section>
+  
+        
+    <section id="education">
+      <h3>Education</h3>
+      <div class="stack">
+        
+          <article>
+            <header>
+              <h4>BSUIR</h4>
+              <div class="meta">
+                <strong>Artificial intelligence</strong>
+                <div><time datetime="2011-09-01">Sep 2011</time> – <time datetime="2016-06-01">Jun 2016</time></div>
+              </div>
+            </header>
+            <p>Bachelor</p>
+            
+          </article>
+        
+          <article>
+            <header>
+              <h4>BSUIR</h4>
+              <div class="meta">
+                <strong>Ergonomics</strong>
+                <div><time datetime="2016-09-01">Sep 2016</time> – <time datetime="2018-06-01">Jun 2018</time></div>
+              </div>
+            </header>
+            <p>Master</p>
+            
+          </article>
+        
+      </div>
+    </section>
+  
+        
+        
+    <section id="awards">
+      <h3>Awards</h3>
+      <div class="stack">
+        
+          <article>
+            <header>
+              <h4>Docker Training</h4>
+              <div class="meta">
+                
+                  <div>
+                    Awarded by <strong>Issoft Solutions</strong>
+                  </div>
+                
+                <time datetime="2018-07-01">Jul 2018</time>
+              </div>
+            </header>
+            <p>Succesfully finished training.</p>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Amazon Web Services for Java Developers Training</h4>
+              <div class="meta">
+                
+                  <div>
+                    Awarded by <strong>Issoft Solutions</strong>
+                  </div>
+                
+                <time datetime="2018-03-01">Mar 2018</time>
+              </div>
+            </header>
+            <p>Succesfully finished training.</p>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Hibernate, JPA, Spring Training</h4>
+              <div class="meta">
+                
+                  <div>
+                    Awarded by <strong>Issoft Solutions</strong>
+                  </div>
+                
+                <time datetime="2018-01-15">Jan 2018</time>
+              </div>
+            </header>
+            <p>Succesfully finished training.</p>
+          </article>
+        
+          <article>
+            <header>
+              <h4>ReactJS Basics Training</h4>
+              <div class="meta">
+                
+                  <div>
+                    Awarded by <strong>Issoft Solutions</strong>
+                  </div>
+                
+                <time datetime="2016-06-01">Jun 2016</time>
+              </div>
+            </header>
+            <p>Succesfully finished training.</p>
+          </article>
+        
+          <article>
+            <header>
+              <h4>EJB Web Development Training</h4>
+              <div class="meta">
+                
+                  <div>
+                    Awarded by <strong>IBA Group</strong>
+                  </div>
+                
+                <time datetime="2014-08-01">Aug 2014</time>
+              </div>
+            </header>
+            <p>Succesfully finished training.</p>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Java Web Development Training</h4>
+              <div class="meta">
+                
+                  <div>
+                    Awarded by <strong>IBA Group</strong>
+                  </div>
+                
+                <time datetime="2014-05-01">May 2014</time>
+              </div>
+            </header>
+            <p>Succesfully finished training.</p>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Java Web Development Training</h4>
+              <div class="meta">
+                
+                  <div>
+                    Awarded by <strong>Itransition</strong>
+                  </div>
+                
+                <time datetime="2013-08-01">Aug 2013</time>
+              </div>
+            </header>
+            <p>Succesfully finished training.</p>
+          </article>
+        
+          <article>
+            <header>
+              <h4>Android Development Basics Training</h4>
+              <div class="meta">
+                
+                  <div>
+                    Awarded by <strong>Belhard</strong>
+                  </div>
+                
+                <time datetime="2013-05-01">May 2013</time>
+              </div>
+            </header>
+            <p>Succesfully finished training.</p>
+          </article>
+        
+      </div>
+    </section>
+  
+        
+        
+    <section id="publications">
+      <h3>Publications</h3>
+      <div class="stack">
+        
+          <article>
+            <header>
+              <h4>AI Knowledge base in cookery</h4>
+              <div class="meta">
+                
+                  <div>
+                    Published by <strong>BSUIR</strong>
+                  </div>
+                
+                <time datetime="2015-12-03">Dec 2015</time>
+              </div>
+            </header>
+            
+          </article>
+        
+      </div>
+    </section>
+  
+        
+    <section id="skills">
+      <h3>Skills</h3>
+      <div class="grid-list">
+        
+          <div>
+            <h4>JavaScript</h4>
+            
+              <ul class="tag-list">
+                <li>6 years</li>
+              </ul>
+            
+          </div>
+        
+          <div>
+            <h4>React JS</h4>
+            
+              <ul class="tag-list">
+                <li>5 years</li>
+              </ul>
+            
+          </div>
+        
+          <div>
+            <h4>Java</h4>
+            
+              <ul class="tag-list">
+                <li>5 years</li>
+              </ul>
+            
+          </div>
+        
+          <div>
+            <h4>Spring</h4>
+            
+              <ul class="tag-list">
+                <li>4 years</li>
+              </ul>
+            
+          </div>
+        
+          <div>
+            <h4>Laravel</h4>
+            
+              <ul class="tag-list">
+                <li>2 years</li>
+              </ul>
+            
+          </div>
+        
+          <div>
+            <h4>MySQL</h4>
+            
+              <ul class="tag-list">
+                <li>2 years</li>
+              </ul>
+            
+          </div>
+        
+      </div>
+    </section>
+  
+        
+    <section id="languages">
+      <h3>Languages</h3>
+      <div class="grid-list">
+        
+          <div>
+            <h4>Russian</h4>
+            Native
+          </div>
+        
+          <div>
+            <h4>English</h4>
+            Advanced
+          </div>
+        
+          <div>
+            <h4>German</h4>
+            Beginner
+          </div>
+        
+      </div>
+    </section>
+  
+        
+    <section id="interests">
+      <h3>Interests</h3>
+      <div class="grid-list">
+        
+          <div>
+            <h4>Programming</h4>
+            
+          </div>
+        
+          <div>
+            <h4>Sport</h4>
+            
+          </div>
+        
+          <div>
+            <h4>Camping</h4>
+            
+          </div>
+        
+          <div>
+            <h4>Sleeping</h4>
+            
+          </div>
+        
+      </div>
+    </section>
+  
+        
+      </body>
+    </html>
