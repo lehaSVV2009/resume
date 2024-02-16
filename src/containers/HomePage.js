@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import SimpleInfo from "../components/SimpleInfo";
 import ScrollDownButton from "../components/ScrollDownButton";
-import "./HomePage.css";
+import "./HomePage.scss";
 
 /**
  * First page component. Shown on full browser window until it is not scrolled down.

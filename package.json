@@ -18,11 +18,9 @@
     "react-toastify": "^4.5.2"
   },
   "scripts": {
-    "build-css": "node-sass-chokidar src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "start-js": "react-scripts start",
-    "start": "npm-run-all -p watch-css start-js",
-    "build": "npm run build-html && npm run build-pdf && npm run build-seo && npm run build-css && react-scripts build",
+
+    "start": "react-scripts start",
+    "build": "npm run build-html && npm run build-pdf && npm run build-seo && react-scripts build",
     "build-html": "cd src && resume export ../public/cv.html && cd ..",
     "build-pdf": "cd src && resume export ../public/cv.pdf && cd ..",
     "build-seo": "node buildSeo.js",
@@ -35,13 +33,12 @@
   "devDependencies": {
     "eslint-plugin-prettier": "^3.0.1",
     "husky": "^1.3.1",
-    "node-sass-chokidar": "^1.3.4",
     "npm-run-all": "^4.1.1",
     "prettier": "^1.16.4",
     "pretty-quick": "^1.10.0",
     "pug": "^2.0.4",
     "puppeteer": "^2.0.0",
-    "resume-cli": "^1.2.7"
+    "sass": "^1.71.0"
   },
   "browserslist": {
     "production": [

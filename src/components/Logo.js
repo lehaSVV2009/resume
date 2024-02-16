@@ -1,7 +1,7 @@
 import React from "react";
 import Anime from "react-anime";
 
-import "./Logo.css";
+import "./Logo.scss";
 
 /**
  * Component with beatiful logo animations inside.
