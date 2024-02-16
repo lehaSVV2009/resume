@@ -164,7 +164,7 @@ Github pages deploy build folder on gh-pages branch.
 
 ## Built With
 
-- [React Github Pages](https://github.com/gitname/react-gh-pages) CI and deployment
+- [Github Pages](https://github.com/gitname/react-gh-pages) deployment
 - [Yarn](https://yarnpkg.com/) builds web client
 
 ## Contributing
