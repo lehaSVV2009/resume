@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import emailjs from "@emailjs/browser";
-import { RingLoader } from "halogen";
 import { toast, ToastContainer } from "react-toastify";
 
 import ContactForm from "../components/ContactForm";
@@ -47,7 +46,7 @@ export default class ContactPage extends Component {
 
   render() {
     if (this.state.loading) {
-      return <RingLoader className="loading" color="#26A65B" />;
+      return `Loading...`;
     }
     return (
       <div className="contact">
