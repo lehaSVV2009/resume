@@ -1,12 +1,12 @@
 import React from "react";
-import FlatButton from "material-ui/FlatButton";
+import Button from "@mui/material/Button";
 import { Link } from "react-scroll";
 import MenuItem from "material-ui/MenuItem";
 
 import Desktop from "./Desktop";
 import Mobile from "./Mobile";
 
-export default ({ anchor, name }) => {
+const BreadCrumbItem = ({ anchor, name }) => {
   if (!anchor || !name) {
     return <span />;
   }
@@ -17,8 +17,10 @@ export default ({ anchor, name }) => {
         <MenuItem primaryText={name} />
       </Mobile>
       <Desktop>
-        <FlatButton label={name} labelStyle={{ color: "white" }} />
+        <Button color="inherit">{name}</Button>
       </Desktop>
     </Link>
   );
 };
+
+export default BreadCrumbItem;
