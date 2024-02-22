@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import AppBar from "material-ui/AppBar";
-import IconButton from "material-ui/IconButton";
+import IconButton from "@mui/material/IconButton";
+
 import IconHtml from "./IconHtml";
 import IconDoc from "./IconDoc";
 import IconPdf from "./IconPdf";
@@ -17,19 +18,19 @@ const appBarStyle = {
 
 const HtmlButton = ({ onClick }) => (
   <IconButton onClick={onClick}>
-    <IconHtml color="white" />
+    <IconHtml htmlColor="white" />
   </IconButton>
 );
 
 const PdfButton = ({ onClick }) => (
   <IconButton onClick={onClick}>
-    <IconPdf color="white" />
+    <IconPdf htmlColor="white" />
   </IconButton>
 );
 
 const WordButton = ({ onClick }) => (
   <IconButton onClick={onClick}>
-    <IconDoc color="white" />
+    <IconDoc htmlColor="white" />
   </IconButton>
 );
 
