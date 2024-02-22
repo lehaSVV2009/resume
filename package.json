@@ -5,6 +5,11 @@
   "homepage": "/resume",
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/material": "^5.15.10",
     "material-ui": "^0.19.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -15,6 +20,10 @@
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.6.5",
     "react-toastify": "^4.5.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
