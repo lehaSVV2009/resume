@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { lime, purple } from "@mui/material/colors";
 
 import AboutPage from "./containers/AboutPage";
 import ContactPage from "./containers/ContactPage";
@@ -40,41 +42,51 @@ const breadCrumb = [
   }
 ];
 
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#473a56"
+    }
+  }
+});
+
 export default class App extends Component {
   render() {
     return (
-      <MuiThemeProvider>
-        <div>
-          <HeaderPage breadCrumb={breadCrumb} />
-          <Fragment color="#473a56" tag={breadCrumb[0].anchor} home>
-            <HomePage
-              fullName={resume.basics.name}
-              description={resume.basics.label}
-            />
-          </Fragment>
-          <Fragment color="#F7F5E6" tag={breadCrumb[1].anchor}>
-            <AboutPage
-              picture={resume.basics.picture}
-              about={resume.basics.summary}
-            />
-          </Fragment>
-          <Fragment tag={breadCrumb[2].anchor}>
-            <ProjectsPage work={resume.work} />
-          </Fragment>
-          <Fragment color="#F7F5E6" tag={breadCrumb[3].anchor}>
-            <SkillsPage skills={resume.skills} />
-          </Fragment>
-          <Fragment color="#473a56" tag={breadCrumb[4].anchor}>
-            <InterestsPage interests={resume.interests} />
-          </Fragment>
-          <Fragment tag={breadCrumb[5].anchor}>
-            <ContactPage email={resume.basics.email} />
-          </Fragment>
-          <Fragment color="#473a56" footer>
-            <FooterPage links={resume.basics.profiles} />
-          </Fragment>
-        </div>
-      </MuiThemeProvider>
+      <ThemeProvider theme={theme}>
+        <MuiThemeProvider>
+          <div>
+            <HeaderPage breadCrumb={breadCrumb} />
+            <Fragment color="#473a56" tag={breadCrumb[0].anchor} home>
+              <HomePage
+                fullName={resume.basics.name}
+                description={resume.basics.label}
+              />
+            </Fragment>
+            <Fragment color="#F7F5E6" tag={breadCrumb[1].anchor}>
+              <AboutPage
+                picture={resume.basics.picture}
+                about={resume.basics.summary}
+              />
+            </Fragment>
+            <Fragment tag={breadCrumb[2].anchor}>
+              <ProjectsPage work={resume.work} />
+            </Fragment>
+            <Fragment color="#F7F5E6" tag={breadCrumb[3].anchor}>
+              <SkillsPage skills={resume.skills} />
+            </Fragment>
+            <Fragment color="#473a56" tag={breadCrumb[4].anchor}>
+              <InterestsPage interests={resume.interests} />
+            </Fragment>
+            <Fragment tag={breadCrumb[5].anchor}>
+              <ContactPage email={resume.basics.email} />
+            </Fragment>
+            <Fragment color="#473a56" footer>
+              <FooterPage links={resume.basics.profiles} />
+            </Fragment>
+          </div>
+        </MuiThemeProvider>
+      </ThemeProvider>
     );
   }
 }
