@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ({ text, divider, replacement }) => {
+const ReplacedDividerText = ({ text, divider, replacement }) => {
   const paragraphs =
     text && typeof text === "string"
       ? text.split(divider).filter(text => text && text.trim())
@@ -16,3 +16,5 @@ export default ({ text, divider, replacement }) => {
     </span>
   );
 };
+
+export default ReplacedDividerText;
