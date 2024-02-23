@@ -64,6 +64,7 @@ export default class App extends Component {
             </Fragment>
             <Fragment color="#F7F5E6" tag={breadCrumb[1].anchor}>
               <AboutPage
+                name={resume.basics.name}
                 picture={resume.basics.picture}
                 about={resume.basics.summary}
               />
