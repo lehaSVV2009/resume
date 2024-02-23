@@ -1,11 +1,10 @@
 import React from "react";
-import IconButton from "material-ui/IconButton";
-import IconMenu from "material-ui/IconMenu";
-import IconMoreVert from "material-ui/svg-icons/navigation/more-vert";
+import Box from "@mui/material/Box";
+import IconButton from "@mui/material/IconButton";
+import Menu from "@mui/material/Menu";
+import MoreVertIcon from "@mui/icons-material/MoreVert";
 
 import BreadCrumbItem from "./BreadCrumbItem";
-import Desktop from "./Desktop";
-import Mobile from "./Mobile";
 
 const createBreadCrumbItems = items => {
   return (
@@ -22,23 +21,56 @@ const createBreadCrumbItems = items => {
   );
 };
 
-export default ({ items }) => (
-  <div>
-    <Mobile>
-      <IconMenu
-        iconButtonElement={
-          <IconButton>
-            <IconMoreVert color="white" />
-          </IconButton>
-        }
-        targetOrigin={{ horizontal: "right", vertical: "top" }}
-        anchorOrigin={{ horizontal: "right", vertical: "top" }}
-      >
-        {createBreadCrumbItems(items)}
-      </IconMenu>
-    </Mobile>
-    <Desktop>
-      <div style={{ float: "right" }}>{createBreadCrumbItems(items)}</div>
-    </Desktop>
-  </div>
-);
+const BreadCrumb = ({ items }) => {
+  const [anchorElNav, setAnchorElNav] = React.useState(null);
+
+  const handleOpenNavMenu = event => {
+    setAnchorElNav(event.currentTarget);
+  };
+
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
+
+  return (
+    <div>
+      <Box sx={{ display: { xs: "flex", md: "none" } }}>
+        <IconButton
+          size="large"
+          aria-label="more"
+          aria-controls="menu-appbar"
+          aria-haspopup="true"
+          onClick={handleOpenNavMenu}
+          color="inherit"
+        >
+          <MoreVertIcon />
+        </IconButton>
+        <Menu
+          id="menu-appbar"
+          anchorEl={anchorElNav}
+          anchorOrigin={{
+            vertical: "top",
+            horizontal: "right"
+          }}
+          keepMounted
+          transformOrigin={{
+            vertical: "top",
+            horizontal: "right"
+          }}
+          open={Boolean(anchorElNav)}
+          onClose={handleCloseNavMenu}
+          sx={{
+            display: { xs: "block", md: "none" }
+          }}
+        >
+          {createBreadCrumbItems(items)}
+        </Menu>
+      </Box>
+      <Box sx={{ display: { xs: "none", md: "flex" } }}>
+        <div style={{ display: "flex" }}>{createBreadCrumbItems(items)}</div>
+      </Box>
+    </div>
+  );
+};
+
+export default BreadCrumb;

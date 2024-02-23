@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { lime, purple } from "@mui/material/colors";
 
 import AboutPage from "./containers/AboutPage";
 import ContactPage from "./containers/ContactPage";
