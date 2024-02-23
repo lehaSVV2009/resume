@@ -1,28 +1,28 @@
 import React from "react";
-import { GridList, GridTile } from "material-ui/GridList";
-import IconButton from "material-ui/IconButton";
-import StarBorder from "material-ui/svg-icons/toggle/star-border";
+import ImageList from "@mui/material/ImageList";
+import ImageListItem from "@mui/material/ImageListItem";
+import ImageListItemBar from "@mui/material/ImageListItemBar";
 
-export default ({ tiles }) => {
+const Gallery = ({ tiles }) => {
   if (!Array.isArray(tiles)) {
     return <span />;
   }
 
   return (
-    <GridList>
+    <ImageList sx={{ width: 400, height: 400 }}>
       {tiles.map((tile, index) => (
-        <GridTile
-          key={index}
-          title={tile.title}
-          actionIcon={
-            <IconButton>
-              <StarBorder color="white" />
-            </IconButton>
-          }
-        >
-          <img src={tile.image} alt={tile.title} />
-        </GridTile>
+        <ImageListItem key={index}>
+          <img
+            srcSet={tile.image}
+            src={tile.image}
+            alt={tile.title}
+            loading="lazy"
+          />
+          <ImageListItemBar title={tile.title} />
+        </ImageListItem>
       ))}
-    </GridList>
+    </ImageList>
   );
 };
+
+export default Gallery;

@@ -2,7 +2,7 @@ import React from "react";
 
 import Interests from "../components/Interests";
 
-export default ({ interests }) => (
+const InterestsPage = ({ interests }) => (
   <div>
     <p className="headline" style={{ color: "white" }}>
       Interests
@@ -10,3 +10,5 @@ export default ({ interests }) => (
     <Interests interests={interests} />
   </div>
 );
+
+export default InterestsPage;
