@@ -2,7 +2,7 @@ import React from "react";
 
 import ProjectItem from "../components/ProjectItem";
 
-export default ({ work }) => (
+const ProjectsPage = ({ work }) => (
   <div>
     <p className="headline">Projects</p>
     {Array.isArray(work) &&
@@ -11,3 +11,5 @@ export default ({ work }) => (
       ))}
   </div>
 );
+
+export default ProjectsPage;
