@@ -16,8 +16,8 @@ const ContactPage = ({ email }) => {
   const [openErrorSnackbar, setOpenErrorSuccessBar] = useState(false);
 
   const handleCloseSnackBar = () => {
-    setOpenSuccessSnackbar(false);
     setOpenErrorSuccessBar(false);
+    setOpenSuccessSnackbar(false);
   };
 
   const handleSubmit = ({ to, from, message }) => {
