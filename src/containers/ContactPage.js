@@ -81,7 +81,7 @@ export default class ContactPage extends Component {
         >
           <Alert
             onClose={this.handleCloseSnackBar}
-            severity="success"
+            severity={this.state.openSuccessSnackbar ? "success" : "error"}
             variant="filled"
             sx={{ width: "100%" }}
           >
