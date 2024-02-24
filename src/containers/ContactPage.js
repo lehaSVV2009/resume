@@ -66,7 +66,7 @@ export default class ContactPage extends Component {
         <Snackbar
           anchorOrigin={{ vertical: "top", horizontal: "right" }}
           open={this.state.openSuccessSnackbar || this.state.openErrorSnackbar}
-          autoHideDuration={3000}
+          autoHideDuration={5000}
           onClose={this.handleCloseSnackBar}
           action={
             <IconButton
