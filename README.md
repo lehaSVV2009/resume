@@ -92,7 +92,7 @@ P.S. [JSON Resume](https://jsonresume.org/schema/) is used here.
 
 1. Clone this repository via `git clone`.
 2. Edit `src/resume.json` file with you own data.
-2. Deploy app with `yarn` and `yarn deploy` commands - [Deploying a React App* to GitHub Pages created using create-react-app](https://github.com/gitname/react-gh-pages)
+3. Deploy app with `yarn` and `yarn deploy` commands - [Deploying a React App* to GitHub Pages created using create-react-app](https://github.com/gitname/react-gh-pages)
 4. Set up your new [EmailJS](emailjs.com) account with new root file `.env`, like in `.env.example` to get emails from `Contact` form.
 
 P.S. `SEO`, `cv.html` and `cv.pdf` are automatically applied.
@@ -102,12 +102,8 @@ P.S.2. Unfortunately `cv.docx` is not auto generated... Try smth like [CloudConv
 ## Linkedin tutorial
 
 1. Update LinkedIn profile.
-2. Either export LinkedIn data and use [linkedin-to-resume-json](https://jmperezperez.com/linkedin-to-json-resume/)/[resumonk.com](https://www.resumonk.com) to transform `linkedin.zip` to `resume.json` OR update `resume.json` manually.
-3. Generate Standard `cv.doc` by [Resume Fodder](https://resumefodder.com) (upload updated `resume.json` and download `cv.doc`).
-4. Convert `cv.doc` to `cv.docx` and `cv.pdf` by [CloudConvert](https://cloudconvert.com).
-5. If you want to change structure/design in docx/pdf, upload docx to [Google Docs](https://docs.google.com/document/d/1wbSc1S7JoPLY9iR4js4_gAePr65JO-SWYp7DaJ_QaYc), change and export to PDF/DOCX.
-6. Put converted files to `public` folder as `public/cv.docx` and `public/cv.pdf`.
-7. `yarn deploy` and check your site via `https://{username}.github.io/{repo-name}`.
+2. Either export LinkedIn data and use [linkedin-to-resume-json](https://jmperezperez.com/linkedin-to-json-resume/) or [resumonk.com](https://www.resumonk.com) to transform `linkedin.zip` to `resume.json` OR update `resume.json` manually.
+3. Follow `Steps to use` guide.
 
 ## Getting Started
 
@@ -158,14 +154,14 @@ $ npm run deploy
 ```
 
 
-No magic, build folder contains only static resources - html, js,.scss, images.
+No magic, build folder contains only static resources - html, js, css, images.
 
-Github pages deploy build folder on gh-pages branch.
+`Github pages` deploys `build` folder to gh-pages branch.
 
 ## Built With
 
-- [Github Pages](https://github.com/gitname/react-gh-pages) deployment
 - [Yarn](https://yarnpkg.com/) builds web client
+- [Github Pages](https://github.com/gitname/react-gh-pages) deploys app
 
 ## Contributing
 
