@@ -9,7 +9,7 @@ const Gallery = ({ tiles }) => {
   }
 
   return (
-    <ImageList sx={{ width: 400, height: 400 }}>
+    <ImageList variant="masonry" cols={2} gap={8} sx={{ height: 400 }}>
       {tiles.map((tile, index) => (
         <ImageListItem key={index}>
           <img
