@@ -58,13 +58,20 @@ export default class App extends Component {
       <ThemeProvider theme={theme}>
         <div>
           <HeaderPage breadCrumb={breadCrumb} />
-          <Fragment color="#473a56" tag={breadCrumb[0].anchor} home>
+          <Fragment
+            color={theme.palette.primary.main}
+            tag={breadCrumb[0].anchor}
+            home
+          >
             <HomePage
               fullName={resume.basics.name}
               description={resume.basics.label}
             />
           </Fragment>
-          <Fragment color="#F7F5E6" tag={breadCrumb[1].anchor}>
+          <Fragment
+            color={theme.palette.secondary.main}
+            tag={breadCrumb[1].anchor}
+          >
             <AboutPage
               name={resume.basics.name}
               picture={resume.basics.picture}
@@ -74,16 +81,22 @@ export default class App extends Component {
           <Fragment tag={breadCrumb[2].anchor}>
             <ProjectsPage work={resume.work} />
           </Fragment>
-          <Fragment color="#F7F5E6" tag={breadCrumb[3].anchor}>
+          <Fragment
+            color={theme.palette.secondary.main}
+            tag={breadCrumb[3].anchor}
+          >
             <SkillsPage skills={resume.skills} />
           </Fragment>
-          <Fragment color="#473a56" tag={breadCrumb[4].anchor}>
+          <Fragment
+            color={theme.palette.primary.main}
+            tag={breadCrumb[4].anchor}
+          >
             <InterestsPage interests={resume.interests} />
           </Fragment>
           <Fragment tag={breadCrumb[5].anchor}>
             <ContactPage email={resume.basics.email} />
           </Fragment>
-          <Fragment color="#473a56" footer>
+          <Fragment color={theme.palette.primary.main} footer>
             <FooterPage links={resume.basics.profiles} />
           </Fragment>
         </div>
