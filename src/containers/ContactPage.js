@@ -1,17 +1,27 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
+import Alert from "@mui/material/Alert";
+import Box from "@mui/material/Box";
+import CircularProgress from "@mui/material/CircularProgress";
+import CloseIcon from "@mui/icons-material/Close";
 import emailjs from "@emailjs/browser";
-import { toast, ToastContainer } from "react-toastify";
+import IconButton from "@mui/material/IconButton";
+import Snackbar from "@mui/material/Snackbar";
 
 import ContactForm from "../components/ContactForm";
 import "./ContactPage.scss";
 
-export default class ContactPage extends Component {
-  state = {
-    loading: false
+const ContactPage = ({ email }) => {
+  const [loading, setLoading] = useState(false);
+  const [openSuccessSnackbar, setOpenSuccessSnackbar] = useState(false);
+  const [openErrorSnackbar, setOpenErrorSuccessBar] = useState(false);
+
+  const handleCloseSnackBar = () => {
+    setOpenSuccessSnackbar(false);
+    setOpenErrorSuccessBar(false);
   };
 
-  handleSubmit = ({ to, from, message }) => {
-    this.setState({ loading: true });
+  const handleSubmit = ({ to, from, message }) => {
+    setLoading(true);
     emailjs
       .send(
         process.env.REACT_APP_EMAIL_JS_SERVICE_ID,
@@ -27,33 +37,57 @@ export default class ContactPage extends Component {
       })
       .then(response => response.json)
       .then(data => {
-        this.setState({ loading: false });
-        this.showSuccessNotification();
+        setLoading(false);
+        setOpenSuccessSnackbar(true);
       })
       .catch(error => {
-        this.setState({ loading: false });
-        this.showErrorNotification();
+        console.log(error);
+        setLoading(false);
+        setOpenErrorSuccessBar(true);
       });
   };
 
-  showSuccessNotification = message => {
-    toast.success(`Thank you! I'll answer you soon!`);
-  };
-
-  showErrorNotification = error => {
-    toast.error("Sending failed.. Please, try again");
-  };
-
-  render() {
-    if (this.state.loading) {
-      return `Loading...`;
-    }
+  if (loading) {
     return (
-      <div className="contact">
-        <p className="headline">Contact</p>
-        <ContactForm to={this.props.email} onSubmit={this.handleSubmit} />
-        <ToastContainer />
-      </div>
+      <Box sx={{ display: "flex", justifyContent: "center" }}>
+        <CircularProgress />
+      </Box>
     );
   }
-}
+
+  return (
+    <div className="contact">
+      <p className="headline">Contact</p>
+      <ContactForm to={email} onSubmit={handleSubmit} />
+      <Snackbar
+        anchorOrigin={{ vertical: "top", horizontal: "right" }}
+        open={openSuccessSnackbar || openErrorSnackbar}
+        autoHideDuration={5000}
+        onClose={handleCloseSnackBar}
+        action={
+          <IconButton
+            size="small"
+            aria-label="close"
+            color="inherit"
+            onClick={handleCloseSnackBar}
+          >
+            <CloseIcon fontSize="small" />
+          </IconButton>
+        }
+      >
+        <Alert
+          onClose={handleCloseSnackBar}
+          severity={openSuccessSnackbar ? "success" : "error"}
+          variant="filled"
+          sx={{ width: "100%" }}
+        >
+          {openSuccessSnackbar
+            ? "Thank you! I'll answer you soon!"
+            : "Sending failed.. Please, try again"}
+        </Alert>
+      </Snackbar>
+    </div>
+  );
+};
+
+export default ContactPage;

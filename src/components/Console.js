@@ -1,5 +1,5 @@
 import React from "react";
-import Paper from "material-ui/Paper";
+import Paper from "@mui/material/Paper";
 
 import "./Console.scss";
 
@@ -9,8 +9,8 @@ const consoleStyle = {
   background: "#263238"
 };
 
-export default ({ children }) => (
-  <Paper zDepth={3} style={consoleStyle}>
+const Console = ({ children }) => (
+  <Paper elevation={3} style={consoleStyle}>
     <div className="console-header">
       <div className="console-buttons">
         <div className="console-button btn-1" />
@@ -21,3 +21,5 @@ export default ({ children }) => (
     <div className="console-content">{children}</div>
   </Paper>
 );
+
+export default Console;

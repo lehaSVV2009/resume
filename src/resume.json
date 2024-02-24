@@ -31,7 +31,7 @@
       {
         "network": "Instagram",
         "username": "aliaksei-40a",
-        "url": "https://www.instagram.com/aliaksei-40a"
+        "url": "https://www.instagram.com/aliaksei_40a"
       }
     ]
   },
@@ -57,7 +57,6 @@
       "name": "Yagoda BI",
       "position": "Senior Software Engineer",
       "company": "Big Data Technologies",
-      "website": "https://yagodabi.ru",
       "summary": "Analytics for large online-store suppliers. Personally I've designed application architecture, taking into account the complexity of algorithms and big data, set up and supported infrastructure, implemented demo, implemented MVP and led all further technical solutions.",
       "highlights": [
         "NodeJS",
@@ -95,7 +94,6 @@
       "name": "AliTools Trends",
       "position": "Senior Software Engineer",
       "company": "Big Data Technologies",
-      "website": "https://alitools.pro/trends/",
       "summary": "Trends of Aliexpress products. In the project I've implemented a few versions of trending algorithm, added several complex filters to search, added social login, integrated application with a few payment systems, improved logging and monitoring, added integration to external online shops, improved analytics, improved performance of too long operations and added some tricky customizations to landing pages. Implemented features increased level of attraction and retention and allowed client to get paid subscriptions from users.",
       "highlights": [
         "PHP",
@@ -152,7 +150,6 @@
       "name": "EquipEngine",
       "position": "Frontend Lead Developer",
       "company": "Freelance",
-      "website": "https://equipengine.herokuapp.com/",
       "summary": "Web project with courses for students and teachers. I implemented some new views and integrated the project with existing API according to the client requirements. I also introduced the project to new developers, tried to teach them project best practices, helped them and monitored their work.",
       "highlights": [
         "React",
@@ -183,7 +180,6 @@
       "name": "5Walls",
       "position": "Frontend Developer",
       "company": "Freelance",
-      "website": "https://5walls.com/",
       "summary": "Pinterest like room fittings. I set up frontend app, implemented registration and authentication flow, build responsive pinterest view and set up bitbucket pipelines. Now the client rapidly reviews the changes of client developers, offers new users a personal account, monitors new users and enjoys pinterest view for the products.",
       "highlights": ["React", "Material UI", "Redux", "React Stack Grid"],
       "startDate": "2018-03-01",
@@ -233,7 +229,7 @@
       "name": "Interaxo",
       "position": "Full Stack Developer",
       "company": "Issoft Solutions",
-      "website": "https://prosjekthotell.com",
+      "website": "https://interaxo.com",
       "summary": "Enterprise document management system for engineering and oil industry in Norway. By the end date I've learnt all the areas of the application and have been able to quickly find and fix any bugs. I improved some areas like bulk import, download, upload, email handling, security, mobile app, etc. I also refactored a lot of code. Now the amount of the application users and new features still rapidly grows while the amount of bugs grows not so fast as it was before areas improvements.",
       "highlights": [
         "Spring",
@@ -351,10 +347,6 @@
     {
       "language": "English",
       "fluency": "Advanced"
-    },
-    {
-      "language": "German",
-      "fluency": "Beginner"
     }
   ],
   "interests": [

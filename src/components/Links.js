@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Links.scss";
 
-export default ({ links }) => {
+const Links = ({ links }) => {
   if (!Array.isArray(links)) {
     return <div />;
   }
@@ -20,3 +20,5 @@ export default ({ links }) => {
     </div>
   );
 };
+
+export default Links;

@@ -6,7 +6,7 @@ import "./Logo.scss";
 /**
  * Component with beatiful logo animations inside.
  */
-export default () => (
+const Logo = () => (
   <svg viewBox="0 0 454.2 100.1">
     <Anime
       easing="easeInOutSine"
@@ -45,3 +45,5 @@ export default () => (
     </Anime>
   </svg>
 );
+
+export default Logo;

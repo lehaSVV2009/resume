@@ -7,7 +7,12 @@ import "./SimpleInfo.scss";
 /**
  * Simple info about resume owner.
  */
-export default ({ fullName, fullNameDelay, description, descriptionDelay }) => (
+const SimpleInfo = ({
+  fullName,
+  fullNameDelay,
+  description,
+  descriptionDelay
+}) => (
   <div className="simple-info">
     <Anime opacity={[0, 1]} translateY={"2em"} delay={() => fullNameDelay}>
       <h3>{fullName}</h3>
@@ -26,3 +31,5 @@ export default ({ fullName, fullNameDelay, description, descriptionDelay }) => (
     </Anime>
   </div>
 );
+
+export default SimpleInfo;

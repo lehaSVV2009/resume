@@ -1,72 +1,65 @@
-import React, { Component } from "react";
-import RaisedButton from "material-ui/RaisedButton";
-import { TextValidator } from "react-material-ui-form-validator";
-import { ValidatorForm } from "react-form-validator-core";
+import React, { useState } from "react";
+import Button from "@mui/material/Button";
+import { TextValidator, ValidatorForm } from "react-material-ui-form-validator";
 
 const fieldStyle = {
   width: "100%"
 };
 
-export default class ContactForm extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      from: "",
-      message: ""
-    };
-  }
+const ContactForm = ({ to, onSubmit }) => {
+  const [from, setFrom] = useState("");
+  const [message, setMessage] = useState("");
 
-  handleSubmit = () => {
-    this.props.onSubmit({
-      to: this.props.to,
-      from: this.state.from,
-      message: this.state.message
-    });
+  const handleSubmit = () => {
+    onSubmit({ to, from, message });
   };
 
-  handleFromInputChange = event => {
-    this.setState({ from: event.target.value });
+  const handleFromInputChange = event => {
+    setFrom(event.target.value);
   };
 
-  handleMessageInputChange = event => {
-    this.setState({ message: event.target.value });
+  const handleMessageInputChange = event => {
+    setMessage(event.target.value);
   };
 
-  render() {
-    const { to } = this.props;
-    const { from, message } = this.state;
-    return (
-      <ValidatorForm onSubmit={this.handleSubmit}>
-        <TextValidator
-          style={fieldStyle}
-          floatingLabelText="To"
-          disabled={true}
-          name="to"
-          value={to}
-        />
-        <br />
-        <TextValidator
-          style={fieldStyle}
-          floatingLabelText="From"
-          onChange={this.handleFromInputChange}
-          name="from"
-          type="email"
-          value={from}
-        />
-        <br />
-        <TextValidator
-          style={fieldStyle}
-          floatingLabelText="Say Hello"
-          onChange={this.handleMessageInputChange}
-          name="message"
-          value={message}
-          multiLine
-          validators={["required"]}
-          errorMessages={["Enter your message"]}
-        />
-        <br />
-        <RaisedButton type="submit" label="Send" />
-      </ValidatorForm>
-    );
-  }
-}
+  return (
+    <ValidatorForm onSubmit={handleSubmit}>
+      <TextValidator
+        style={fieldStyle}
+        floatingLabelText="To"
+        disabled={true}
+        name="to"
+        value={to}
+      />
+      <br />
+      <TextValidator
+        style={fieldStyle}
+        label="From"
+        onChange={handleFromInputChange}
+        name="from"
+        type="email"
+        value={from}
+        validators={["required"]}
+        errorMessages={["Enter your email"]}
+      />
+      <br />
+      <TextValidator
+        style={fieldStyle}
+        label="Say Hello"
+        onChange={handleMessageInputChange}
+        name="message"
+        value={message}
+        multiline
+        rows={4}
+        validators={["required"]}
+        errorMessages={["Enter your message"]}
+      />
+      <br />
+      <Button variant="contained" type="submit">
+        Send
+      </Button>
+    </ValidatorForm>
+  );
+};
+
+export default ContactForm;

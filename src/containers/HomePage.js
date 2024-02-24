@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 
 import SimpleInfo from "../components/SimpleInfo";
 import ScrollDownButton from "../components/ScrollDownButton";
@@ -7,43 +7,34 @@ import "./HomePage.scss";
 /**
  * First page component. Shown on full browser window until it is not scrolled down.
  */
-export default class HomePage extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      height: props.height
-    };
-  }
-
-  componentDidMount() {
-    window.addEventListener("resize", this.handleWindowResize);
-    this.handleWindowResize();
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.handleWindowResize);
-  }
-
+const HomePage = ({ height, fullName, description }) => {
+  const [windowHeight, setWindowHeight] = useState(height);
   /**
    * Make home page shown on full browser window even if it is resized.
    */
-  handleWindowResize = () => {
-    this.setState({
-      height: window.innerHeight + "px"
-    });
+  const handleWindowResize = () => {
+    setWindowHeight(window.innerHeight + "px");
   };
 
-  render() {
-    return (
-      <div className="home" style={{ height: this.state.height }}>
-        <SimpleInfo
-          fullName={this.props.fullName}
-          fullNameDelay={3000}
-          description={this.props.description}
-          descriptionDelay={3500}
-        />
-        <ScrollDownButton delay={4000} />
-      </div>
-    );
-  }
-}
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowResize);
+    handleWindowResize();
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  });
+
+  return (
+    <div className="home" style={{ height: windowHeight }}>
+      <SimpleInfo
+        fullName={fullName}
+        fullNameDelay={3000}
+        description={description}
+        descriptionDelay={3500}
+      />
+      <ScrollDownButton delay={4000} />
+    </div>
+  );
+};
+
+export default HomePage;

@@ -1,5 +1,5 @@
 import React from "react";
-import SvgIcon from "material-ui/SvgIcon";
+import SvgIcon from "@mui/material/SvgIcon";
 
 const IconPdf = props => (
   <SvgIcon

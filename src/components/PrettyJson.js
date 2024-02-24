@@ -6,7 +6,7 @@ import "./PrettyJson.scss";
 
 // TODO extract PrettyJsonArray
 // or use react-json-view or smth like that
-export default ({ array }) => (
+const PrettyJson = ({ array }) => (
   <ul className="pretty-json">
     <li>[</li>
     <li>
@@ -20,3 +20,5 @@ export default ({ array }) => (
     <li>]</li>
   </ul>
 );
+
+export default PrettyJson;

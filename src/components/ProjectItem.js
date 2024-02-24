@@ -1,6 +1,8 @@
 import React from "react";
-import { Card, CardHeader, CardText } from "material-ui/Card";
-import Chip from "material-ui/Chip";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardHeader from "@mui/material/CardHeader";
+import Chip from "@mui/material/Chip";
 
 import ReplacedDividerText from "../components/ReplacedDividerText";
 import "./ProjectItem.scss";
@@ -18,7 +20,7 @@ const toSubtitle = (startDate, endDate, company) =>
     company && company !== "-" ? `(${company})` : ""
   }`;
 
-export default ({ project }) => {
+const ProjectItem = ({ project }) => {
   if (!project) {
     return <span />;
   }
@@ -31,15 +33,13 @@ export default ({ project }) => {
             (project.position ? project.position + ". " : "") +
             (project.name || "")
           }
-          subtitle={toSubtitle(
+          subheader={toSubtitle(
             project.startDate,
             project.endDate,
             project.company
           )}
-          actAsExpander={true}
-          showExpandableButton={true}
         />
-        <CardText expandable={true}>
+        <CardContent>
           <ReplacedDividerText
             text={project.summary}
             divider="."
@@ -62,12 +62,14 @@ export default ({ project }) => {
             {Array.isArray(project.highlights) &&
               project.highlights.map((highlight, index) => (
                 <div key={index} className="project-highlight">
-                  <Chip>{highlight}</Chip>
+                  <Chip label={highlight}></Chip>
                 </div>
               ))}
           </div>
-        </CardText>
+        </CardContent>
       </Card>
     </div>
   );
 };
+
+export default ProjectItem;
