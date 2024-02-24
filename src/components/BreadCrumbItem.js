@@ -19,13 +19,19 @@ const BreadCrumbItem = ({ anchor, name }) => {
         }}
       >
         <MenuItem>
-          <Typography color="black" textAlign="center">
+          <Typography
+            sx={{ minWidth: "70px" }}
+            color="black"
+            textAlign="center"
+          >
             {name}
           </Typography>
         </MenuItem>
       </Box>
       <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-        <Button color="inherit">{name}</Button>
+        <Button sx={{ minWidth: "70px" }} color="inherit">
+          {name}
+        </Button>
       </Box>
     </Link>
   );
