@@ -45,10 +45,14 @@ const theme = createTheme({
   palette: {
     primary: {
       main: "#473a56"
+    },
+    secondary: {
+      main: "#F7F5E6"
     }
   }
 });
 
+// TODO take color from pallete
 export default class App extends Component {
   render() {
     return (
