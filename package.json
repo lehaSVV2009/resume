@@ -15,7 +15,7 @@
     "react": "^18.2.0",
     "react-anime": "^0.3.4",
     "react-dom": "^18.2.0",
-    "react-material-ui-form-validator": "^1.0.0",
+    "react-material-ui-form-validator": "^3.0.1",
     "react-responsive": "^4.0.3",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.6.5",

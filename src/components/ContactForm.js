@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import RaisedButton from "material-ui/RaisedButton";
-import { TextValidator } from "react-material-ui-form-validator";
-import { ValidatorForm } from "react-form-validator-core";
+import Button from "@mui/material/Button";
+import { TextValidator, ValidatorForm } from "react-material-ui-form-validator";
 
 const fieldStyle = {
   width: "100%"
@@ -47,7 +46,7 @@ export default class ContactForm extends Component {
         <br />
         <TextValidator
           style={fieldStyle}
-          floatingLabelText="From"
+          label="From"
           onChange={this.handleFromInputChange}
           name="from"
           type="email"
@@ -56,7 +55,7 @@ export default class ContactForm extends Component {
         <br />
         <TextValidator
           style={fieldStyle}
-          floatingLabelText="Say Hello"
+          label="Say Hello"
           onChange={this.handleMessageInputChange}
           name="message"
           value={message}
@@ -65,7 +64,9 @@ export default class ContactForm extends Component {
           errorMessages={["Enter your message"]}
         />
         <br />
-        <RaisedButton type="submit" label="Send" />
+        <Button variant="contained" type="submit">
+          Send
+        </Button>
       </ValidatorForm>
     );
   }
