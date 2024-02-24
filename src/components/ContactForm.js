@@ -59,7 +59,8 @@ export default class ContactForm extends Component {
           onChange={this.handleMessageInputChange}
           name="message"
           value={message}
-          multiLine
+          multiline
+          rows={4}
           validators={["required"]}
           errorMessages={["Enter your message"]}
         />
