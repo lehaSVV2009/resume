@@ -23,6 +23,8 @@ html(lang='en')
     meta(name='og:image' content=imageUrl)
     meta(name='og:site_name' content=title)
     meta(name='google-site-verification' content='p-8tBU8tGgf51f-esQro1uSXn0w6eNzuhH0oh77t_gA')
+    title #{title}
+  body
     script.
       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
       m[i].l=1*new Date();
@@ -39,8 +41,6 @@ html(lang='en')
     noscript
       div
         img(src='https://mc.yandex.ru/watch/96569544' style='position:absolute; left:-9999px;' alt='')
-    title #{title}
-  body
     noscript
       | You need to enable JavaScript to run this app.
     #root
