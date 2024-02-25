@@ -1,7 +1,7 @@
 import React from "react";
 import Anime from "react-anime";
 
-import Logo from "./Logo";
+import HelloAnime from "./HelloAnime";
 import "./SimpleInfo.scss";
 
 /**
@@ -11,7 +11,7 @@ const SimpleInfo = ({
   fullName,
   fullNameDelay,
   description,
-  descriptionDelay
+  descriptionDelay,
 }) => (
   <div className="simple-info">
     <Anime opacity={[0, 1]} translateY={"2em"} delay={() => fullNameDelay}>
@@ -19,7 +19,7 @@ const SimpleInfo = ({
     </Anime>
     <br />
     <br />
-    <Logo />
+    <HelloAnime />
     <br />
     <br />
     <Anime

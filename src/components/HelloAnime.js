@@ -1,18 +1,18 @@
 import React from "react";
 import Anime from "react-anime";
 
-import "./Logo.scss";
+import "./HelloAnime.scss";
 
 /**
- * Component with beatiful logo animations inside.
+ * Component with beatiful animations inside.
  */
-const Logo = () => (
+const HelloAnime = () => (
   <svg viewBox="0 0 454.2 100.1">
     <Anime
       easing="easeInOutSine"
       duration={1500}
       delay={(element, index) => index * 200 + 500}
-      strokeDashoffset={element => {
+      strokeDashoffset={(element) => {
         const pathLength = element.getTotalLength() || 0;
         element.setAttribute("stroke-dasharray", pathLength);
         return [pathLength, 0];
@@ -46,4 +46,4 @@ const Logo = () => (
   </svg>
 );
 
-export default Logo;
+export default HelloAnime;
