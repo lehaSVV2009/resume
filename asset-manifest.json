@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.0b1087a4.css",
-    "main.js": "/resume/static/js/main.82aa5068.js",
+    "main.js": "/resume/static/js/main.f3f352a8.js",
     "static/media/snowboarding.gif": "/resume/static/media/snowboarding.cab61575c8dc8e5bd947.gif",
     "static/media/camping.gif": "/resume/static/media/camping.fa733fd2b869688fe8ca.gif",
     "static/media/programming.jpg": "/resume/static/media/programming.184952dafdee6fa979ab.jpg",
@@ -64,10 +64,10 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/resume/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/resume/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "main.0b1087a4.css.map": "/resume/static/css/main.0b1087a4.css.map",
-    "main.82aa5068.js.map": "/resume/static/js/main.82aa5068.js.map"
+    "main.f3f352a8.js.map": "/resume/static/js/main.f3f352a8.js.map"
   },
   "entrypoints": [
     "static/css/main.0b1087a4.css",
-    "static/js/main.82aa5068.js"
+    "static/js/main.f3f352a8.js"
   ]
 }
