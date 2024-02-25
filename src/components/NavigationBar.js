@@ -33,15 +33,15 @@ export default function ButtonAppBar({
   breadCrumb,
   onHtmlClick,
   onPdfClick,
-  onWordClick
+  onWordClick,
 }) {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed" color="primary">
         <Toolbar>
-          <HtmlButton onClick={onHtmlClick} />
           <PdfButton onClick={onPdfClick} />
           <WordButton onClick={onWordClick} />
+          <HtmlButton onClick={onHtmlClick} />
           <Typography sx={{ flexGrow: 1 }}></Typography>
           <BreadCrumb items={breadCrumb} />
         </Toolbar>
