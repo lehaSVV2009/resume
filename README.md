@@ -97,7 +97,7 @@ P.S. [JSON Resume](https://jsonresume.org/schema/) is used here.
 
 P.S. `SEO`, `cv.html` and `cv.pdf` are automatically applied.
 
-P.S.2. Unfortunately `cv.docx` is not auto generated... Try smth like [CloudConvert](https://cloudconvert.com) or [pdf2docx](https://pdf2docx.com/) and update `public/cv.docx` file if you need that.
+P.S.2. Unfortunately `cv.docx` is not auto generated... Try smth like [CloudConvert](https://cloudconvert.com) or [pdf2docx](https://pdf2docx.com/) or [Adobe Converter](https://www.adobe.com/acrobat/online/pdf-to-word.html) and update `public/cv.docx` file if you need that.
 
 ## Linkedin tutorial
 
