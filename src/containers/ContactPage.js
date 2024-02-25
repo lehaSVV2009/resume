@@ -27,20 +27,20 @@ const ContactPage = ({ email }) => {
         process.env.REACT_APP_EMAIL_JS_SERVICE_ID,
         process.env.REACT_APP_EMAIL_JS_TEMPLATE_ID,
         { to, from, message },
-        process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY
+        process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY,
       )
-      .then(response => {
+      .then((response) => {
         if (response.status >= 200 && response.status < 300) {
           return response;
         }
         throw new Error(`${response.status}`);
       })
-      .then(response => response.json)
-      .then(data => {
+      .then((response) => response.json)
+      .then((data) => {
         setLoading(false);
         setOpenSuccessSnackbar(true);
       })
-      .catch(error => {
+      .catch((error) => {
         console.log(error);
         setLoading(false);
         setOpenErrorSuccessBar(true);

@@ -11,7 +11,7 @@ const formatDate = (date, defaultIfNull) =>
   date && Date.parse(date)
     ? new Date(date).toLocaleDateString("en-gb", {
         month: "short",
-        year: "numeric"
+        year: "numeric",
       })
     : defaultIfNull || "";
 
@@ -36,7 +36,7 @@ const ProjectItem = ({ project }) => {
           subheader={toSubtitle(
             project.startDate,
             project.endDate,
-            project.company
+            project.company,
           )}
         />
         <CardContent>

@@ -92,7 +92,7 @@ P.S. [JSON Resume](https://jsonresume.org/schema/) is used here.
 
 1. Clone this repository via `git clone`.
 2. Edit `src/resume.json` file with you own data.
-3. Deploy app with `yarn` and `yarn deploy` commands - [Deploying a React App* to GitHub Pages created using create-react-app](https://github.com/gitname/react-gh-pages)
+3. Deploy app with `yarn` and `yarn deploy` commands - [Deploying a React App\* to GitHub Pages created using create-react-app](https://github.com/gitname/react-gh-pages)
 4. Set up your new [EmailJS](emailjs.com) account with new root file `.env`, like in `.env.example` to get emails from `Contact` form.
 
 P.S. `SEO`, `cv.html` and `cv.pdf` are automatically applied.
@@ -152,7 +152,6 @@ or
 ```
 $ npm run deploy
 ```
-
 
 No magic, build folder contains only static resources - html, js, css, images.
 

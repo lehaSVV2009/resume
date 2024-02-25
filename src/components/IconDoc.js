@@ -1,7 +1,7 @@
 import React from "react";
 import SvgIcon from "@mui/material/SvgIcon";
 
-const IconDoc = props => (
+const IconDoc = (props) => (
   <SvgIcon
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"

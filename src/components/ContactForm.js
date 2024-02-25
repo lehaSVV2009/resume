@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import { TextValidator, ValidatorForm } from "react-material-ui-form-validator";
 
 const fieldStyle = {
-  width: "100%"
+  width: "100%",
 };
 
 const ContactForm = ({ to, onSubmit }) => {
@@ -14,11 +14,11 @@ const ContactForm = ({ to, onSubmit }) => {
     onSubmit({ to, from, message });
   };
 
-  const handleFromInputChange = event => {
+  const handleFromInputChange = (event) => {
     setFrom(event.target.value);
   };
 
-  const handleMessageInputChange = event => {
+  const handleMessageInputChange = (event) => {
     setMessage(event.target.value);
   };
 

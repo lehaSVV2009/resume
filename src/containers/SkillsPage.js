@@ -4,11 +4,11 @@ import Console from "../components/Console";
 import PrettyJson from "../components/PrettyJson";
 import "./SkillsPage.scss";
 
-const createSkillsJson = skills => {
+const createSkillsJson = (skills) => {
   if (!Array.isArray(skills)) {
     return [];
   }
-  return skills.map(skill => {
+  return skills.map((skill) => {
     const json = {};
     json[skill.name] =
       Array.isArray(skill.keywords) && skill.keywords.length > 0

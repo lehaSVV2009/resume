@@ -7,8 +7,8 @@ const {
     label,
     website,
     picture,
-    location: { city }
-  }
+    location: { city },
+  },
 } = require("./src/resume.json");
 
 // react-helmet didn't help with non-google crawlers
@@ -17,7 +17,7 @@ const html = pug.renderFile("./public/index.html.pug", {
   description: `${name} - ${label}`,
   website: website,
   imageUrl: picture,
-  keywords: `${name}, ${label}, CV, Resume, Portfolio, ${city}`
+  keywords: `${name}, ${label}, CV, Resume, Portfolio, ${city}`,
 });
 
 fs.writeFileSync("./public/index.html", html);

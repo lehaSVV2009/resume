@@ -6,12 +6,12 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 
 import BreadCrumbItem from "./BreadCrumbItem";
 
-const createBreadCrumbItems = items => {
+const createBreadCrumbItems = (items) => {
   return (
     Array.isArray(items) &&
     items
-      .filter(item => !!item)
-      .map(item => (
+      .filter((item) => !!item)
+      .map((item) => (
         <BreadCrumbItem
           key={item.anchor}
           name={item.name}
@@ -24,7 +24,7 @@ const createBreadCrumbItems = items => {
 const BreadCrumb = ({ items }) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
-  const handleOpenNavMenu = event => {
+  const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
 
@@ -50,17 +50,17 @@ const BreadCrumb = ({ items }) => {
           anchorEl={anchorElNav}
           anchorOrigin={{
             vertical: "top",
-            horizontal: "right"
+            horizontal: "right",
           }}
           keepMounted
           transformOrigin={{
             vertical: "top",
-            horizontal: "right"
+            horizontal: "right",
           }}
           open={Boolean(anchorElNav)}
           onClose={handleCloseNavMenu}
           sx={{
-            display: { xs: "block", md: "none" }
+            display: { xs: "block", md: "none" },
           }}
         >
           {createBreadCrumbItems(items)}

@@ -15,7 +15,7 @@ const BreadCrumbItem = ({ anchor, name }) => {
       <Box
         sx={{
           flexGrow: 1,
-          display: { xs: "flex", justifyContent: "center", md: "none" }
+          display: { xs: "flex", justifyContent: "center", md: "none" },
         }}
       >
         <MenuItem>

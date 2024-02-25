@@ -6,7 +6,7 @@ import "./Console.scss";
 const consoleStyle = {
   width: "100%",
   display: "inline-block",
-  background: "#263238"
+  background: "#263238",
 };
 
 const Console = ({ children }) => (

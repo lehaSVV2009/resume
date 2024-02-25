@@ -28,6 +28,7 @@
     "build-html": "cd src && resumed render -o ../public/cv.html -t jsonresume-theme-even && cd ..",
     "build-pdf": "html-export-pdf-cli ./public/cv.html -o ./public/cv.pdf",
     "build-seo": "node buildSeo.js",
+    "prettify-all": "prettier . --write",
     "test": "CI=true react-scripts test env=jsdom",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

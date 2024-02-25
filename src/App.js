@@ -16,39 +16,39 @@ import resume from "./resume.json";
 const breadCrumb = [
   {
     name: "Home",
-    anchor: "home-page"
+    anchor: "home-page",
   },
   {
     name: "About",
-    anchor: "about-page"
+    anchor: "about-page",
   },
   {
     name: "Projects",
-    anchor: "projects-page"
+    anchor: "projects-page",
   },
   {
     name: "Skills",
-    anchor: "skills-page"
+    anchor: "skills-page",
   },
   {
     name: "Interests",
-    anchor: "interests-page"
+    anchor: "interests-page",
   },
   {
     name: "Contact",
-    anchor: "contact-page"
-  }
+    anchor: "contact-page",
+  },
 ];
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#473a56"
+      main: "#473a56",
     },
     secondary: {
-      main: "#F7F5E6"
-    }
-  }
+      main: "#F7F5E6",
+    },
+  },
 });
 
 // TODO take color from pallete

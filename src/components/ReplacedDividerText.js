@@ -3,7 +3,7 @@ import React from "react";
 const ReplacedDividerText = ({ text, divider, replacement }) => {
   const paragraphs =
     text && typeof text === "string"
-      ? text.split(divider).filter(text => text && text.trim())
+      ? text.split(divider).filter((text) => text && text.trim())
       : [];
   return (
     <span>
