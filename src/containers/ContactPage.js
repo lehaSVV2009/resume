@@ -59,33 +59,35 @@ const ContactPage = ({ email }) => {
     <div className="contact">
       <p className="headline">Contact</p>
       <ContactForm to={email} onSubmit={handleSubmit} />
-      <Snackbar
-        anchorOrigin={{ vertical: "top", horizontal: "right" }}
-        open={openSuccessSnackbar || openErrorSnackbar}
-        autoHideDuration={5000}
-        onClose={handleCloseSnackBar}
-        action={
-          <IconButton
-            size="small"
-            aria-label="close"
-            color="inherit"
-            onClick={handleCloseSnackBar}
-          >
-            <CloseIcon fontSize="small" />
-          </IconButton>
-        }
-      >
-        <Alert
+      {(openSuccessSnackbar || openErrorSnackbar) && (
+        <Snackbar
+          anchorOrigin={{ vertical: "top", horizontal: "right" }}
+          open={openSuccessSnackbar || openErrorSnackbar}
+          autoHideDuration={5000}
           onClose={handleCloseSnackBar}
-          severity={openSuccessSnackbar ? "success" : "error"}
-          variant="filled"
-          sx={{ width: "100%" }}
+          action={
+            <IconButton
+              size="small"
+              aria-label="close"
+              color="inherit"
+              onClick={handleCloseSnackBar}
+            >
+              <CloseIcon fontSize="small" />
+            </IconButton>
+          }
         >
-          {openSuccessSnackbar
-            ? "Thank you! I'll answer you soon!"
-            : "Sending failed.. Please, try again"}
-        </Alert>
-      </Snackbar>
+          <Alert
+            onClose={handleCloseSnackBar}
+            severity={openSuccessSnackbar ? "success" : "error"}
+            variant="filled"
+            sx={{ width: "100%" }}
+          >
+            {openSuccessSnackbar
+              ? "Thank you! I'll answer you soon!"
+              : "Sending failed.. Please, try again"}
+          </Alert>
+        </Snackbar>
+      )}
     </div>
   );
 };
