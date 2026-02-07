@@ -6,7 +6,7 @@
     "email": "lehaSVV2009@gmail.com",
     "phone": "+375336389581",
     "website": "https://lehasvv2009.github.io/resume",
-    "summary": "Will solve your problem. 7 years experience. Having fun with programming (backend or frontend, paid or open source).",
+    "summary": "Will solve your problem. 10 years experience. Having fun with programming (backend or frontend, paid or open source).",
     "location": {
       "city": "Minsk",
       "region": "Belarus",
@@ -45,18 +45,16 @@
       "name": "Seller Assistant App",
       "position": "Senior Software Engineer",
       "company": "Seller Assistant App",
-      "website": "https://www.sellerassistant.app/",
+      "website": "https://sellerassistant.app",
       "summary": "Product research chrome extension for amazon resellers. Set up analytics, improved architecture, CI/CD, payment system, implemented some UI features, etc.",
       "highlights": [
         "PHP",
         "Laravel",
-        "Laravel Spark",
-        "MariaDB",
+        "MySQL",
         "Vue.js",
         "Chrome Extension"
       ],
-      "startDate": "2020-10-01",
-      "endDate": "2021-10-01"
+      "startDate": "2024-04-01"
     },
     {
       "name": "Yagoda BI",
@@ -321,7 +319,7 @@
   "skills": [
     {
       "name": "JavaScript",
-      "keywords": ["6 years"]
+      "keywords": ["7 years"]
     },
     {
       "name": "React JS",
@@ -337,11 +335,11 @@
     },
     {
       "name": "Laravel",
-      "keywords": ["2 years"]
+      "keywords": ["4 years"]
     },
     {
       "name": "MySQL",
-      "keywords": ["2 years"]
+      "keywords": ["4 years"]
     }
   ],
   "languages": [
