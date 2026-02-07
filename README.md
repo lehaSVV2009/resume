@@ -88,23 +88,6 @@ P.S. [JSON Resume](https://jsonresume.org/schema/) is used here.
 }
 ```
 
-## Steps to use
-
-1. Clone this repository via `git clone`.
-2. Edit `src/resume.json` file with you own data.
-3. Deploy app with `yarn` and `yarn deploy` commands - [Deploying a React App\* to GitHub Pages created using create-react-app](https://github.com/gitname/react-gh-pages)
-4. Set up your new [EmailJS](emailjs.com) account with new root file `.env`, like in `.env.example` to get emails from `Contact` form.
-
-P.S. `SEO`, `cv.html` and `cv.pdf` are automatically applied.
-
-P.S.2. Unfortunately `cv.docx` is not auto generated... Try smth like [CloudConvert](https://cloudconvert.com) or [pdf2docx](https://pdf2docx.com/) or [Adobe Converter](https://www.adobe.com/acrobat/online/pdf-to-word.html) and update `public/cv.docx` file if you need that.
-
-## Linkedin tutorial
-
-1. Update LinkedIn profile.
-2. Either export LinkedIn data and use [linkedin-to-resume-json](https://jmperezperez.com/linkedin-to-json-resume/) or [resumonk.com](https://www.resumonk.com) to transform `linkedin.zip` to `resume.json` OR update `resume.json` manually.
-3. Follow `Steps to use` guide.
-
 ## Getting Started
 
 <a href="http://lehasvv2009.github.io/resume" target="_blank">Live demo</a>
@@ -118,36 +101,11 @@ $ git clone https://github.com/lehaSVV2009/resume.git
 ```
 
 ```
-$ yarn
-$ yarn start
-```
-
-or
-
-```
-$ npm install
-$ npm start
-```
-
-## Running tests
-
-```
-$ yarn test
-```
-
-or
-
-```
-$ npm test
+$ npm i --force
+$ npm start --force
 ```
 
 ## Deployment
-
-```
-$ yarn deploy
-```
-
-or
 
 ```
 $ npm run deploy
@@ -157,9 +115,26 @@ No magic, build folder contains only static resources - html, js, css, images.
 
 `Github pages` deploys `build` folder to gh-pages branch.
 
+## Steps to use
+
+1. Clone this repository via `git clone`.
+2. Edit `src/resume.json` file with you own data.
+3. Deploy app with `npm i --legacy-peer-deps` and `npm run deploy` commands - [Deploying a React App\* to GitHub Pages created using create-react-app](https://github.com/gitname/react-gh-pages)
+4. Set up your new [EmailJS](emailjs.com) account with new root file `.env`, like in `.env.example` to get emails from `Contact` form.
+
+P.S. `SEO`, `cv.html` and `cv.pdf` are automatically applied.
+
+P.S.2. Unfortunately `cv.docx` is not auto generated... Try smth like [CloudConvert](https://cloudconvert.com) or [pdf2docx](https://pdf2docx.com/) or [Adobe Converter](https://www.adobe.com/acrobat/online/pdf-to-word.html) and update `public/cv.docx` file if you need that.
+
+## Linkedin tutorial
+
+1. Update LinkedIn profile.
+2. Either export LinkedIn data and use [linkedin-to-resume-json](https://jmperezperez.com/linkedin-to-json-resume/) or [resumonk.com](https://www.resumonk.com) to transform `linkedin.zip` to `resume.json` OR update `resume.json` manually.
+3. Follow `Steps to use` guide.
+
+
 ## Built With
 
-- [Yarn](https://yarnpkg.com/) builds web client
 - [Github Pages](https://github.com/gitname/react-gh-pages) deploys app
 
 ## Contributing
